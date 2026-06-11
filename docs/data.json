@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-06-10 12:00 UTC (样例数据,首次运行 Action 后自动替换)",
+ "generated_at": "2026-06-11 04:42 UTC",
  "brief": {
-  "text": "今日三国政策呈现「产业与安全并重」格局:中国密集出台“十五五”系列专项规划,工信部发布“人工智能+信息通信”三年实施意见,显示 AI 基础设施竞赛加速;美国再度调整钢铝铜进口关税,贸易保护范围扩大,或抬升中日对美出口成本;日本则聚焦中东局势与经济政策沟通,能源安全压力凸显。中美在 AI 与关税两条线上的政策对冲值得持续跟踪。",
-  "date": "2026-06-10"
+  "text": "今日三国政策动向中，最值得关注的是中国在科技领域的主动布局与美日在行政与外交层面的调整。中国工信部于6月10日发布“人工智能+信息通信”三年期实施意见，明确推动算力网络与行业应用融合，这标志着中国在AI与通信基础设施领域的系统性竞争策略进一步强化，可能对全球科技供应链与标准制定产生深远影响。同日，美国发布多项行政与执法政策，包括加强海关执法及对阿片类药物危机的新规，显示其在内政与边境安全上的持续收紧；而国防部修订娱乐媒体援助政策，则反映出对军方形象维护的敏感。日本方面，首相高市密集开展与老挝、马来西亚的双边会谈，并主持儿童政策推进会议，凸显其外交上深化东南亚合作与内政上聚焦少子化应对的双重重心。总体来看，中美在科技与规则层面的竞争态势日益清晰，而日本则通过外交与地方治理寻求平衡与韧性。",
+  "date": "2026-06-11"
  },
  "errors": [],
  "counts": {
   "cn": 3,
-  "us": 2,
-  "jp": 2
+  "us": 30,
+  "jp": 20
  },
  "items": [
   {
@@ -28,6 +28,171 @@
    }
   },
   {
+   "country": "us",
+   "title": "Granting Pardon to Stephen E. Buyer",
+   "url": "https://www.federalregister.gov/documents/2026/06/10/2026-11741/granting-pardon-to-stephen-e-buyer",
+   "date": "2026-06-10",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11741",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11741.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "授予斯蒂芬·E·拜尔赦免令",
+    "summary": "美国总统对斯蒂芬·E·拜尔发布赦免令。",
+    "analysis": "该赦免令针对斯蒂芬·E·拜尔个人，可能涉及其此前所犯罪行的法律后果免除。值得关注的是，此类总统赦免通常具有政治或法律象征意义，可能引发对司法公正性的讨论。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Strengthening Customs Enforcement",
+   "url": "https://www.federalregister.gov/documents/2026/06/10/2026-11595/strengthening-customs-enforcement",
+   "date": "2026-06-10",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11595",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11595.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "加强海关执法",
+    "summary": "美国总统办公室发布加强海关执法的政策文件。",
+    "analysis": "该政策主要针对进出口企业和跨境贸易，可能提高关税检查与执法力度，增加合规成本。值得关注其对供应链和贸易摩擦的潜在影响。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Implementing Schedule Policy/Career in the Excepted Service",
+   "url": "https://www.federalregister.gov/documents/2026/06/10/2026-11594/implementing-schedule-policycareer-in-the-excepted-service",
+   "date": "2026-06-10",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11594",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-10/pdf/2026-11594.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "实施例外服务中的日程政策/职业制度",
+    "summary": "总统行政办公室发布关于例外服务中职业岗位实施的政策。",
+    "analysis": "该政策主要影响联邦政府例外服务岗位的雇员及招聘流程，可能改变部分非竞争性职位的职业发展路径。值得关注其对公务员体系灵活性与稳定性的平衡。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はラオス人民民主共和国のソーンサイ・シーパンドン首相と首脳会談を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/10laos.html",
+   "date": "2026-06-10",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理与老挝人民民主共和国总理宋赛·西潘敦举行首脑会谈",
+    "summary": "日本首相高市与老挝总理举行双边首脑会谈。",
+    "analysis": "此次会谈主要影响日本与老挝的双边关系，可能涉及经济合作与区域安全议题。值得关注的是日本在东南亚外交布局的进一步深化，以及对老挝基础设施投资或援助的潜在动向。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はマレーシアのアンワル・イブラヒム首相と首脳会談を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/10malaysia.html",
+   "date": "2026-06-10",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理与马来西亚总理安瓦尔·易卜拉欣举行首脑会谈",
+    "summary": "日本首相高市与马来西亚总理举行双边首脑会谈。",
+    "analysis": "此次会谈主要影响日马双边关系，可能涉及经济合作、安全保障及区域事务协调。值得关注双方在印太战略、供应链韧性及能源领域的合作动向。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第９６回全国市長会議（通常総会）に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/10shichoukaigi.html",
+   "date": "2026-06-10",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第96届全国市长会议（通常总会）",
+    "summary": "日本首相高市早苗出席全国市长会议，与地方市长交流政策。",
+    "analysis": "该动态显示中央政府重视与地方政府的协调，可能推动地方分权或区域振兴政策。值得关注高市总理在会上提出的具体施政方向，尤其是对地方财政和基础设施的影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Implementation of the Substance Use-Disorder Prevention That Promotes Opioid Recovery and Treatment for Patients and Communities Act of 2018: Dispensing and Administering Controlled Substances for Medication-Assisted Treatment",
+   "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11526/implementation-of-the-substance-use-disorder-prevention-that-promotes-opioid-recovery-and-treatment",
+   "date": "2026-06-09",
+   "org": "Justice Department, Drug Enforcement Administration",
+   "doc_no": "2026-11526",
+   "excerpt": "The \"Substance Use-Disorder Prevention that Promotes Opioid Recovery and Treatment for Patients and Communities Act of 2018 (the SUPPORT Act),\" which became law on October 24, 2018, amended the Controlled Substances Act to expand the conditions a practitioner must meet to provide medication-assisted",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-09/pdf/2026-11526.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "实施《2018年防止物质使用障碍促进阿片类药物康复与患者及社区治疗法案》：用于药物辅助治疗的受控物质配发与施用",
+    "summary": "DEA发布规则，扩大医生提供药物辅助治疗的条件，以应对阿片类药物危机。",
+    "analysis": "该政策主要影响医疗从业者和阿片类药物成瘾患者，通过放宽处方限制增加治疗可及性，但可能引发对受控物质滥用的监管担忧。值得关注的是其对减少过量死亡的实际效果与执法平衡。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "DoD Assistance to Non-Government, Entertainment-Oriented Media Productions",
+   "url": "https://www.federalregister.gov/documents/2026/06/09/2026-11505/dod-assistance-to-non-government-entertainment-oriented-media-productions",
+   "date": "2026-06-09",
+   "org": "Defense Department",
+   "doc_no": "2026-11505",
+   "excerpt": "DoD is finalizing revisions to implement requirements of section 1257 of the National Defense Authorization Act for Fiscal Year 2023. This statute prohibits assistance to entertainment projects such as feature motion pictures, episodic television programs, documentaries, and computer-based games tha",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-09/pdf/2026-11505.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "国防部对非政府、娱乐导向媒体制作的援助政策",
+    "summary": "国防部修订政策，禁止对含贬损军方内容的娱乐项目提供援助。",
+    "analysis": "该政策主要影响影视、游戏等娱乐制作方，限制其获取国防部资源。值得关注的是，审查标准可能影响创作自由，并引发对内容合规性的争议。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/9_a.html",
+   "date": "2026-06-09",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，涉及政策决策与行政动态。",
+    "analysis": "该信息主要面向日本国内行政体系及公众，可能影响政策执行方向。值得关注的是内阁会议中是否涉及经济或外交等关键议题，但摘要缺失需进一步核实。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第６回こども政策推進会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/09kodomo.html",
+   "date": "2026-06-09",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第六次儿童政策推进会议",
+    "summary": "日本总理主持第六次儿童政策推进会议，讨论儿童相关政策的推进情况。",
+    "analysis": "该会议聚焦儿童政策，可能涉及育儿支持、教育、福利等民生议题，对日本家庭和儿童群体产生直接影响。值得关注的是会议是否推出新的具体措施或预算安排，以应对少子化问题。",
+    "category": "民生社会"
+   }
+  },
+  {
    "country": "cn",
    "title": "国务院关于印发《现代化应急体系建设“十五五”规划》的通知",
    "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7071452.htm",
@@ -40,6 +205,22 @@
     "title_zh": "国务院印发《现代化应急体系建设“十五五”规划》",
     "summary": "国家级应急体系五年专项规划出台,部署防灾减灾与应急能力建设。",
     "analysis": "面向各级政府和应急管理部门,将带动监测预警、救援装备等领域投入;关注后续配套资金和地方实施细则。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "日本理学療法士協会 第５５回定時総会 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/202606message.html",
+   "date": "2026-06-06",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "日本理学疗法士协会第55届定期总会 高市总理视频致辞",
+    "summary": "日本总理向理学疗法士协会年度会议发表视频致辞。",
+    "analysis": "该动态主要面向康复医疗行业从业者，体现政府对康复医疗领域的重视。可能推动相关职业地位提升及政策支持，值得关注后续康复医疗资源投入与行业规范变化。",
     "category": "民生社会"
    }
   },
@@ -61,6 +242,39 @@
   },
   {
    "country": "us",
+   "title": "Promoting Advanced Artificial Intelligence Innovation and Security",
+   "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security",
+   "date": "2026-06-05",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11415",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-05/pdf/2026-11415.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "促进先进人工智能创新与安全",
+    "summary": "白宫发布行政令，推动AI创新并加强安全监管。",
+    "analysis": "该政策主要影响科技企业、研究机构及AI用户。可能加速AI研发，同时强化安全与伦理要求，值得关注对行业合规成本及国际竞争格局的影响。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要／オランダ王国及びベルギー王国との相互儀礼叙勲について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/5_a.html",
+   "date": "2026-06-05",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "内阁会议概要／关于与荷兰王国及比利时王国的相互礼仪授勋",
+    "summary": "日本内阁会议决定与荷兰、比利时进行相互礼仪授勋。",
+    "analysis": "该动态主要针对日本与荷兰、比利时三国的外交关系，通过相互授勋强化双边礼仪性互动，象征友好合作。值得关注的是此举可能为后续高层互访或经贸合作营造积极氛围。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
    "title": "Further Adjusting the Tariff Regimes for Imports of Aluminum, Steel, and Copper Into the United States",
    "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11314/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states",
    "date": "2026-06-04",
@@ -74,6 +288,23 @@
     "summary": "总统文件再次调整金属类进口关税,延续贸易保护基调。",
     "analysis": "直接影响对美出口钢铝铜的经济体及下游制造业成本;需关注是否波及中日相关出口企业及供应链转移。",
     "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Federal Independent Dispute Resolution Operations",
+   "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11140/federal-independent-dispute-resolution-operations",
+   "date": "2026-06-04",
+   "org": "Personnel Management Office, Treasury Department, Internal Revenue Service, Labor Department, Employee Benefits Security Administration, Health and Human Services Department",
+   "doc_no": "2026-11140",
+   "excerpt": "This document sets forth these final rules related to certain provisions of the No Surprises Act regarding the Federal independent dispute resolution (IDR) process, which was established as part of the Consolidated Appropriations Act, 2021 (CAA). These rules finalize new requirements relating to the",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-04/pdf/2026-11140.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "联邦独立争议解决操作",
+    "summary": "美国多部门联合发布《无意外法案》联邦独立争议解决程序的最终规则。",
+    "analysis": "该规则主要影响医疗保险公司、医疗服务提供者和患者，旨在通过完善独立争议解决流程来防止意外医疗账单。值得关注的是新要求可能增加行政成本，但有助于提高医疗费用透明度。",
+    "category": "民生社会"
    }
   },
   {
@@ -110,6 +341,106 @@
    }
   },
   {
+   "country": "us",
+   "title": "Realigning United States Core Childhood Vaccine Recommendations With Best Practices From Peer, Developed Countries",
+   "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11180/realigning-united-states-core-childhood-vaccine-recommendations-with-best-practices-from-peer",
+   "date": "2026-06-03",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11180",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11180.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "将美国核心儿童疫苗建议与发达国家最佳实践对齐",
+    "summary": "白宫发布行政令，要求调整儿童疫苗推荐标准，向发达国家最佳实践看齐。",
+    "analysis": "该政策主要影响美国公共卫生机构、疫苗制造商及儿童家庭。可能推动疫苗推荐标准更新，减少不必要的接种次数或调整接种时间表，值得关注其对疫苗产业和公共健康信任度的影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Federal Motor Vehicle Safety Standard No. 214; Side Impact Protection; Federal Motor Vehicle Safety Standard No. 305a; Electric-Powered Vehicles: Electric Powertrain Integrity; Federal Motor Vehicle Safety Standard No. 307; Fuel System Integrity of Hydrogen Vehicles",
+   "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11072/federal-motor-vehicle-safety-standard-no-214-side-impact-protection-federal-motor-vehicle-safety",
+   "date": "2026-06-03",
+   "org": "Transportation Department, National Highway Traffic Safety Administration",
+   "doc_no": "2026-11072",
+   "excerpt": "On May 30, 2025, NHTSA published a notice of proposed rulemaking (NPRM) proposing to remove obsolete requirements from Federal Motor Vehicle Safety Standard (FMVSS) No. 214, \"Side Impact Protection.\" The agency received two comments that supported the changes to FMVSS No. 214. In addition, one of th",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11072.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "联邦机动车安全标准第214号：侧面碰撞保护；联邦机动车安全标准第305a号：电动汽车动力总成完整性；联邦机动车安全标准第307号：氢燃料汽车燃料系统完整性",
+    "summary": "NHTSA提议删除FMVSS第214号中过时的侧面碰撞保护要求，并征求公众意见。",
+    "analysis": "该政策主要影响汽车制造商，尤其是生产电动汽车和氢燃料汽车的企业。删除过时要求可降低合规成本，但需关注是否影响安全标准。值得注意公众支持意见及后续对电动车动力总成和氢燃料系统完整性的修订。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11057/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "date": "2026-06-03",
+   "org": "Energy Department",
+   "doc_no": "2026-11057",
+   "excerpt": "The U.S. Department of Energy (DOE) is further extending the effective date of the direct final rule \"Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance,\" published on May 16, 2025.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11057.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "能源部关于撤销面向寻求部内合同与援助的少数族裔企业贷款规定的进一步延期生效通知",
+    "summary": "能源部再次推迟撤销少数族裔企业贷款规定的生效日期。",
+    "analysis": "该政策主要影响寻求能源部合同与援助的少数族裔企业，延期生效意味着相关企业暂时仍可依据原有规定申请贷款，但政策走向的不确定性可能影响其长期融资规划。值得关注的是，能源部多次推迟撤销是否暗示内部对政策调整存在分歧，或为后续替代方案争取时间。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "National Emission Standards for Hazardous Air Pollutants From Hazardous Waste Combustors: Residual Risk and Technology Review",
+   "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11047/national-emission-standards-for-hazardous-air-pollutants-from-hazardous-waste-combustors-residual",
+   "date": "2026-06-03",
+   "org": "Environmental Protection Agency",
+   "doc_no": "2026-11047",
+   "excerpt": "The U.S. Environmental Protection Agency (EPA) is finalizing the residual risk and technology review (RTR) conducted for the National Emission Standards for Hazardous Air Pollutants (NESHAP) from Hazardous Waste Combustors (HWC). Specifically, the EPA is finalizing that risks due to emissions of haz",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11047.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "危险废物焚烧炉有害空气污染物国家排放标准：残余风险与技术评审",
+    "summary": "EPA最终确定危险废物焚烧炉有害空气污染物排放的残余风险与技术评审结果。",
+    "analysis": "该政策主要影响危险废物焚烧设施运营企业，要求其进一步降低有害空气污染物排放。可能增加企业合规成本，但有助于改善周边社区空气质量与公众健康。值得关注的是EPA对残余风险的认定标准及未来技术更新要求。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は世界島嶼（しょ）国海洋会議開会式に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/03kaikaishiki.html",
+   "date": "2026-06-03",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席世界岛屿国家海洋会议开幕式",
+    "summary": "日本首相出席国际岛屿国家海洋会议开幕式。",
+    "analysis": "该动态显示日本政府重视岛屿国家间的海洋合作与安全议题。可能影响周边海洋权益争端及区域外交格局，值得关注日本在海洋治理与岛国联盟中的角色。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "臨時閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/3_a.html",
+   "date": "2026-06-03",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "临时内阁会议概要",
+    "summary": "日本政府召开临时内阁会议，讨论并决定重要政策事项。",
+    "analysis": "该动态表明日本政府正在紧急处理或推进某项重大政策，可能涉及预算、外交或安全议题。需关注会议具体决议内容，对相关行业或国际关系可能产生直接影响。",
+    "category": "其他"
+   }
+  },
+  {
    "country": "jp",
    "title": "高市総理は第9回中東情勢に関する関係閣僚会議出席しました",
    "url": "https://www.kantei.go.jp/jp/105/actions/202606/02kaigi_middle-east.html",
@@ -123,6 +454,403 @@
     "summary": "日本政府高层持续应对中东局势对能源安全的影响。",
     "analysis": "日本原油高度依赖中东,会议频次反映局势紧张;关注后续能源储备与航运安全措施。",
     "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は世界島嶼（しょ）国海洋会議出席首脳等と面会しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/02menkai.html",
+   "date": "2026-06-02",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理会见世界岛屿国家海洋会议出席首脑等",
+    "summary": "日本总理与参加世界岛屿国家海洋会议的多国首脑举行会晤。",
+    "analysis": "此次会晤主要面向太平洋及印度洋岛国，旨在加强日本与岛国在海洋安全、气候变化及经济合作等领域的协调。值得关注的是日本借此推动“自由开放的印太”战略，可能对中国在相关地区的影响力形成制衡。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は世界銀行グループのバンガ総裁による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/02hyoukei.html",
+   "date": "2026-06-02",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受世界银行集团彭安杰总裁的礼节性拜访",
+    "summary": "日本首相与世界银行总裁会面，讨论全球发展合作。",
+    "analysis": "此次会晤可能涉及日本对发展中国家援助及世界银行融资项目合作，对日本国际开发合作政策有信号意义。值得关注双方是否就气候融资、债务问题等达成新共识。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要／首里城正殿の復元完成式／アンワル・マレーシア首相の訪日について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/2_a.html",
+   "date": "2026-06-02",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "内阁会议概要／首里城正殿复原完成仪式／马来西亚总理安瓦尔访日",
+    "summary": "日本政府发布内阁会议概要，涉及首里城正殿复原完成及马来西亚总理访日安排。",
+    "analysis": "首里城正殿复原完成仪式将促进冲绳旅游业复苏与文化传承，马来西亚总理访日则强化日马双边关系，尤其在东南亚外交安全合作上值得关注。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Medicare Program; Alternative Payment Model Updates and the Increasing Organ Transplant Access (IOTA) Model",
+   "url": "https://www.federalregister.gov/documents/2026/06/01/2026-10890/medicare-program-alternative-payment-model-updates-and-the-increasing-organ-transplant-access-iota",
+   "date": "2026-06-01",
+   "org": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+   "doc_no": "2026-10890",
+   "excerpt": "This final rule will update and revise the Increasing Organ Transplant Access (IOTA) Model for Performance Year (PY) 2. This final rule also includes a technical correction to the regulatory text.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/2026-10890.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "医疗保险计划：替代支付模式更新与增加器官移植获取（IOTA）模型",
+    "summary": "更新并修订增加器官移植获取（IOTA）模型第二年绩效年规则。",
+    "analysis": "该规则主要影响参与器官移植的医疗机构和患者。通过调整支付模式，可能提高器官移植的可及性和效率，值得关注其对移植等待名单和医疗成本的实际影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Labor Organization Annual Financial Reports",
+   "url": "https://www.federalregister.gov/documents/2026/06/01/2026-10849/labor-organization-annual-financial-reports",
+   "date": "2026-06-01",
+   "org": "Labor Department, Labor-Management Standards Office",
+   "doc_no": "2026-10849",
+   "excerpt": "The Department of Labor (Department) publishes this combined final rule to its regulations to improve its LM Labor Organization Annual Financial Reports by establishing a longer LM form for the largest labor organizations (Form LM-2 Long Form), revising a slightly shorter form for most labor organiz",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/2026-10849.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "劳工组织年度财务报告",
+    "summary": "劳工部修订规则，要求大型劳工组织提交更详细的财务报告。",
+    "analysis": "该政策主要影响大型劳工组织，要求其提交更长的财务报告（Form LM-2 Long Form），增加财务透明度。这可能增加工会的合规成本，但有助于加强监管和防止财务滥用。值得关注的是新表格的具体披露要求及对中小型工会的潜在影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Endangered and Threatened Wildlife and Plants; Designation of Critical Habitat for the Rusty Patched Bumble Bee",
+   "url": "https://www.federalregister.gov/documents/2026/06/01/2026-10846/endangered-and-threatened-wildlife-and-plants-designation-of-critical-habitat-for-the-rusty-patched",
+   "date": "2026-06-01",
+   "org": "Interior Department, Fish and Wildlife Service",
+   "doc_no": "2026-10846",
+   "excerpt": "We, the U.S. Fish and Wildlife Service (Service), designate critical habitat for the rusty patched bumble bee (Bombus affinis), a bumble bee historically known to occur broadly across the eastern United States and portions of Canada, under the Endangered Species Act of 1973, as amended (Act). In tot",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/2026-10846.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "濒危和受威胁野生动物及植物；为锈斑大黄蜂指定关键栖息地",
+    "summary": "美国鱼类和野生动物管理局为锈斑大黄蜂指定关键栖息地。",
+    "analysis": "该政策主要影响美国东部及加拿大部分地区的土地开发、农业和基础设施项目。指定关键栖息地后，相关联邦项目需加强评估，可能限制土地使用或增加合规成本。值得关注的是，该措施对传粉昆虫保护具有示范意义，可能引发更多类似物种保护行动。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はペゼシュキアン・イラン・イスラム共和国大統領及びイェッテン・オランダ王国首相との電話会談についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0601kaiken.html",
+   "date": "2026-06-01",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報"
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はイラン・イスラム共和国のマスウード・ペゼシュキアン大統領と電話会談を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/01tel_kaidan2.html",
+   "date": "2026-06-01",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報"
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はオランダ王国のロブ・イェッテン首相と電話会談を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/01tel_kaidan1.html",
+   "date": "2026-06-01",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報"
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は全拉致被害者の即時一括帰国を求める国民大集会に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202605/30rachi.html",
+   "date": "2026-05-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報"
+  },
+  {
+   "country": "us",
+   "title": "Pipeline Safety: Class Location Change Requirements; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/05/29/2026-10782/pipeline-safety-class-location-change-requirements-correction",
+   "date": "2026-05-29",
+   "org": "Transportation Department, Pipeline and Hazardous Materials Safety Administration",
+   "doc_no": "2026-10782",
+   "excerpt": "PHMSA is making a technical correction to a January 14, 2026 final rule that amended the class location change requirements. The final rule allows an operator to confirm or to restore the maximum allowable operating pressure (MAOP) of an eligible gas transmission pipeline segment that experiences a ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-29/pdf/2026-10782.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "管道安全：等级位置变更要求；更正",
+    "summary": "PHMSA对2026年1月14日关于等级位置变更的最终规则进行技术性更正。",
+    "analysis": "该更正主要影响天然气管道运营商，明确了在特定管道段发生等级位置变更后确认或恢复最大允许运行压力的程序。此举有助于提高监管的精确性和合规效率，值得关注的是其可能降低运营商的合规成本并提升管道安全水平。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Zero-Based Regulating",
+   "url": "https://www.federalregister.gov/documents/2026/05/29/2026-10727/zero-based-regulating",
+   "date": "2026-05-29",
+   "org": "Energy Department",
+   "doc_no": "2026-10727",
+   "excerpt": "This direct final rule inserts sunset provisions into certain regulations, consistent with Executive order (E.O.), Zero-Based Regulatory Budgeting to Unleash American Energy (April 9, 2025), and agency policy. Each sunset provision will establish a conditional sunset date for covered regulations, as",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-29/pdf/2026-10727.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "零基监管",
+    "summary": "能源部发布最终规则，为部分法规加入日落条款。",
+    "analysis": "该政策主要影响受能源部监管的企业和行业，通过设定法规自动失效日期，减少监管负担，但可能增加合规不确定性。值得关注的是其与行政令“零基监管预算”的衔接，以及具体日落条款的适用范围。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は消費者支援功労者表彰 表彰式に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202605/29hyoushou.html",
+   "date": "2026-05-29",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報"
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は水素関係自治体による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202605/29hyoukei.html",
+   "date": "2026-05-29",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報"
+  },
+  {
+   "country": "us",
+   "title": "Memorial Day, 2026",
+   "url": "https://www.federalregister.gov/documents/2026/05/28/2026-10733/memorial-day-2026",
+   "date": "2026-05-28",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-10733",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-28/pdf/2026-10733.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "2026年阵亡将士纪念日",
+    "summary": "美国总统发布2026年阵亡将士纪念日公告。",
+    "analysis": "该公告主要面向美国军人、退伍军人及其家属，旨在纪念为国捐躯的将士。值得关注的是，公告可能隐含对当前军事政策的表态或对军人福利的承诺，影响社会对军队的认同与支持。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Emergency Presidential Determination on Refugee Admissions for Fiscal Year 2026",
+   "url": "https://www.federalregister.gov/documents/2026/05/27/2026-10598/emergency-presidential-determination-on-refugee-admissions-for-fiscal-year-2026",
+   "date": "2026-05-27",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-10598",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10598.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于2026财年难民接纳的紧急总统决定",
+    "summary": "美国总统发布2026财年难民接纳的紧急行政决定。",
+    "analysis": "该决定主要影响难民申请人及移民政策执行机构。可能调整难民配额或审批流程，值得关注其对国际人道主义承诺及国内安全政策的平衡。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Department of Labor Federal Civil Penalties Inflation Adjustment Act Annual Adjustments for 2026",
+   "url": "https://www.federalregister.gov/documents/2026/05/27/2026-10456/department-of-labor-federal-civil-penalties-inflation-adjustment-act-annual-adjustments-for-2026",
+   "date": "2026-05-27",
+   "org": "Labor Department, Employment and Training Administration, Workers' Compensation Programs Office, Wage and Hour Division, Occupational Safety and Health Administration, Mine Safety and Health Administration",
+   "doc_no": "2026-10456",
+   "excerpt": "As required by statute, the Department of Labor annually publishes a final rule updating the civil monetary penalties it assesses. The Bureau of Labor Statistics (BLS) did not publish its October 2025 Consumer Price Index for All Urban Consumers (CPI-U) data due to a lapse in funding. Because the re",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10456.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "劳工部2026年联邦民事罚款通胀调整年度更新",
+    "summary": "劳工部因CPI-U数据缺失，无法按法定要求发布2026年民事罚款通胀调整。",
+    "analysis": "该政策直接影响受劳工部监管的企业和机构，因CPI-U数据缺失导致罚款调整延迟，可能使雇主面临罚款标准不明确的风险。值得关注的是，数据缺失背后的政府资金问题可能影响其他监管执行。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Belarus",
+   "url": "https://www.federalregister.gov/documents/2026/05/26/2026-10481/continuation-of-the-national-emergency-with-respect-to-belarus",
+   "date": "2026-05-26",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-10481",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10481.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于白俄罗斯国家紧急状态的延续",
+    "summary": "美国总统宣布延长针对白俄罗斯的国家紧急状态。",
+    "analysis": "该政策主要针对白俄罗斯政府及其相关实体，延续制裁和限制措施。可能影响美国与白俄罗斯的外交关系及在美白俄罗斯资产。值得关注的是此举是否与白俄罗斯国内政治局势或俄乌冲突关联。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Promulgated Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020",
+   "url": "https://www.federalregister.gov/documents/2026/05/26/2026-10387/phasedown-of-hydrofluorocarbons-reconsideration-of-certain-regulatory-requirements-promulgated-under",
+   "date": "2026-05-26",
+   "org": "Environmental Protection Agency",
+   "doc_no": "2026-10387",
+   "excerpt": "The U.S. Environmental Protection Agency (EPA) is finalizing changes to regulations promulgated under the Technology Transitions provision of the American Innovation and Manufacturing Act of 2020 (AIM Act), which authorizes the Administrator to restrict fully, partially, or on a graduated schedule, ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "氢氟碳化物逐步削减：对《2020年美国创新与制造法案》技术转型条款下某些监管要求的重新审议",
+    "summary": "EPA最终确定对氢氟碳化物技术转型监管规则的修改。",
+    "analysis": "该政策主要影响制冷、空调和泡沫行业，要求企业逐步淘汰高全球变暖潜值的氢氟碳化物。此举将推动替代技术和设备的研发投资，可能增加短期合规成本，但长期有助于美国履行国际气候承诺并促进绿色技术出口。值得关注的是规则调整是否涉及豁免或时间表变化。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Restoring Integrity to America's Financial System",
+   "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10400/restoring-integrity-to-americas-financial-system",
+   "date": "2026-05-22",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-10400",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10400.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "恢复美国金融体系的诚信",
+    "summary": "白宫发布行政令，旨在加强金融监管与反腐败措施。",
+    "analysis": "该政策主要针对金融机构及高管，可能加强合规要求与处罚力度。值得关注的是对跨境资本流动及加密货币监管的潜在收紧，或影响全球金融市场。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Integrating Financial Technology Innovation Into Regulatory Frameworks",
+   "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10399/integrating-financial-technology-innovation-into-regulatory-frameworks",
+   "date": "2026-05-22",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-10399",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10399.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "将金融科技创新融入监管框架",
+    "summary": "白宫发布行政指令，要求将金融科技纳入现有监管体系。",
+    "analysis": "该政策主要影响金融科技企业及传统金融机构，可能加速监管合规成本上升，同时为创新业务提供更清晰的规则。值得关注的是其对加密货币、数字支付等新兴领域的监管态度变化。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "To Implement Certain Provisions in the Consolidated Appropriations Act, 2026, and for Other Purposes",
+   "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10398/to-implement-certain-provisions-in-the-consolidated-appropriations-act-2026-and-for-other-purposes",
+   "date": "2026-05-22",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-10398",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10398.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "为执行《2026年综合拨款法案》中的某些条款及其他目的",
+    "summary": "美国总统行政令，旨在落实2026财年综合拨款法案中的特定条款。",
+    "analysis": "该行政令主要影响联邦机构及受拨款法案约束的部门，可能加速特定预算项目的执行或调整资金分配。值得关注的是其是否涉及对华限制条款或国内优先事项的重新排序。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Practices Before the Department of the Interior",
+   "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10160/practices-before-the-department-of-the-interior",
+   "date": "2026-05-21",
+   "org": "Interior Department",
+   "doc_no": "2026-10160",
+   "excerpt": "The Office of Hearings and Appeals (OHA) is issuing this final rule to adopt the interim final rule (IFR) published on January 10, 2025, with a few changes made to respond to public comments, to clarify procedures, and to correct typographical errors. The IFR was originally set to go into effect Feb",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-21/pdf/2026-10160.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "内政部听证与上诉办公室最终规则",
+    "summary": "内政部通过最终规则，采纳2025年临时最终规则并做少量修改。",
+    "analysis": "该规则主要影响涉及内政部听证与上诉程序的当事人及法律从业者。修改内容回应了公众意见并澄清程序，有助于提高行政裁决的透明度和效率。值得关注的是规则生效时间及对未决案件的影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program",
+   "url": "https://www.federalregister.gov/documents/2026/05/20/2026-10050/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and",
+   "date": "2026-05-20",
+   "org": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+   "doc_no": "2026-10050",
+   "excerpt": "This final rule contains provisions to improve implementation of the Patient Protection and Affordable Care Act, including payment parameters and provisions related to the HHS-operated risk adjustment and risk adjustment data validation (HHS-RADV) programs, as well as 2027 user fee rates for issuers",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-20/pdf/2026-10050.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "《患者保护与平价医疗法案》：2027年HHS福利与支付参数通知及基本健康计划",
+    "summary": "美国发布2027年医保支付参数及风险调整数据验证最终规则。",
+    "analysis": "该规则主要影响医保发行机构，通过设定2027年用户费率及风险调整程序，可能影响保费定价与市场竞争。值得关注的是HHS-RADV数据验证的强化，或增加合规成本。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Peace Officers Memorial Day and Police Week, 2026",
+   "url": "https://www.federalregister.gov/documents/2026/05/14/2026-09779/peace-officers-memorial-day-and-police-week-2026",
+   "date": "2026-05-14",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-09779",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-14/pdf/2026-09779.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "和平警官纪念日与警察周，2026",
+    "summary": "美国总统宣布设立2026年和平警官纪念日及警察周，以纪念殉职执法人员。",
+    "analysis": "该公告主要影响美国执法机构及殉职警察家属，可能提升公众对执法安全的关注，并推动相关纪念活动。值得关注的是其背后对执法队伍士气的支持及政策象征意义。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Securing the Information and Communications Technology and Services Supply Chain",
+   "url": "https://www.federalregister.gov/documents/2026/05/13/2026-09671/continuation-of-the-national-emergency-with-respect-to-securing-the-information-and-communications",
+   "date": "2026-05-13",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-09671",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-13/pdf/2026-09671.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于确保信息通信技术与服务供应链安全的国家紧急状态的延续",
+    "summary": "美国延长针对信息通信技术供应链的国家紧急状态。",
+    "analysis": "该政策延续对ICT供应链的审查与限制，主要针对中国等外国供应商，可能进一步加剧中美科技脱钩，值得关注其对全球半导体、5G等产业链的长期影响。",
+    "category": "科技产业"
    }
   }
  ]
