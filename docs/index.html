@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中美日政策追踪</title>
+<style>
+  :root {
+    --bg: #0f1419; --card: #1a2129; --card-hover: #1f2933;
+    --border: #2c3640; --text: #e7edf3; --muted: #8b9aa8;
+    --accent: #4da3ff; --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f6f8; --card: #ffffff; --card-hover: #f7fafc;
+      --border: #dde4ea; --text: #1c2733; --muted: #5e6e7e; --accent: #1769c4;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 80px; }
+  header h1 { font-size: 1.5rem; letter-spacing: .02em; }
+  header .sub { color: var(--muted); font-size: .82rem; margin-top: 4px; }
+  .brief {
+    margin-top: 18px; padding: 16px 18px; border-radius: 12px;
+    background: linear-gradient(135deg, rgba(77,163,255,.10), rgba(176,124,198,.08));
+    border: 1px solid var(--border);
+  }
+  .brief h2 { font-size: .95rem; color: var(--accent); margin-bottom: 6px; }
+  .brief p { font-size: .92rem; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 6px; align-items: center; }
+  .tab, .chip {
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    border-radius: 999px; padding: 5px 14px; font-size: .85rem; cursor: pointer;
+    transition: .15s;
+  }
+  .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+  #search {
+    flex: 1; min-width: 160px; padding: 7px 14px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    font-size: .85rem; outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+  .date-group { margin-top: 22px; }
+  .date-group > h3 {
+    font-size: .82rem; color: var(--muted); font-weight: 600;
+    margin-bottom: 10px; padding-left: 2px;
+  }
+  .item {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin-bottom: 10px; transition: .15s;
+  }
+  .item:hover { background: var(--card-hover); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: .74rem; margin-bottom: 6px; }
+  .badge { border-radius: 5px; padding: 1px 7px; font-weight: 600; color: #fff; }
+  .badge.cn { background: var(--cn); } .badge.us { background: var(--us); } .badge.jp { background: var(--jp); }
+  .cat { color: var(--accent); border: 1px solid var(--accent); border-radius: 5px; padding: 0 6px; }
+  .src, .org { color: var(--muted); }
+  .item h4 { font-size: .98rem; line-height: 1.45; }
+  .item h4 a { color: var(--text); text-decoration: none; }
+  .item h4 a:hover { color: var(--accent); }
+  .orig { font-size: .78rem; color: var(--muted); margin-top: 2px; }
+  .summary { font-size: .87rem; margin-top: 6px; }
+  .analysis {
+    font-size: .85rem; color: var(--muted); margin-top: 8px; padding: 8px 12px;
+    border-left: 3px solid var(--accent); background: rgba(77,163,255,.06);
+    border-radius: 0 8px 8px 0;
+  }
+  .analysis b { color: var(--accent); font-weight: 600; }
+  .links { margin-top: 8px; font-size: .78rem; }
+  .links a { color: var(--accent); text-decoration: none; margin-right: 14px; }
+  .empty, .loading { text-align: center; color: var(--muted); padding: 60px 0; }
+  footer { margin-top: 40px; font-size: .75rem; color: var(--muted); text-align: center; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🌏 中美日政策追踪</h1>
+    <div class="sub" id="meta">加载中…</div>
+  </header>
+
+  <div class="brief" id="brief" style="display:none">
+    <h2>📌 今日要点</h2>
+    <p id="briefText"></p>
+  </div>
+
+  <div class="controls">
+    <button class="tab active" data-c="all">全部</button>
+    <button class="tab" data-c="cn">🇨🇳 中国</button>
+    <button class="tab" data-c="us">🇺🇸 美国</button>
+    <button class="tab" data-c="jp">🇯🇵 日本</button>
+    <input id="search" type="search" placeholder="搜索标题 / 机构 / 分析…">
+  </div>
+  <div class="chips" id="chips"></div>
+
+  <div id="list"><div class="loading">数据加载中…</div></div>
+
+  <footer>
+    数据来源:中国政府网 · Federal Register · 首相官邸 | AI 分析由 DeepSeek 生成,仅供参考<br>
+    <span id="gen"></span>
+  </footer>
+</div>
+
+<script>
+const FLAG = { cn: "🇨🇳", us: "🇺🇸", jp: "🇯🇵" };
+const NAME = { cn: "中国", us: "美国", jp: "日本" };
+let DATA = null, country = "all", category = "all", query = "";
+
+const saved = JSON.parse(localStorage.getItem("ptPrefs") || "{}");
+country = saved.country || "all";
+
+fetch("data.json?_=" + Date.now())
+  .then(r => r.json())
+  .then(d => { DATA = d; init(); })
+  .catch(() => {
+    document.getElementById("list").innerHTML =
+      '<div class="empty">data.json 加载失败。首次部署请先运行一次 GitHub Action 生成数据。</div>';
+  });
+
+function init() {
+  const c = DATA.counts || {};
+  document.getElementById("meta").textContent =
+    `共 ${DATA.items.length} 条 · 中国 ${c.cn||0} / 美国 ${c.us||0} / 日本 ${c.jp||0} · 更新于 ${DATA.generated_at||"—"}`;
+  document.getElementById("gen").textContent = "最后更新:" + (DATA.generated_at || "—");
+
+  if (DATA.brief && DATA.brief.text) {
+    document.getElementById("brief").style.display = "";
+    document.getElementById("briefText").textContent = DATA.brief.text;
+  }
+
+  // 分类 chips(从数据中提取)
+  const cats = [...new Set(DATA.items.map(i => i.ai && i.ai.category).filter(Boolean))];
+  const chipBox = document.getElementById("chips");
+  if (cats.length) {
+    chipBox.innerHTML = ['all', ...cats].map(c =>
+      `<button class="chip ${c===category?'active':''}" data-cat="${c}">${c==='all'?'全部分类':c}</button>`
+    ).join("");
+    chipBox.querySelectorAll(".chip").forEach(b => b.onclick = () => {
+      category = b.dataset.cat;
+      chipBox.querySelectorAll(".chip").forEach(x => x.classList.toggle("active", x === b));
+      render();
+    });
+  }
+
+  document.querySelectorAll(".tab").forEach(b => {
+    b.classList.toggle("active", b.dataset.c === country);
+    b.onclick = () => {
+      country = b.dataset.c;
+      localStorage.setItem("ptPrefs", JSON.stringify({ country }));
+      document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === b));
+      render();
+    };
+  });
+  let t;
+  document.getElementById("search").oninput = e => {
+    clearTimeout(t);
+    t = setTimeout(() => { query = e.target.value.trim().toLowerCase(); render(); }, 200);
+  };
+  render();
+}
+
+function esc(s) {
+  return (s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+}
+
+function render() {
+  let items = DATA.items;
+  if (country !== "all") items = items.filter(i => i.country === country);
+  if (category !== "all") items = items.filter(i => i.ai && i.ai.category === category);
+  if (query) items = items.filter(i => {
+    const a = i.ai || {};
+    return [i.title, a.title_zh, a.summary, a.analysis, i.org, i.doc_no]
+      .join(" ").toLowerCase().includes(query);
+  });
+
+  if (!items.length) {
+    document.getElementById("list").innerHTML = '<div class="empty">没有符合条件的条目</div>';
+    return;
+  }
+
+  // 按日期分组
+  const groups = {};
+  items.forEach(i => (groups[i.date || "未知日期"] ||= []).push(i));
+  const dates = Object.keys(groups).sort().reverse();
+
+  document.getElementById("list").innerHTML = dates.map(d => `
+    <div class="date-group">
+      <h3>${d}</h3>
+      ${groups[d].map(card).join("")}
+    </div>`).join("");
+}
+
+function card(i) {
+  const a = i.ai || {};
+  const titleZh = a.title_zh || i.title;
+  const showOrig = a.title_zh && a.title_zh !== i.title;
+  return `
+  <div class="item">
+    <div class="meta">
+      <span class="badge ${i.country}">${FLAG[i.country]} ${NAME[i.country]}</span>
+      ${a.category ? `<span class="cat">${esc(a.category)}</span>` : ""}
+      <span class="src">${esc(i.source)}</span>
+      ${i.doc_no ? `<span class="org">${esc(i.doc_no)}</span>` : ""}
+    </div>
+    <h4><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(titleZh)}</a></h4>
+    ${showOrig ? `<div class="orig">原文:${esc(i.title)}</div>` : ""}
+    ${i.org ? `<div class="orig">发布:${esc(i.org)}</div>` : ""}
+    ${a.summary ? `<div class="summary">${esc(a.summary)}</div>` : ""}
+    ${a.analysis ? `<div class="analysis"><b>AI 分析</b> · ${esc(a.analysis)}</div>` : ""}
+    <div class="links">
+      <a href="${esc(i.url)}" target="_blank" rel="noopener">查看原文 ↗</a>
+      ${i.pdf ? `<a href="${esc(i.pdf)}" target="_blank" rel="noopener">官方 PDF ↗</a>` : ""}
+    </div>
+  </div>`;
+}
+</script>
+</body>
+</html>
