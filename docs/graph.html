@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>政策关系图 · 中美日政策追踪</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/dist/vis-network.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1419; --card: #1a2129; --border: #2c3640; --text: #e7edf3;
+    --muted: #8b9aa8; --accent: #4da3ff;
+    --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6; --topic: #d9a441;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  header {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    padding: 10px 16px; border-bottom: 1px solid var(--border); background: var(--card);
+    z-index: 5;
+  }
+  header h1 { font-size: 1.05rem; margin-right: 6px; white-space: nowrap; }
+  header a.nav { color: var(--accent); text-decoration: none; font-size: .82rem; white-space: nowrap; }
+  .ctl { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: .8rem; }
+  .chip {
+    border: 1px solid var(--border); background: var(--bg); color: var(--text);
+    border-radius: 999px; padding: 3px 11px; cursor: pointer; font-size: .78rem;
+  }
+  .chip.on.cn { background: var(--cn); border-color: var(--cn); color: #fff; }
+  .chip.on.us { background: var(--us); border-color: var(--us); color: #fff; }
+  .chip.on.jp { background: var(--jp); border-color: var(--jp); color: #fff; }
+  .chip.on.rel { background: #e08c3a; border-color: #e08c3a; color: #fff; }
+  select, input[type=search] {
+    background: var(--bg); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 4px 9px; font-size: .78rem; outline: none;
+  }
+  #wrap { flex: 1; display: flex; min-height: 0; }
+  #net { flex: 1; min-width: 0; }
+  #panel {
+    width: 320px; border-left: 1px solid var(--border); background: var(--card);
+    padding: 16px; overflow-y: auto; display: none;
+  }
+  #panel.show { display: block; }
+  #panel .close { float: right; cursor: pointer; color: var(--muted); font-size: 1.1rem; }
+  #panel .badge { border-radius: 5px; padding: 1px 8px; font-weight: 600; color: #fff; font-size: .72rem; }
+  #panel h2 { font-size: .98rem; margin: 10px 0 6px; line-height: 1.45; }
+  #panel .meta { color: var(--muted); font-size: .76rem; margin-bottom: 8px; line-height: 1.7; }
+  #panel .sec { font-size: .84rem; margin-top: 10px; line-height: 1.6; }
+  #panel .sec b { color: var(--accent); }
+  #panel a.go { color: var(--accent); font-size: .8rem; text-decoration: none; display: inline-block; margin-top: 12px; }
+  #panel .tag { display: inline-block; border: 1px solid var(--topic); color: var(--topic); border-radius: 5px; padding: 0 6px; font-size: .72rem; margin-right: 4px; }
+  #stats { color: var(--muted); font-size: .75rem; margin-left: auto; white-space: nowrap; }
+  #loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); }
+  .legend { display: flex; gap: 10px; font-size: .72rem; color: var(--muted); align-items: center; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 3px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🕸️ 政策关系图</h1>
+  <a class="nav" href="index.html">← 返回列表</a>
+  <div class="ctl">
+    <span class="chip cn on" data-c="cn">中国</span>
+    <span class="chip us on" data-c="us">美国</span>
+    <span class="chip jp on" data-c="jp">日本</span>
+    <select id="topicSel"><option value="">全部主题</option></select>
+    <select id="impSel">
+      <option value="3">重要性 ≥3</option>
+      <option value="4" selected>重要性 ≥4</option>
+      <option value="5">仅 5 级</option>
+    </select>
+    <span class="chip rel" id="relOnly" title="只显示有跨政策关联的节点">只看关联</span>
+    <input type="search" id="q" placeholder="搜索标题…">
+  </div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--cn)"></span>中国</span>
+    <span><span class="dot" style="background:var(--us)"></span>美国</span>
+    <span><span class="dot" style="background:var(--jp)"></span>日本</span>
+    <span><span class="dot" style="background:var(--topic)"></span>主题</span>
+    <span style="color:#e08c3a">— 橙线=直接关联</span>
+  </div>
+  <span id="stats"></span>
+</header>
+<div id="wrap">
+  <div id="net"><div id="loading">关系图加载中…(首次需先运行 backfill Action 生成 graph.json)</div></div>
+  <div id="panel">
+    <span class="close" onclick="panel.classList.remove('show')">✕</span>
+    <div id="panelBody"></div>
+  </div>
+</div>
+
+<script>
+const C = { cn: "#e05c5c", us: "#5c8fe0", jp: "#b07cc6", topic: "#d9a441" };
+const NAME = { cn: "中国", us: "美国", jp: "日本" };
+let G = null, network = null;
+let state = { countries: new Set(["cn","us","jp"]), topic: "", minImp: 4, relOnly: false, q: "" };
+const panel = document.getElementById("panel");
+
+fetch("graph.json?_=" + Date.now()).then(r => r.json()).then(d => { G = d; init(); })
+  .catch(() => document.getElementById("loading").textContent =
+    "graph.json 不存在。请先在 GitHub Actions 里运行「回填历史并构建关系图」。");
+
+function init() {
+  const sel = document.getElementById("topicSel");
+  (G.topics || []).forEach(t => {
+    const o = document.createElement("option"); o.value = t; o.textContent = t; sel.appendChild(o);
+  });
+  sel.onchange = () => { state.topic = sel.value; render(); };
+  document.getElementById("impSel").onchange = e => { state.minImp = +e.target.value; render(); };
+  document.querySelectorAll(".chip[data-c]").forEach(ch => ch.onclick = () => {
+    const c = ch.dataset.c;
+    state.countries.has(c) ? state.countries.delete(c) : state.countries.add(c);
+    ch.classList.toggle("on"); render();
+  });
+  const rel = document.getElementById("relOnly");
+  rel.onclick = () => { state.relOnly = !state.relOnly; rel.classList.toggle("on"); render(); };
+  let t;
+  document.getElementById("q").oninput = e => {
+    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 250);
+  };
+  render();
+}
+
+function render() {
+  const relSet = new Set();
+  G.edges.forEach(e => { if (e.kind === "relation") { relSet.add(e.from); relSet.add(e.to); } });
+
+  const keep = new Set();
+  G.nodes.forEach(n => {
+    if (n.type !== "policy") return;
+    if (!state.countries.has(n.country)) return;
+    if (n.importance < state.minImp) return;
+    if (state.topic && !(n.topics || []).includes(state.topic)) return;
+    if (state.relOnly && !relSet.has(n.id)) return;
+    if (state.q && !(n.title_zh + " " + n.title).toLowerCase().includes(state.q)) return;
+    keep.add(n.id);
+  });
+
+  const usedTopics = new Set();
+  const edges = [];
+  G.edges.forEach(e => {
+    if (e.kind === "relation") {
+      if (keep.has(e.from) && keep.has(e.to))
+        edges.push({ from: e.from, to: e.to, label: e.label, color: { color: "#e08c3a" },
+                     width: 2.2, font: { size: 10, color: "#e0a060", strokeWidth: 0 }, smooth: true });
+    } else if (!state.relOnly) {
+      if (keep.has(e.from)) {
+        usedTopics.add(e.to);
+        edges.push({ from: e.from, to: e.to, color: { color: "#2c3640" }, width: 0.6 });
+      }
+    }
+  });
+
+  const nodes = [];
+  G.nodes.forEach(n => {
+    if (n.type === "policy" && keep.has(n.id)) {
+      nodes.push({ id: n.id, label: wrap(n.label, 12), shape: "dot",
+                   size: 6 + (n.importance - 2) * 4,
+                   color: { background: C[n.country], border: C[n.country] },
+                   font: { color: "#aab8c5", size: 10 } });
+    } else if (n.type === "topic" && usedTopics.has(n.id) && !state.relOnly) {
+      nodes.push({ id: n.id, label: n.label, shape: "diamond", size: 14 + Math.min(n.count, 30) / 2,
+                   color: { background: C.topic, border: C.topic },
+                   font: { color: "#e8c886", size: 13, face: "sans-serif" } });
+    }
+  });
+
+  document.getElementById("stats").textContent =
+    `${nodes.filter(n=>!String(n.id).startsWith("topic::")).length} 条政策 · ${edges.filter(e=>e.width>1).length} 条关联 · 更新 ${G.generated_at}`;
+
+  const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+  const options = {
+    physics: { solver: "forceAtlas2Based",
+               forceAtlas2Based: { gravitationalConstant: -40, springLength: 80, avoidOverlap: 0.4 },
+               stabilization: { iterations: 120 } },
+    interaction: { hover: true, tooltipDelay: 120 },
+    nodes: { borderWidth: 1 },
+    edges: { selectionWidth: 2 },
+  };
+  if (network) { network.setData(data); }
+  else {
+    network = new vis.Network(document.getElementById("net"), data, options);
+    network.on("click", p => {
+      if (!p.nodes.length) return;
+      const id = p.nodes[0];
+      const n = G.nodes.find(x => x.id === id);
+      if (n && n.type === "policy") showPanel(n);
+      else if (n && n.type === "topic") {
+        document.getElementById("topicSel").value = n.label;
+        state.topic = n.label; render();
+      }
+    });
+  }
+  document.getElementById("loading") && document.getElementById("loading").remove();
+}
+
+function wrap(s, n) {
+  let out = "";
+  for (let i = 0; i < s.length; i += n) out += s.slice(i, i + n) + "\n";
+  return out.trim();
+}
+function esc(s) { return (s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
+
+function showPanel(n) {
+  const rels = G.edges.filter(e => e.kind === "relation" && (e.from === n.id || e.to === n.id))
+    .map(e => {
+      const other = G.nodes.find(x => x.id === (e.from === n.id ? e.to : e.from));
+      return other ? `<div>↔ <b>${esc(e.label)}</b> · ${esc(other.title_zh || other.label)}</div>` : "";
+    }).join("");
+  document.getElementById("panelBody").innerHTML = `
+    <span class="badge" style="background:${C[n.country]}">${NAME[n.country]}</span>
+    ${(n.topics||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
+    <h2>${esc(n.title_zh)}</h2>
+    <div class="meta">${esc(n.date||"")} · ${esc(n.org||"")}${n.doc_no?" · "+esc(n.doc_no):""}<br>
+      重要性 ${"★".repeat(n.importance)}</div>
+    ${n.summary ? `<div class="sec">${esc(n.summary)}</div>` : ""}
+    ${n.analysis ? `<div class="sec"><b>AI 分析</b> · ${esc(n.analysis)}</div>` : ""}
+    ${rels ? `<div class="sec"><b>直接关联</b>${rels}</div>` : ""}
+    <a class="go" href="${esc(n.url)}" target="_blank" rel="noopener">查看官方原文 ↗</a>`;
+  panel.classList.add("show");
+}
+</script>
+</body>
+</html>
