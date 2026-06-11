@@ -10,6 +10,13 @@ UA = {
         "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
     )
 }
+BROWSER_HEADERS = {
+    **UA,
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Referer": "https://www.gov.cn/",
+    "Origin": "https://www.gov.cn",
+}
 TIMEOUT = 30
 
 
@@ -17,17 +24,81 @@ def _clean(text):
     return re.sub(r"<[^>]+>", "", text or "").replace("　", " ").strip()
 
 
-def fetch_china(n=15):
-    """中国政府网·国务院政策文件库 JSON 接口(国务院文件 + 部门文件)"""
-    url = "https://sousuo.www.gov.cn/search-gov/data"
+def gov_cn_session():
+    """带 cookie 预热的会话(应对 gov.cn 对数据中心 IP 的软封锁)"""
+    s = requests.Session()
+    s.headers.update(BROWSER_HEADERS)
+    for warm in ("https://www.gov.cn/zhengce/zuixin/",
+                 "https://sousuo.www.gov.cn/zcwjk/policyRetrieve"):
+        try:
+            s.get(warm, timeout=15)
+        except Exception:
+            pass
+    return s
+
+
+def gov_cn_query(session, page=1, n=15):
+    """查询政策文件库一页,返回 catMap;空结果时重试一次"""
+    import time as _t
     params = {
         "t": "zhengcelibrary", "q": "", "timetype": "timeqb",
         "mintime": "", "maxtime": "", "sort": "pubtime", "sortType": 1,
-        "searchfield": "title", "p": 1, "n": n,
+        "searchfield": "title", "p": page, "n": n,
     }
-    r = requests.get(url, params=params, headers=UA, timeout=TIMEOUT)
-    r.raise_for_status()
-    cat_map = (r.json().get("catMap") or {})
+    for attempt in range(3):
+        try:
+            r = session.get("https://sousuo.www.gov.cn/search-gov/data",
+                            params=params, timeout=TIMEOUT)
+            r.raise_for_status()
+            cat_map = (r.json().get("catMap") or {})
+            if ((cat_map.get("gongwen") or {}).get("listVO")):
+                return cat_map
+            print(f"[cn] empty catMap (attempt {attempt+1}), retrying...")
+        except Exception as e:
+            print(f"[cn] query failed (attempt {attempt+1}): {e}")
+        _t.sleep(5 * (attempt + 1))
+    return {}
+
+
+def fetch_china_rss(n=15):
+    """备用源: RSSHub 公共实例的国务院政策文件库路由"""
+    items = []
+    for route, label in [("gov/zhengce/zhengceku", "中国政府网·政策文件库(RSS)"),
+                         ("gov/zhengce/zuixin", "中国政府网·最新政策(RSS)")]:
+        for host in ("https://rsshub.app", "https://rsshub.rssforever.com"):
+            try:
+                r = requests.get(f"{host}/{route}", headers=UA, timeout=TIMEOUT)
+                r.raise_for_status()
+                soup = BeautifulSoup(r.text, "xml")
+                for it in soup.find_all("item")[:n]:
+                    link = (it.link and it.link.get_text(strip=True)) or ""
+                    if not link:
+                        continue
+                    pub = it.pubDate.get_text(strip=True) if it.pubDate else ""
+                    date = ""
+                    try:
+                        from email.utils import parsedate_to_datetime
+                        date = parsedate_to_datetime(pub).strftime("%Y-%m-%d")
+                    except Exception:
+                        pass
+                    items.append({
+                        "country": "cn",
+                        "title": _clean(it.title.get_text(strip=True) if it.title else ""),
+                        "url": link, "date": date, "org": "", "doc_no": "",
+                        "excerpt": _clean(it.description.get_text(strip=True) if it.description else "")[:300],
+                        "source": label,
+                    })
+                if items:
+                    return items
+            except Exception as e:
+                print(f"[cn-rss] {host}/{route} failed: {e}")
+    return items
+
+
+def fetch_china(n=15):
+    """中国政府网·国务院政策文件库 JSON 接口(国务院文件 + 部门文件);失败时回退 RSS"""
+    s = gov_cn_session()
+    cat_map = gov_cn_query(s, page=1, n=n)
     labels = {"gongwen": "中国政府网·国务院文件", "bumenfile": "中国政府网·部门文件"}
     items = []
     for cat, label in labels.items():
@@ -44,6 +115,9 @@ def fetch_china(n=15):
                 "excerpt": _clean(it.get("summary"))[:300],
                 "source": label,
             })
+    if not items:
+        print("[cn] primary source empty, falling back to RSS")
+        items = fetch_china_rss(n)
     return items
 
 

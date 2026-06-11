@@ -29,19 +29,15 @@ TOPICS = ["关税与贸易", "出口管制与制裁", "半导体与芯片", "人
 # ---------- 抓取候选 ----------
 
 def fetch_cn_history():
-    """gov.cn 国务院文件(gongwen),翻页直到 SINCE"""
+    """gov.cn 国务院文件(gongwen),翻页直到 SINCE(带 cookie 预热与重试)"""
+    import fetch as F
+    session = F.gov_cn_session()
     items, page = [], 1
     while page <= 40:
-        try:
-            r = requests.get("https://sousuo.www.gov.cn/search-gov/data", params={
-                "t": "zhengcelibrary", "q": "", "timetype": "timeqb", "mintime": "",
-                "maxtime": "", "sort": "pubtime", "sortType": 1, "searchfield": "title",
-                "p": page, "n": 50}, headers=UA, timeout=TIMEOUT)
-            r.raise_for_status()
-            lst = (((r.json().get("catMap") or {}).get("gongwen") or {}).get("listVO") or [])
-        except Exception as e:
-            print(f"[cn] page {page} failed: {e}"); break
+        cat_map = F.gov_cn_query(session, page=page, n=50)
+        lst = ((cat_map.get("gongwen") or {}).get("listVO") or [])
         if not lst:
+            print(f"[cn] page {page} empty, stop")
             break
         stop = False
         for it in lst:
