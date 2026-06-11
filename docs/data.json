@@ -1,16 +1,97 @@
 {
- "generated_at": "2026-06-11 04:42 UTC",
+ "generated_at": "2026-06-11 18:14 UTC",
  "brief": {
-  "text": "今日三国政策动向中，最值得关注的是中国在科技领域的主动布局与美日在行政与外交层面的调整。中国工信部于6月10日发布“人工智能+信息通信”三年期实施意见，明确推动算力网络与行业应用融合，这标志着中国在AI与通信基础设施领域的系统性竞争策略进一步强化，可能对全球科技供应链与标准制定产生深远影响。同日，美国发布多项行政与执法政策，包括加强海关执法及对阿片类药物危机的新规，显示其在内政与边境安全上的持续收紧；而国防部修订娱乐媒体援助政策，则反映出对军方形象维护的敏感。日本方面，首相高市密集开展与老挝、马来西亚的双边会谈，并主持儿童政策推进会议，凸显其外交上深化东南亚合作与内政上聚焦少子化应对的双重重心。总体来看，中美在科技与规则层面的竞争态势日益清晰，而日本则通过外交与地方治理寻求平衡与韧性。",
+  "text": "今日要点：中国工信部发布“人工智能+信息通信”三年行动计划，聚焦算力网络与行业融合，强化科技自主创新；美国同日加强海关执法并调整例外服务职业制度，显示其行政与贸易监管趋紧。日本首相高市密集活动，既主持中东局势阁僚会议、接受增长战略建议，又会见半导体企业Rapidus，凸显其能源安全与芯片产业布局的紧迫性。值得关注的是，中日两国在半导体领域形成潜在竞争：中国推动AI与通信融合，日本则通过高层对接加速先进制程芯片制造，而美国海关执法升级可能对全球供应链产生连锁影响。此外，日本与老挝、马来西亚的首脑会谈表明其深化东南亚外交，或为对冲区域经济风险。",
   "date": "2026-06-11"
  },
  "errors": [],
  "counts": {
   "cn": 3,
-  "us": 30,
-  "jp": 20
+  "us": 31,
+  "jp": 24
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Labor Organization Annual Financial Reports",
+   "url": "https://www.federalregister.gov/documents/2026/06/11/2026-11799/labor-organization-annual-financial-reports",
+   "date": "2026-06-11",
+   "org": "Labor Department, Labor-Management Standards Office",
+   "doc_no": "2026-11799",
+   "excerpt": "The Department of Labor (Department) is correcting a final rule that appeared in the Federal Register on June 1, 2026. The Department is correcting an error to the published Form LM-2 Long Form Instructions, specifically, a page missing in the instructions. Additionally, the June 1, 2026, published ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-11/pdf/2026-11799.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "劳工组织年度财务报告",
+    "summary": "劳工部更正2026年6月1日最终规则中LM-2表格说明的缺页错误。",
+    "analysis": "该更正主要影响工会组织及其财务报告义务，确保LM-2表格说明的完整性。值得关注的是，此类技术性更正虽不改变实质规则，但可能影响工会合规流程和报告准确性。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１０回中東情勢に関する関係閣僚会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/11kaigi_middle-east.html",
+   "date": "2026-06-11",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第10次中东局势相关阁僚会议",
+    "summary": "日本首相高市主持召开中东局势相关阁僚会议，讨论应对措施。",
+    "analysis": "该会议显示日本政府高度关注中东局势对能源供应和地区安全的影响。可能影响日本能源进口稳定及外交政策调整，值得关注后续具体措施及对日企在中东业务的影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は自由民主党・日本成長戦略本部による提言を受け取りました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/11teigen.html",
+   "date": "2026-06-11",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受自民党·日本增长战略本部的建议",
+    "summary": "日本首相高市早苗接受自民党增长战略本部的政策建议。",
+    "analysis": "该动态显示执政党正推动经济增长战略，可能涉及产业扶持、税制改革或创新政策。对企业和投资者而言，后续具体措施将影响市场预期和投资方向，需关注建议内容及政府采纳程度。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "全石連通常総会 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260611message.html",
+   "date": "2026-06-11",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "全石连总会 高市总理视频致辞",
+    "summary": "日本首相高市在石油联盟会议上发表视频致辞，涉及能源政策方向。",
+    "analysis": "该动态主要面向日本石油行业及相关企业，可能预示政府将调整能源战略或推动石油储备政策。值得关注的是高市对能源安全与产业转型的表态，或影响未来油价及环保政策走向。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はラピダス社による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/11hyoukei.html",
+   "date": "2026-06-11",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受Rapidus公司礼节性拜访",
+    "summary": "日本首相高市早苗会见半导体企业Rapidus高层，接受其表敬。",
+    "analysis": "此举显示日本政府对Rapidus先进半导体制造项目的重视与支持。可能加速日本芯片产业复兴，对全球半导体供应链格局产生影响。值得关注后续政府是否提供更多财政或政策扶持。",
+    "category": "科技产业"
+   }
+  },
   {
    "country": "cn",
    "title": "工业和信息化部关于印发《“人工智能+信息通信”创新发展实施意见(2026—2028年)》的通知",
