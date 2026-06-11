@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>政策脑图 · 中美日政策追踪</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1419; --card: #1a2129; --border: #2c3640; --text: #e7edf3;
+    --muted: #8b9aa8; --accent: #4da3ff;
+    --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6; --topic: #d9a441;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  header {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    padding: 10px 16px; border-bottom: 1px solid var(--border); background: var(--card);
+  }
+  header h1 { font-size: 1.05rem; white-space: nowrap; }
+  header a.nav { color: var(--accent); text-decoration: none; font-size: .82rem; white-space: nowrap; }
+  select, input[type=search] {
+    background: var(--bg); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 4px 9px; font-size: .78rem; outline: none;
+  }
+  .hint { color: var(--muted); font-size: .74rem; margin-left: auto; white-space: nowrap; }
+  #wrap { flex: 1; display: flex; min-height: 0; position: relative; }
+  #map { flex: 1; min-width: 0; }
+  #panel {
+    width: 320px; border-left: 1px solid var(--border); background: var(--card);
+    padding: 16px; overflow-y: auto; display: none;
+  }
+  #panel.show { display: block; }
+  #panel .close { float: right; cursor: pointer; color: var(--muted); font-size: 1.1rem; }
+  #panel .badge { border-radius: 5px; padding: 1px 8px; font-weight: 600; color: #fff; font-size: .72rem; }
+  #panel h2 { font-size: .98rem; margin: 10px 0 6px; line-height: 1.45; }
+  #panel .meta { color: var(--muted); font-size: .76rem; margin-bottom: 8px; line-height: 1.7; }
+  #panel .sec { font-size: .84rem; margin-top: 10px; line-height: 1.6; }
+  #panel .sec b { color: var(--accent); }
+  #panel a.go { color: var(--accent); font-size: .8rem; text-decoration: none; display: inline-block; margin-top: 12px; }
+  #panel .tag { display: inline-block; border: 1px solid var(--topic); color: var(--topic); border-radius: 5px; padding: 0 6px; font-size: .72rem; margin-right: 4px; }
+  #loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🧠 政策脑图</h1>
+  <a class="nav" href="index.html">列表</a>
+  <a class="nav" href="graph.html">关系图</a>
+  <select id="impSel">
+    <option value="3">重要性 ≥3</option>
+    <option value="4" selected>重要性 ≥4</option>
+    <option value="5">仅 5 级</option>
+  </select>
+  <select id="rootSel">
+    <option value="country" selected>按 国家 → 主题</option>
+    <option value="topic">按 主题 → 国家</option>
+  </select>
+  <input type="search" id="q" placeholder="搜索并高亮…">
+  <span class="hint">点节点展开/折叠 · 点政策看详情 · 滚轮缩放</span>
+</header>
+<div id="wrap">
+  <div id="map"><div id="loading">脑图加载中…(需先运行回填 Action 生成 graph.json)</div></div>
+  <div id="panel">
+    <span class="close" onclick="panel.classList.remove('show')">✕</span>
+    <div id="panelBody"></div>
+  </div>
+</div>
+
+<script>
+const C = { cn: "#e05c5c", us: "#5c8fe0", jp: "#b07cc6", topic: "#d9a441", root: "#4da3ff" };
+const NAME = { cn: "🇨🇳 中国", us: "🇺🇸 美国", jp: "🇯🇵 日本" };
+const SHORT = { cn: "中国", us: "美国", jp: "日本" };
+let G = null, chart = null;
+let state = { minImp: 4, mode: "country", q: "" };
+const panel = document.getElementById("panel");
+
+fetch("graph.json?_=" + Date.now()).then(r => r.json()).then(d => { G = d; init(); })
+  .catch(() => document.getElementById("loading").textContent =
+    "graph.json 不存在。请先在 GitHub Actions 运行「回填历史并构建关系图」。");
+
+function init() {
+  document.getElementById("loading").remove();
+  chart = echarts.init(document.getElementById("map"), null, { renderer: "canvas" });
+  document.getElementById("impSel").onchange = e => { state.minImp = +e.target.value; render(); };
+  document.getElementById("rootSel").onchange = e => { state.mode = e.target.value; render(); };
+  let t;
+  document.getElementById("q").oninput = e => {
+    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 300);
+  };
+  window.addEventListener("resize", () => chart.resize());
+  chart.on("click", p => {
+    const d = p.data;
+    if (d && d.policy) showPanel(d.policy);
+  });
+  render();
+}
+
+function hit(n) {
+  return state.q && (n.title_zh + " " + (n.title||"")).toLowerCase().includes(state.q);
+}
+
+function leaf(n) {
+  const hl = hit(n);
+  return {
+    name: (n.title_zh.length > 26 ? n.title_zh.slice(0, 25) + "…" : n.title_zh),
+    policy: n, value: n.importance,
+    symbol: "circle", symbolSize: 5 + (n.importance - 2) * 3,
+    itemStyle: { color: C[n.country] },
+    label: { color: hl ? "#ffd166" : "#aab8c5", fontSize: 11,
+             fontWeight: hl ? "bold" : "normal",
+             backgroundColor: hl ? "rgba(255,209,102,.12)" : "transparent" },
+  };
+}
+
+function render() {
+  const pol = G.nodes.filter(n => n.type === "policy" && n.importance >= state.minImp);
+  let children;
+  if (state.mode === "country") {
+    children = ["cn", "us", "jp"].map(c => {
+      const mine = pol.filter(n => n.country === c);
+      const byTopic = {};
+      mine.forEach(n => (n.topics || ["其他"]).slice(0, 1).forEach(t => (byTopic[t] ||= []).push(n)));
+      return {
+        name: NAME[c] + ` (${mine.length})`,
+        itemStyle: { color: C[c] }, symbolSize: 18,
+        label: { color: "#fff", fontSize: 14, fontWeight: "bold" },
+        children: Object.entries(byTopic).sort((a,b)=>b[1].length-a[1].length).map(([t, arr]) => ({
+          name: `${t} (${arr.length})`,
+          itemStyle: { color: C.topic }, symbol: "diamond", symbolSize: 11,
+          label: { color: "#e8c886", fontSize: 12 },
+          collapsed: !arr.some(hit),
+          children: arr.sort((a,b)=>(b.importance-a.importance)||((b.date||"")<(a.date||"")?-1:1)).map(leaf),
+        })),
+        collapsed: false,
+      };
+    });
+  } else {
+    const byTopic = {};
+    pol.forEach(n => (n.topics || ["其他"]).slice(0, 1).forEach(t => (byTopic[t] ||= []).push(n)));
+    children = Object.entries(byTopic).sort((a,b)=>b[1].length-a[1].length).map(([t, arr]) => ({
+      name: `${t} (${arr.length})`,
+      itemStyle: { color: C.topic }, symbol: "diamond", symbolSize: 14,
+      label: { color: "#e8c886", fontSize: 13, fontWeight: "bold" },
+      collapsed: !arr.some(hit),
+      children: ["cn", "us", "jp"].map(c => {
+        const mine = arr.filter(n => n.country === c);
+        return mine.length ? {
+          name: `${SHORT[c]} (${mine.length})`,
+          itemStyle: { color: C[c] }, symbolSize: 10,
+          label: { color: "#fff", fontSize: 12 },
+          collapsed: !mine.some(hit),
+          children: mine.sort((a,b)=>b.importance-a.importance).map(leaf),
+        } : null;
+      }).filter(Boolean),
+    }));
+  }
+
+  chart.setOption({
+    backgroundColor: "transparent",
+    tooltip: {
+      formatter: p => {
+        const n = p.data.policy;
+        if (!n) return p.name;
+        return `<div style="max-width:340px;white-space:normal"><b>${n.title_zh}</b><br>
+                <span style="color:#888">${n.date||""} · ${SHORT[n.country]} · ${"★".repeat(n.importance)}</span><br>${n.summary||""}</div>`;
+      },
+      backgroundColor: "#1a2129", borderColor: "#2c3640", textStyle: { color: "#e7edf3", fontSize: 12 },
+    },
+    series: [{
+      type: "tree", layout: "orthogonal", orient: "LR",
+      data: [{
+        name: `中美日政策\n(${pol.length}条)`,
+        itemStyle: { color: C.root }, symbolSize: 24,
+        label: { color: "#fff", fontSize: 15, fontWeight: "bold" },
+        children,
+      }],
+      top: "2%", left: "120", bottom: "2%", right: "320",
+      symbol: "circle",
+      edgeShape: "curve",
+      initialTreeDepth: -1,
+      expandAndCollapse: true,
+      roam: true,
+      lineStyle: { color: "#2c3640", width: 1.1, curveness: .5 },
+      label: { position: "left", verticalAlign: "middle", align: "right" },
+      leaves: { label: { position: "right", align: "left" } },
+      emphasis: { focus: "descendant" },
+      animationDuration: 350, animationDurationUpdate: 450,
+    }],
+  });
+}
+
+function esc(s) { return (s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
+
+function showPanel(n) {
+  const rels = (G.edges || []).filter(e => e.kind === "relation" && (e.from === n.id || e.to === n.id))
+    .map(e => {
+      const other = G.nodes.find(x => x.id === (e.from === n.id ? e.to : e.from));
+      return other ? `<div>↔ <b>${esc(e.label)}</b> · ${esc(other.title_zh || other.label)}</div>` : "";
+    }).join("");
+  document.getElementById("panelBody").innerHTML = `
+    <span class="badge" style="background:${C[n.country]}">${SHORT[n.country]}</span>
+    ${(n.topics||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
+    <h2>${esc(n.title_zh)}</h2>
+    <div class="meta">${esc(n.date||"")} · ${esc(n.org||"")}${n.doc_no?" · "+esc(n.doc_no):""}<br>
+      重要性 ${"★".repeat(n.importance)}</div>
+    ${n.summary ? `<div class="sec">${esc(n.summary)}</div>` : ""}
+    ${n.analysis ? `<div class="sec"><b>AI 分析</b> · ${esc(n.analysis)}</div>` : ""}
+    ${rels ? `<div class="sec"><b>直接关联</b>${rels}</div>` : ""}
+    <a class="go" href="${esc(n.url)}" target="_blank" rel="noopener">查看官方原文 ↗</a>`;
+  panel.classList.add("show");
+}
+</script>
+</body>
+</html>
