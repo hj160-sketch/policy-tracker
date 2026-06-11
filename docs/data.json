@@ -1,0 +1,129 @@
+{
+ "generated_at": "2026-06-10 12:00 UTC (样例数据,首次运行 Action 后自动替换)",
+ "brief": {
+  "text": "今日三国政策呈现「产业与安全并重」格局:中国密集出台“十五五”系列专项规划,工信部发布“人工智能+信息通信”三年实施意见,显示 AI 基础设施竞赛加速;美国再度调整钢铝铜进口关税,贸易保护范围扩大,或抬升中日对美出口成本;日本则聚焦中东局势与经济政策沟通,能源安全压力凸显。中美在 AI 与关税两条线上的政策对冲值得持续跟踪。",
+  "date": "2026-06-10"
+ },
+ "errors": [],
+ "counts": {
+  "cn": 3,
+  "us": 2,
+  "jp": 2
+ },
+ "items": [
+  {
+   "country": "cn",
+   "title": "工业和信息化部关于印发《“人工智能+信息通信”创新发展实施意见(2026—2028年)》的通知",
+   "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7071755.htm",
+   "date": "2026-06-10",
+   "org": "工业和信息化部",
+   "doc_no": "工信部通信〔2026〕121号",
+   "excerpt": "各省、自治区、直辖市及新疆军团工业和信息化主管部门……",
+   "source": "中国政府网·部门文件",
+   "ai": {
+    "title_zh": "工信部发布“人工智能+信息通信”创新发展实施意见(2026—2028)",
+    "summary": "三年期 AI 与信息通信融合发展路线图,推动算力网络与行业应用。",
+    "analysis": "利好电信运营商、算力基础设施和 AI 应用企业;与美国 AI 出口管制形成政策对照,值得跟踪后续算力布局细则。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "cn",
+   "title": "国务院关于印发《现代化应急体系建设“十五五”规划》的通知",
+   "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7071452.htm",
+   "date": "2026-06-08",
+   "org": "国务院",
+   "doc_no": "国发〔2026〕15号",
+   "excerpt": "现将《现代化应急体系建设“十五五”规划》印发给你们,请认真贯彻执行。",
+   "source": "中国政府网·国务院文件",
+   "ai": {
+    "title_zh": "国务院印发《现代化应急体系建设“十五五”规划》",
+    "summary": "国家级应急体系五年专项规划出台,部署防灾减灾与应急能力建设。",
+    "analysis": "面向各级政府和应急管理部门,将带动监测预警、救援装备等领域投入;关注后续配套资金和地方实施细则。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "cn",
+   "title": "国务院办公厅关于加强监管防范风险促进私募投资基金高质量发展的指导意见",
+   "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7071205.htm",
+   "date": "2026-06-05",
+   "org": "国务院办公厅",
+   "doc_no": "国办函〔2026〕54号",
+   "excerpt": "为做好私募投资基金加强监管、防范风险、促进高质量发展工作……",
+   "source": "中国政府网·国务院文件",
+   "ai": {
+    "title_zh": "国办:加强私募基金监管防范风险的指导意见",
+    "summary": "强化私募基金全链条监管,防范金融风险。",
+    "analysis": "私募行业准入与运作将趋严,中小机构面临出清压力;对一级市场募资环境的影响值得关注。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Further Adjusting the Tariff Regimes for Imports of Aluminum, Steel, and Copper Into the United States",
+   "url": "https://www.federalregister.gov/documents/2026/06/04/2026-11314/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states",
+   "date": "2026-06-04",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11314",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-04/pdf/2026-11314.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "美国进一步调整铝、钢、铜进口关税制度",
+    "summary": "总统文件再次调整金属类进口关税,延续贸易保护基调。",
+    "analysis": "直接影响对美出口钢铝铜的经济体及下游制造业成本;需关注是否波及中日相关出口企业及供应链转移。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Removing Unnecessary and Counterproductive Restrictions on Access to Federal Lands",
+   "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11181/removing-unnecessary-and-counterproductive-restrictions-on-access-to-federal-lands",
+   "date": "2026-06-03",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-11181",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11181.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "美国放宽联邦土地准入限制",
+    "summary": "行政令放宽联邦土地使用限制,涉及资源开发与户外活动。",
+    "analysis": "或为能源矿产开发铺路,环保团体可能提起诉讼;关注后续内政部实施规则。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "日本経済団体連合会定時総会 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260603message.html",
+   "date": "2026-06-03",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市首相向经团联定期大会发表视频致辞",
+    "summary": "首相向日本最大经济团体阐述经济政策方向。",
+    "analysis": "经团联致辞通常预示产业与税制政策风向,可关注其中关于工资增长、半导体投资的表态。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第9回中東情勢に関する関係閣僚会議出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/02kaigi_middle-east.html",
+   "date": "2026-06-02",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市首相出席第九次中东局势相关阁僚会议",
+    "summary": "日本政府高层持续应对中东局势对能源安全的影响。",
+    "analysis": "日本原油高度依赖中东,会议频次反映局势紧张;关注后续能源储备与航运安全措施。",
+    "category": "外交安全"
+   }
+  }
+ ]
+}
