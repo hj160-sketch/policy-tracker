@@ -56,6 +56,17 @@ def fetch_cn_history():
             break
         page += 1
         time.sleep(1)
+    if not items:
+        # 回退: 仓库内 docs/cn_history.json(由本地脚本从可达网络抓取后推送)
+        hist = ROOT / "docs" / "cn_history.json"
+        if hist.exists():
+            try:
+                data = json.loads(hist.read_text(encoding="utf-8"))
+                items = [it for it in data.get("items", [])
+                         if (it.get("date") or "") >= SINCE]
+                print(f"[cn] fallback cn_history.json: {len(items)}")
+            except Exception as e:
+                print(f"[cn] history fallback failed: {e}")
     print(f"[cn] {len(items)} candidates")
     return items
 
