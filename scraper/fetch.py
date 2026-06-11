@@ -118,7 +118,34 @@ def fetch_china(n=15):
     if not items:
         print("[cn] primary source empty, falling back to RSS")
         items = fetch_china_rss(n)
+    if not items:
+        items = fetch_china_feed()
     return items
+
+
+def fetch_china_feed():
+    """备用源2: 仓库内 docs/cn_feed.json(由本地脚本每日从国内网络推送)"""
+    import pathlib
+    feed = pathlib.Path(__file__).resolve().parent.parent / "docs" / "cn_feed.json"
+    if not feed.exists():
+        print("[cn-feed] no cn_feed.json")
+        return []
+    try:
+        import json as _json
+        import datetime as _dt
+        data = _json.loads(feed.read_text(encoding="utf-8"))
+        fetched = data.get("fetched_at", "")[:10]
+        age_ok = True
+        try:
+            age_ok = (_dt.date.today() - _dt.date.fromisoformat(fetched)).days <= 3
+        except Exception:
+            pass
+        items = data.get("items", [])
+        print(f"[cn-feed] {len(items)} items (fetched {fetched}, fresh={age_ok})")
+        return items if age_ok else items  # 过期也用,聊胜于无
+    except Exception as e:
+        print(f"[cn-feed] failed: {e}")
+        return []
 
 
 def fetch_us(n=15):
