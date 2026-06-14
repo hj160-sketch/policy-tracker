@@ -1,16 +1,49 @@
 {
- "generated_at": "2026-06-13 00:22 UTC",
+ "generated_at": "2026-06-14 00:10 UTC",
  "brief": {
-  "text": "今日要点：2026年6月13日，中日美三国政策动向聚焦于科技竞争与战略布局。日本首相高市早苗密集召开宇宙开发战略本部、知识产权战略本部及儿童政策推进会议，并接受增长战略与外国人政策建议，凸显其在太空、半导体及知识产权领域的系统性推进，同时为G7峰会协调外交立场。美国方面，国防部修订政策限制对贬损军方内容的娱乐项目援助，DEA则扩大药物辅助治疗条件以应对阿片危机，显示其内外政策兼顾安全与民生。中国工信部发布“人工智能+信息通信”三年实施意见，推动算力网络与行业应用，与日本半导体战略形成间接竞争；同时八部门联合促进铁路与旅游融合，四部门推动创业模式引领，体现内需驱动与产业升级并重。三国政策均隐含技术主权与产业链安全的跨国关联，尤其在AI、半导体及太空领域竞争态势明显。",
-  "date": "2026-06-13"
+  "text": "今日三国政策动向中，最值得关注的是中国、日本与美国在科技与产业领域的战略布局。中国工信部发布“人工智能+信息通信”三年实施意见，明确推动算力网络与行业应用融合，强化AI与通信技术自主发展。日本首相高市早苗主持召开宇宙开发战略本部会议，并会见半导体企业Rapidus高层，凸显其在太空与先进芯片制造领域的国家战略意图。美国则通过加强海关执法与例外服务职业制度调整，强化国内行政与边境管控。值得注意的是，中美日在AI、半导体及太空领域的竞争态势进一步显现：中国聚焦AI与通信融合，日本加速半导体与太空布局，而美国通过执法与制度调整巩固自身优势。此外，日本首相即将出席G7峰会并访问英意，其外交动向可能影响全球科技合作格局。",
+  "date": "2026-06-14"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 31,
-  "jp": 30
+  "us": 32,
+  "jp": 32
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Implementing Regulation for National Environmental Policy Act (NEPA): Environmental Effects of the Department of Veterans Affairs Actions",
+   "url": "https://www.federalregister.gov/documents/2026/06/15/2026-11973/implementing-regulation-for-national-environmental-policy-act-nepa-environmental-effects-of-the",
+   "date": "2026-06-15",
+   "org": "Veterans Affairs Department",
+   "doc_no": "2026-11973",
+   "excerpt": "The Department of Veterans Affairs (VA) is issuing this interim final rule to amend its agency procedures for implementing the requirements of the National Environmental Policy Act (NEPA). Since VA last updated its NEPA regulations in 1989, Congress amended NEPA through the Fiscal Responsibility Act",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-15/pdf/2026-11973.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "《国家环境政策法》实施条例：退伍军人事务部行动的环境影响",
+    "summary": "退伍军人事务部发布临时最终规则，修订其执行《国家环境政策法》的程序。",
+    "analysis": "该规则主要影响退伍军人事务部的项目规划和环境评估流程，可能加快或调整其建设、医疗等项目的审批。值得关注的是，这是自1989年以来首次重大修订，且因应国会通过《财政责任法》对NEPA的修改，可能简化环境审查程序。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は英国・イタリア訪問及びＧ７エビアン・サミット出席についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0613kaiken.html",
+   "date": "2026-06-13",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就访问英国、意大利及出席G7埃维昂峰会举行记者会",
+    "summary": "日本首相高市宣布将访问英意并参加G7峰会，聚焦外交与经济合作。",
+    "analysis": "此动态主要影响日本与英意及G7成员国的外交关系，可能推动双边贸易和安全合作。值得关注的是高市在峰会上对区域安全和经济议题的表态，以及日本在西方阵营中的角色强化。",
+    "category": "外交安全"
+   }
+  },
   {
    "country": "jp",
    "title": "高市総理は第３４回宇宙開発戦略本部を開催しました",
@@ -105,6 +138,22 @@
     "summary": "日本首相高市早苗接受自民党关于东日本大地震复兴的第15次政策建议。",
     "analysis": "该动态针对日本政府及灾区民众，可能推动新一轮复兴资金与政策倾斜。值得关注的是第15次建议的具体内容，尤其是对福岛核事故后续处理及区域经济振兴的新举措。",
     "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はＭＵＳＩＣ ＡＷＡＲＤＳ ＪＡＰＡＮ ２０２６ Ｇａｌａ Ｐａｒｔｙに出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/12maj.html",
+   "date": "2026-06-12",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席MUSIC AWARDS JAPAN 2026 Gala Party",
+    "summary": "日本首相高市早苗出席2026年日本音乐大奖颁奖典礼晚宴。",
+    "analysis": "该动态显示日本政府高层对文化娱乐产业的重视，可能意在提升日本音乐的国际影响力。值得关注的是，此举或为配合“酷日本”战略，推动相关产业出口与旅游经济。",
+    "category": "其他"
    }
   },
   {
