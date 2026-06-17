@@ -1,16 +1,66 @@
 {
- "generated_at": "2026-06-16 01:42 UTC",
+ "generated_at": "2026-06-17 00:19 UTC",
  "brief": {
-  "text": "今日要点：2026年6月16日，三国政策动向聚焦于外交与国内治理。美国方面，退伍军人事务部发布临时最终规则，修订《国家环境政策法》实施程序，强调联邦行动的环境影响评估，体现拜登政府延续的环境监管强化趋势。日本首相高市早苗近期密集展开外交活动，包括访问英国伦敦、宣布将赴英意及出席G7埃维昂峰会，并确认美伊双方已就结束战斗达成备忘录，显示日本在协调西方盟友立场与中东议题上的积极角色。此外，日本召开宇宙开发战略本部及知识产权战略会议，凸显其在高科技与创新领域的战略布局。中美日之间未见直接贸易或科技竞争关联，但日本G7行程与美国环境政策均涉及全球治理议题，可能为未来多边协调铺垫。",
-  "date": "2026-06-16"
+  "text": "今日要点：美国医保监管与核能费用调整成为国内政策焦点，CMS发布最终规则强化对认证机构的监督并防止利益冲突，核管会则修订2026财年费用回收标准。日本首相高市早苗密集出访英国、意大利并出席G7埃维昂峰会，聚焦外交与经济合作，同时宣布美伊已就结束战斗达成备忘录，显示日本在中东议题上的外交介入。三国政策虽无直接贸易或科技竞争联动，但日本积极参与G7多边协调，美国国内监管收紧可能影响跨国医疗认证机构运营，而核能费用调整则反映美日核能合作潜在的成本传导。整体上，美国侧重国内治理与合规，日本强化外交布局，中国政策动态暂未出现，需关注后续可能的多边互动。",
+  "date": "2026-06-17"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 32,
-  "jp": 35
+  "us": 34,
+  "jp": 39
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Medicare Program; Strengthening Oversight of Accrediting Organizations (AOs) and Preventing AO Conflicts of Interest, and Related Provisions",
+   "url": "https://www.federalregister.gov/documents/2026/06/16/2026-12069/medicare-program-strengthening-oversight-of-accrediting-organizations-aos-and-preventing-ao",
+   "date": "2026-06-16",
+   "org": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+   "doc_no": "2026-12069",
+   "excerpt": "This final rule with comment period sets forth provisions to strengthen the oversight of Medicare national accrediting organizations by addressing conflicts of interest, establishing consistent standards, processes, and definitions, and updating the validation and performance standards systems. Addi",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-16/pdf/2026-12069.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "医疗保险计划；加强对认证机构的监督并防止认证机构利益冲突及相关规定",
+    "summary": "CMS发布最终规则，加强医疗保险国家认证机构监督，防止利益冲突。",
+    "analysis": "该规则主要影响医疗保险认证机构、医疗机构及患者。通过建立统一标准和更新验证系统，可减少认证过程中的利益冲突，提升医疗服务质量。值得关注的是新标准对认证机构运营成本及合规压力的影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Fee Schedules; Fee Recovery for Fiscal Year 2026",
+   "url": "https://www.federalregister.gov/documents/2026/06/16/2026-12067/fee-schedules-fee-recovery-for-fiscal-year-2026",
+   "date": "2026-06-16",
+   "org": "Nuclear Regulatory Commission",
+   "doc_no": "2026-12067",
+   "excerpt": "The U.S. Nuclear Regulatory Commission (NRC) is amending the licensing, inspection, special project, and annual fees charged to its applicants and licensees. These amendments are necessary to comply with the Nuclear Energy Innovation and Modernization Act, which requires the NRC to recover, to the m",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-16/pdf/2026-12067.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "费用表；2026财年费用回收",
+    "summary": "美国核管会修订2026财年许可、检查及年度费用以符合法律要求。",
+    "analysis": "该政策主要影响核能申请者和许可证持有者，通过调整费用结构确保NRC回收运营成本。值得关注的是，费用调整可能增加企业合规负担，但有助于维持核能监管的可持续性，间接影响核能产业创新与现代化进程。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/16_a.html",
+   "date": "2026-06-16",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，通报当日会议讨论内容与决定事项。",
+    "analysis": "该信息主要面向日本国内行政体系及公众，影响范围取决于会议具体决策内容。值得关注的是，此类概要通常涉及重要政策方向或法律修订，需进一步关注后续详细报道。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Implementing Regulation for National Environmental Policy Act (NEPA): Environmental Effects of the Department of Veterans Affairs Actions",
@@ -41,6 +91,54 @@
     "title_zh": "高市总理就美伊双方同意关于结束战斗等备忘录一事举行记者会",
     "summary": "日本首相宣布美伊双方已就结束战斗等事项达成备忘录。",
     "analysis": "该动态显示日本在美伊冲突中扮演调解角色，可能提升其外交影响力。值得关注的是日本如何平衡与美伊双方的关系，以及此举对中东局势和能源安全的潜在影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はＧ７エビアン・サミット出席のためフランスのエビアンを訪問しました-１日目-",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/15g7summit1.html",
+   "date": "2026-06-15",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理为出席G7埃维昂峰会访问法国埃维昂——第一天",
+    "summary": "日本首相高市启程赴法参加七国集团峰会。",
+    "analysis": "此次G7峰会将聚焦全球经济、地缘安全及对华政策协调。日本作为轮值主席国，可能推动供应链韧性、数字贸易等议题，影响日企海外布局及中日关系走向。值得关注峰会公报对台海、乌克兰问题的表述。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はイタリア共和国のローマを訪問しました（２）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/15italy2.html",
+   "date": "2026-06-15",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理访问意大利共和国罗马（二）",
+    "summary": "日本首相高市访问意大利罗马，进行外交活动。",
+    "analysis": "此次访问主要针对日意双边关系，可能加强两国在政治、经济和安全领域的合作。值得关注的是，高市总理是否会在访问中讨论G7协调、印太战略或经济安全保障等议题，这将对日本对外政策走向产生重要影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はイタリア共和国のローマを訪問しました（１）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/15italy1.html",
+   "date": "2026-06-15",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理访问意大利共和国罗马（1）",
+    "summary": "日本首相高市访问意大利罗马，开展外交活动。",
+    "analysis": "此次访问主要影响日意双边关系及日本与欧盟的外交互动。可能推动经济合作、安全对话或国际事务协调。值得关注双方在G7框架下的立场协调及具体合作成果。",
     "category": "外交安全"
    }
   },
