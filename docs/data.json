@@ -1,16 +1,99 @@
 {
- "generated_at": "2026-06-17 00:19 UTC",
+ "generated_at": "2026-06-18 00:18 UTC",
  "brief": {
-  "text": "今日要点：美国医保监管与核能费用调整成为国内政策焦点，CMS发布最终规则强化对认证机构的监督并防止利益冲突，核管会则修订2026财年费用回收标准。日本首相高市早苗密集出访英国、意大利并出席G7埃维昂峰会，聚焦外交与经济合作，同时宣布美伊已就结束战斗达成备忘录，显示日本在中东议题上的外交介入。三国政策虽无直接贸易或科技竞争联动，但日本积极参与G7多边协调，美国国内监管收紧可能影响跨国医疗认证机构运营，而核能费用调整则反映美日核能合作潜在的成本传导。整体上，美国侧重国内治理与合规，日本强化外交布局，中国政策动态暂未出现，需关注后续可能的多边互动。",
-  "date": "2026-06-17"
+  "text": "今日要点：2026年6月18日，美、日、中三国政策动向聚焦于大国博弈与区域布局。美国连续援引《国防生产法》强化国家安全，并发布行政令恢复太平洋商业捕鱼，显示其正从法律与资源两个层面巩固印太存在。日本首相高市密集出访英、意并出席G7峰会，同时公布第11届太平洋岛国峰会（PALM11）安排，凸显其在外交与安全上积极配合美国“印太战略”，并试图通过多边机制增强自身影响力。值得关注的是，美日在太平洋地区的行动形成联动：美国恢复捕鱼与日本主导岛国峰会，共同指向对太平洋岛国经济与战略资源的争夺，可能对中国在该地区的渔业合作与基建投资构成竞争。此外，美伊达成结束战斗备忘录，为中东局势带来变数，间接影响全球能源与地缘格局。",
+  "date": "2026-06-18"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 34,
-  "jp": 39
+  "us": 37,
+  "jp": 43
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Presidential Determination and Delegation of Authority Under Section 708 of the Defense Production Act of 1950, as Amended",
+   "url": "https://www.federalregister.gov/documents/2026/06/17/2026-12286/presidential-determination-and-delegation-of-authority-under-section-708-of-the-defense-production",
+   "date": "2026-06-17",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12286",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-17/pdf/2026-12286.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "根据经修订的1950年《国防生产法》第708条的总统决定与授权委托",
+    "summary": "总统依据《国防生产法》授权相关部门采取特定行动以维护国家安全。",
+    "analysis": "该决定主要影响国防供应链相关企业及关键产业，可能扩大政府对生产资源的优先调配权。值得关注的是其具体授权范围及是否涉及对华竞争或紧急状态下的产业干预。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Restoring American Commercial Fishing in the Pacific",
+   "url": "https://www.federalregister.gov/documents/2026/06/17/2026-12283/restoring-american-commercial-fishing-in-the-pacific",
+   "date": "2026-06-17",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12283",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-17/pdf/2026-12283.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "恢复美国在太平洋的商业捕鱼",
+    "summary": "美国总统行政令旨在恢复美国在太平洋的商业捕鱼活动。",
+    "analysis": "该政策主要影响美国渔业从业者及太平洋地区相关国家。可能促进美国渔业经济，但可能引发与太平洋岛国在渔业资源分配上的摩擦。值得关注其对国际海洋法和区域渔业管理的影响。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "75th Anniversary of the White House Navy Mess, 2026",
+   "url": "https://www.federalregister.gov/documents/2026/06/17/2026-12282/75th-anniversary-of-the-white-house-navy-mess-2026",
+   "date": "2026-06-17",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12282",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-17/pdf/2026-12282.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "白宫海军餐厅75周年纪念，2026",
+    "summary": "美国政府宣布2026年为白宫海军餐厅成立75周年纪念。",
+    "analysis": "该纪念活动主要针对白宫内部工作人员及海军相关人员，可能提升该餐厅的历史象征意义和内部凝聚力。值得关注的是，此类纪念性公告通常不涉及实质政策变化，但可能伴随相关仪式或宣传。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は英国・イタリア訪問及びＧ７エビアン・サミット出席等についての内外記者会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0617naigai.html",
+   "date": "2026-06-17",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就访问英国、意大利及出席G7埃维昂峰会等举行国内外记者会",
+    "summary": "日本首相高市宣布将访问英意并出席G7峰会，推动外交与经济合作。",
+    "analysis": "该动态主要针对日本与英意及G7成员国的外交关系，可能加强双边经贸与安全合作。值得关注的是日本在G7框架下的立场协调，以及对亚太地区战略平衡的潜在影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "第１１回太平洋・島サミット（ＰＡＬＭ１１）の開催時期及び開催地について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/17_p.html",
+   "date": "2026-06-17",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "第11届太平洋岛国峰会（PALM11）的举办时间及地点",
+    "summary": "日本政府公布第11届太平洋岛国峰会的举办时间和地点。",
+    "analysis": "该峰会主要针对太平洋岛国及日本，旨在加强双方在外交、安全、经济等领域的合作。值得关注的是，日本可能借此推动“自由开放的印太”战略，并应对中国在太平洋地区日益增长的影响力。",
+    "category": "外交安全"
+   }
+  },
   {
    "country": "us",
    "title": "Medicare Program; Strengthening Oversight of Accrediting Organizations (AOs) and Preventing AO Conflicts of Interest, and Related Provisions",
@@ -59,6 +142,38 @@
     "summary": "日本政府发布内阁会议概要，通报当日会议讨论内容与决定事项。",
     "analysis": "该信息主要面向日本国内行政体系及公众，影响范围取决于会议具体决策内容。值得关注的是，此类概要通常涉及重要政策方向或法律修订，需进一步关注后续详细报道。",
     "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はＧ７エビアン・サミット出席のためフランスのエビアンを訪問しました-２日目-（２）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/16g7summit2.html",
+   "date": "2026-06-16",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理为出席G7埃维昂峰会访问法国埃维昂——第二天（2）",
+    "summary": "日本首相高市出席G7埃维昂峰会第二天的相关活动。",
+    "analysis": "该动态显示日本积极参与G7多边外交，可能涉及全球经济治理、安全合作等议题。值得关注日本在峰会上的立场及与主要经济体的协调动向，对日本外交战略及国际关系有潜在影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はＧ７エビアン・サミット出席のためフランスのエビアンを訪問しました-２日目-（１）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/16g7summit1.html",
+   "date": "2026-06-16",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理为出席G7埃维昂峰会访问法国埃维昂——第二天（1）",
+    "summary": "日本首相高市出席G7埃维昂峰会第二天的活动。",
+    "analysis": "该动态显示日本积极参与G7多边外交，可能影响日法及日欧关系。值得关注峰会期间日本在经贸、安全议题上的立场表态，以及对区域合作格局的潜在影响。",
+    "category": "外交安全"
    }
   },
   {
