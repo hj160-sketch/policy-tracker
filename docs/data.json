@@ -1,16 +1,33 @@
 {
- "generated_at": "2026-06-20 00:11 UTC",
+ "generated_at": "2026-06-21 00:10 UTC",
  "brief": {
-  "text": "今日三国政策动向中，最值得关注的是美国与日本在太平洋地区的战略布局。美国于6月17日发布行政令，旨在恢复在太平洋的商业捕鱼活动，此举与日本同日公布第11届太平洋岛国峰会（PALM11）的举办计划形成呼应，凸显两国在印太地区加强经济与安全合作的意图。同时，日本首相高市出席G7埃维昂峰会，推动外交与经济合作，而美国则依据《国防生产法》授权维护国家安全，显示两国在供应链与国防领域的协同。此外，美国宣布6月为全国住房拥有月，聚焦住房可负担性，日本调整南苏丹和平合作计划，体现各自国内治理与海外维和的平衡。这些动向共同指向美日强化区域影响力，尤其在太平洋岛国事务上的潜在竞争与合作。",
-  "date": "2026-06-20"
+  "text": "今日要点：2026年6月21日，美日两国政策动向聚焦于能源安全、国防生产及太平洋区域合作。美国能源部最终修订跨境输电授权规则，旨在强化对国际能源输送的管控，此举可能影响未来跨国电力贸易格局。同日，美国总统依据《国防生产法》授权维护国家安全行动，并发布行政令恢复太平洋商业捕鱼，凸显其战略资源自主与地缘经济布局。日本方面，首相高市出席G7峰会并推动外交合作，同时公布第11届太平洋岛国峰会（PALM11）计划，显示其深化印太伙伴关系的意图。值得注意的是，美日政策在太平洋地区形成交叉：美国恢复捕鱼与日本强化岛国合作均指向该区域资源与影响力竞争，而美国能源规则修订亦可能对日本参与的跨境能源项目产生间接影响。",
+  "date": "2026-06-21"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 39,
+  "us": 40,
   "jp": 45
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Application for Authorization To Transmit Electric Energy to a Foreign Country",
+   "url": "https://www.federalregister.gov/documents/2026/06/22/2026-12475/application-for-authorization-to-transmit-electric-energy-to-a-foreign-country",
+   "date": "2026-06-22",
+   "org": "Energy Department",
+   "doc_no": "2026-12475",
+   "excerpt": "The Department of Energy (DOE or the Department) is publishing this document to finalize the proposed rule and respond to comments received on the notice of proposed rulemaking (NOPR) entitled, \"Application for Authorization to Transmit Electric Energy to a Foreign Country,\" published on May 16, 202",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-22/pdf/2026-12475.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "向外国输送电能的授权申请",
+    "summary": "美国能源部最终确定跨境输电授权规则的修订。",
+    "analysis": "该规则主要影响电力出口商及跨境电网项目，可能简化审批流程以促进电力出口，但需关注其对国内电价和能源安全的影响。值得关注的是规则是否放宽对特定国家的输电限制。",
+    "category": "能源环境"
+   }
+  },
   {
    "country": "jp",
    "title": "閣議の概要／南スーダン国際平和協力業務実施計画の変更について",
