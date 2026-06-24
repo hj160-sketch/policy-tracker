@@ -1,16 +1,81 @@
 {
- "generated_at": "2026-06-23 00:09 UTC",
+ "generated_at": "2026-06-24 00:00 UTC",
  "brief": {
-  "text": "今日要点：美国能源部于6月22日最终修订跨境输电授权规则，旨在简化向外国输送电能的审批流程，此举可能影响北美能源贸易格局，并间接牵动全球清洁能源供应链。日本方面，首相高市在执政党党首会谈后召开记者会，同日提前召开内阁会议并访问冲绳，显示其强化国内政治协调与西南方向战略关注的意图；此外，日本于6月19日调整南苏丹国际和平合作业务计划，体现其海外安全政策的灵活性。三国政策虽无直接联动，但美国能源规则修订与日本在冲绳及国际安全领域的动向，均折射出大国在能源安全与地缘战略上的持续博弈，尤其在亚太地区，美日同盟的协调性值得关注。",
+  "text": "今日要点：美国交通部海事管理局于6月23日发布油轮安全计划最终规则，正式修订2022年临时规则，此举旨在强化海上能源运输安全，可能对全球油轮航运及能源供应链产生连锁影响。同日，美国能源部最终确定跨境输电授权规则修订，进一步规范向外国输送电能，这或与北美及亚太地区的能源合作与竞争格局相关。日本方面，首相高市早苗于6月22日至23日连续出席冲绳战殁者追悼仪式并发表致辞，强调和平与历史记忆，同时就执政党党首会谈及提前内阁会议内容进行说明，显示其在内政与外交上的连贯性。三国政策虽无直接联动，但美国在能源与航运领域的规则调整，可能间接影响日本及亚太地区的能源进口与贸易安全，需关注后续对全球供应链的潜在冲击。",
   "date": "2026-06-23"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 40,
-  "jp": 48
+  "us": 41,
+  "jp": 51
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Tanker Security Program",
+   "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12547/tanker-security-program",
+   "date": "2026-06-23",
+   "org": "Transportation Department, Maritime Administration",
+   "doc_no": "2026-12547",
+   "excerpt": "This final rule implements the Tanker Security Program (TSP) and makes certain changes to the TSP interim final rule (IFR) published in the Federal Register on December 7, 2022, in response to public comments received on the IFR, feedback from stakeholders, and MARAD's own experience during initial ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-23/pdf/2026-12547.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "油轮安全计划",
+    "summary": "美国交通部海事管理局发布油轮安全计划最终规则，修订2022年临时规则。",
+    "analysis": "该政策主要影响美国油轮运营商及相关航运企业，通过提供财政支持确保油轮在危机时可供国防使用。值得关注的是其对美国能源运输安全和海运业竞争力的潜在提升作用。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年沖縄全戦没者追悼式等についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0623kaiken.html",
+   "date": "2026-06-23",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就令和8年冲绳全体战殁者追悼仪式等举行记者会",
+    "summary": "日本首相高市早苗出席冲绳战殁者追悼仪式并发表讲话。",
+    "analysis": "该动态主要影响冲绳民众及日本国内对战争历史的认知。高市首相的发言可能涉及对战争责任的表态，影响日美关系及冲绳基地问题讨论。值得关注其对历史问题的立场及对地区安全局势的潜在影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年沖縄全戦没者追悼式で挨拶を述べました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0623okinawa.html",
+   "date": "2026-06-23",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理在令和8年冲绳全体战殁者追悼仪式上发表致辞",
+    "summary": "日本首相出席冲绳战殁者追悼仪式并致辞。",
+    "analysis": "该动态主要针对冲绳民众及日本国内舆论，重申政府对战争历史的纪念态度，可能影响冲绳基地问题相关讨论。值得关注的是致辞中是否涉及日美安保或历史认识表述。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年沖縄全戦没者追悼式に参列しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/23okinawa.html",
+   "date": "2026-06-23",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席令和8年冲绳全体战殁者追悼仪式",
+    "summary": "日本首相高市早苗出席2026年冲绳战殁者追悼仪式。",
+    "analysis": "该动态主要面向冲绳民众及日本国内战争遗属，体现政府对历史记忆的重视。值得关注的是，高市首相的出席可能意在安抚冲绳民众对美军基地问题的情绪，同时强化国家认同。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Application for Authorization To Transmit Electric Energy to a Foreign Country",
