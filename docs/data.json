@@ -1,16 +1,130 @@
 {
- "generated_at": "2026-06-24 00:00 UTC",
+ "generated_at": "2026-06-25 00:16 UTC",
  "brief": {
-  "text": "今日要点：美国交通部海事管理局于6月23日发布油轮安全计划最终规则，正式修订2022年临时规则，此举旨在强化海上能源运输安全，可能对全球油轮航运及能源供应链产生连锁影响。同日，美国能源部最终确定跨境输电授权规则修订，进一步规范向外国输送电能，这或与北美及亚太地区的能源合作与竞争格局相关。日本方面，首相高市早苗于6月22日至23日连续出席冲绳战殁者追悼仪式并发表致辞，强调和平与历史记忆，同时就执政党党首会谈及提前内阁会议内容进行说明，显示其在内政与外交上的连贯性。三国政策虽无直接联动，但美国在能源与航运领域的规则调整，可能间接影响日本及亚太地区的能源进口与贸易安全，需关注后续对全球供应链的潜在冲击。",
-  "date": "2026-06-23"
+  "text": "今日要点：日本首相高市早苗今日就青森县地震发布应急指示，显示其应对自然灾害的快速反应能力；同日，高市还主持经济财政与增长战略联席会议，并接收两党安全保障政策建议，凸显日本在安全与经济领域的双重政策重心。美国方面，拜登政府于24日宣布延长针对西巴尔干地区和朝鲜的国家紧急状态，延续其对外安全施压态势；23日发布的油轮安全计划最终规则则强化了海事运输安全。三国政策动向中，美日对朝鲜的持续施压形成呼应，而日本的经济增长战略与美国的能源跨境输电规则修订（22日）均涉及能源与供应链议题，可能间接影响全球贸易与科技竞争格局。此外，日本对冲绳战殁者的追悼活动（23日）与美国的西巴尔干紧急状态延续，分别体现了各自在历史记忆与地缘安全上的战略考量。",
+  "date": "2026-06-25"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 41,
-  "jp": 51
+  "us": 43,
+  "jp": 56
  },
  "items": [
+  {
+   "country": "jp",
+   "title": "高市総理は青森県における地震に関する指示を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260625shiji.html",
+   "date": "2026-06-25",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就青森县地震作出指示",
+    "summary": "日本首相针对青森县地震发布政府应急指示。",
+    "analysis": "该动态针对青森县及周边地区居民和应急管理部门，可能启动灾害救援与物资调配。值得关注的是政府应对地震的响应速度及后续防灾措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to the Western Balkans",
+   "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12837/continuation-of-the-national-emergency-with-respect-to-the-western-balkans",
+   "date": "2026-06-24",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12837",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/pdf/2026-12837.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于西巴尔干地区国家紧急状态的延续",
+    "summary": "美国总统宣布延长针对西巴尔干地区的国家紧急状态。",
+    "analysis": "该政策延续对西巴尔干特定个人和实体的制裁权力，主要影响该地区政治人物及涉腐实体。值得关注的是，此举显示美国持续关注西巴尔干稳定，可能对地区国家与欧盟一体化进程产生间接影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to North Korea",
+   "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12836/continuation-of-the-national-emergency-with-respect-to-north-korea",
+   "date": "2026-06-24",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12836",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-24/pdf/2026-12836.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于朝鲜的国家紧急状态的延续",
+    "summary": "美国政府宣布继续维持针对朝鲜的国家紧急状态。",
+    "analysis": "该政策主要针对朝鲜及其相关实体，延续对朝制裁与管控。可能影响美朝关系及地区安全格局，值得关注后续对朝政策走向及国际反应。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年第８回経済財政諮問会議・第５回日本成長戦略会議の合同会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/24keizai_seichyou.html",
+   "date": "2026-06-24",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开令和8年第8次经济财政咨询会议·第5次日本增长战略会议联席会议",
+    "summary": "日本总理主持召开经济财政与增长战略联席会议。",
+    "analysis": "该会议聚焦日本中长期经济财政政策与增长战略，可能涉及财政改革、产业扶持及结构性调整。对企业和投资者而言，需关注后续出台的具体政策方向，尤其是数字经济、绿色转型等领域的支持措施。值得关注的是会议是否释放财政刺激或税制改革信号。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は自由民主党・日本維新の会 安全保障調査会による提言を受け取りました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/24shukou.html",
+   "date": "2026-06-24",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受自民党·日本维新会安全保障调查会的建议",
+    "summary": "日本首相高市早苗接收两党安全保障调查会政策建议。",
+    "analysis": "该动态显示日本执政党与在野党在安全政策上寻求共识，可能推动修宪或强化防卫能力。值得关注的是两党合作对日美同盟及地区安全格局的影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "拉致問題に関するオンライン国連シンポジウムの開催について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/24_p.html",
+   "date": "2026-06-24",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于举办绑架问题在线联合国研讨会的通知",
+    "summary": "日本政府宣布将举办一场关于绑架问题的在线联合国研讨会。",
+    "analysis": "该动态主要针对国际社会及日本国内关注绑架问题的群体，可能旨在争取更多国际支持与关注。值得关注的是，日本政府持续通过多边平台推动该议题，可能对日朝关系及地区外交安全格局产生一定影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は全国信用金庫大会に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/24shinkin.html",
+   "date": "2026-06-24",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席全国信用金库大会",
+    "summary": "日本首相高市早苗出席全国信用金库大会，关注地方金融发展。",
+    "analysis": "该动态主要影响日本地方金融机构及中小企业。高市总理出席表明政府重视信用金库在区域经济中的作用，可能推动相关支持政策。值得关注的是信用金库在地方融资中的角色是否会进一步强化。",
+    "category": "经济金融"
+   }
+  },
   {
    "country": "us",
    "title": "Tanker Security Program",
