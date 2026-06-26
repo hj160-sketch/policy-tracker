@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-06-25 00:16 UTC",
+ "generated_at": "2026-06-26 00:12 UTC",
  "brief": {
-  "text": "今日要点：日本首相高市早苗今日就青森县地震发布应急指示，显示其应对自然灾害的快速反应能力；同日，高市还主持经济财政与增长战略联席会议，并接收两党安全保障政策建议，凸显日本在安全与经济领域的双重政策重心。美国方面，拜登政府于24日宣布延长针对西巴尔干地区和朝鲜的国家紧急状态，延续其对外安全施压态势；23日发布的油轮安全计划最终规则则强化了海事运输安全。三国政策动向中，美日对朝鲜的持续施压形成呼应，而日本的经济增长战略与美国的能源跨境输电规则修订（22日）均涉及能源与供应链议题，可能间接影响全球贸易与科技竞争格局。此外，日本对冲绳战殁者的追悼活动（23日）与美国的西巴尔干紧急状态延续，分别体现了各自在历史记忆与地缘安全上的战略考量。",
-  "date": "2026-06-25"
+  "text": "今日三国政策动向中，最值得关注的是美国在量子技术与加密安全领域的双重布局：白宫发布量子创新政策声明，同时总统签署行政命令应对高级加密攻击，凸显其在科技竞争与国家安全上的战略协同。日本方面，首相高市早苗密集主持经济财政咨询会议、接受两党关于政府效率化与安全保障的建议，并连续应对青森县与岩手县海域地震，显示出灾害应急与结构性改革并重的治理重心。中国虽未在清单中列明具体政策，但美日动向均隐含对华科技竞争与安全博弈的关联：美国量子与加密政策直接指向未来技术主导权，日本则通过经济财政与安全政策调整，强化其在中美博弈中的自主应对能力。三国在科技、安全与灾害治理上的政策节奏，反映出2026年全球治理中竞争与韧性并存的复杂态势。",
+  "date": "2026-06-26"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 43,
-  "jp": 56
+  "us": 47,
+  "jp": 66
  },
  "items": [
   {
@@ -24,6 +24,234 @@
     "title_zh": "高市总理就青森县地震作出指示",
     "summary": "日本首相针对青森县地震发布政府应急指示。",
     "analysis": "该动态针对青森县及周边地区居民和应急管理部门，可能启动灾害救援与物资调配。值得关注的是政府应对地震的响应速度及后续防灾措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Ushering in the Next Frontier of Quantum Innovation",
+   "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12910/ushering-in-the-next-frontier-of-quantum-innovation",
+   "date": "2026-06-25",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12910",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-25/pdf/2026-12910.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "引领量子创新的下一个前沿",
+    "summary": "白宫发布关于推动量子技术发展的政策声明。",
+    "analysis": "该政策主要影响科技产业和科研机构，可能加速量子计算、通信等领域的研发投入与商业化进程。值得关注的是美国政府在量子领域的战略布局及其对全球科技竞争格局的潜在影响。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Securing the Nation Against Advanced Cryptographic Attacks",
+   "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12909/securing-the-nation-against-advanced-cryptographic-attacks",
+   "date": "2026-06-25",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-12909",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-25/pdf/2026-12909.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "保护国家免受高级加密攻击",
+    "summary": "总统办公室发布行政命令，加强应对高级加密攻击的国家安全措施。",
+    "analysis": "该政策主要影响美国联邦机构及关键基础设施运营商，可能推动加密技术升级和网络安全标准强化。值得关注的是其对量子计算等新兴威胁的应对策略及国际合作影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Candidate Development Programs",
+   "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12811/ensuring-consistent-and-rigorous-standards-for-the-senior-executive-service-candidate-development",
+   "date": "2026-06-25",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-12811",
+   "excerpt": "The Office of Personnel Management (OPM) is issuing a final rule to amend its Senior Executive Service (SES) Candidate Development Program (SESCDP) regulations to implement certain SES training and development requirements. The SES represents the Federal Government's leadership, composed of executiv",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-25/pdf/2026-12811.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "确保高级行政服务候选人发展项目的一致性和严格标准",
+    "summary": "OPM发布最终规则，修订SES候选人发展项目法规，强化培训与开发要求。",
+    "analysis": "该规则针对联邦政府高级行政服务候选人，通过提高培训标准确保领导力质量。可能影响政府高层人才选拔的严格性和一致性，值得关注其对联邦机构管理效率的长期影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Financial Data Transparency Act Joint Data Standards",
+   "url": "https://www.federalregister.gov/documents/2026/06/25/2026-12787/financial-data-transparency-act-joint-data-standards",
+   "date": "2026-06-25",
+   "org": "Treasury Department, Comptroller of the Currency, Federal Reserve System, Federal Deposit Insurance Corporation, National Credit Union Administration, Consumer Financial Protection Bureau, Federal Housing Finance Agency, Commodity Futures Trading Commission, Securities and Exchange Commission",
+   "doc_no": "2026-12787",
+   "excerpt": "The OCC, Board, FDIC, NCUA, CFPB, FHFA, CFTC, SEC, and Treasury are publishing a final joint rule to establish data standards to promote interoperability of financial regulatory data across these agencies. The standards established pursuant to this joint rule will later be considered for potential i",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-25/pdf/2026-12787.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "金融数据透明法案联合数据标准",
+    "summary": "美国多部门联合发布最终规则，建立金融监管数据互操作性标准。",
+    "analysis": "该规则主要影响金融机构和监管机构，通过统一数据标准提升跨部门数据共享效率，降低合规成本。值得关注的是，未来可能将标准扩展至更多领域，增强金融系统透明度与风险监测能力。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年第９回経済財政諮問会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/25keizai.html",
+   "date": "2026-06-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理召开令和8年第9次经济财政咨询会议",
+    "summary": "日本首相高市早苗主持召开经济财政咨询会议，讨论经济财政政策方向。",
+    "analysis": "该会议主要影响日本经济政策制定者及企业界，可能推动财政刺激或结构性改革。值得关注的是会议是否涉及应对通胀、日元汇率及中长期财政可持续性等议题。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は自由民主党・攻めの予防医療に関する関係合同会議による申入れを受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/25moushiire.html",
+   "date": "2026-06-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受自民党“进攻性预防医疗”相关联合会议提交的请愿书",
+    "summary": "日本首相高市早苗接受自民党关于推进预防医疗政策的请愿。",
+    "analysis": "该动态主要影响日本医疗体系和国民健康政策，可能推动预防医疗投入增加，降低长期医疗费用。值得关注的是自民党内部对预防医疗的重视程度及后续具体立法或预算调整。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１６回すべての女性が輝く社会づくり本部・第２６回男女共同参画推進本部の合同会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/25josei.html",
+   "date": "2026-06-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第16次“所有女性闪耀社会建设本部”与第26次“男女共同参画推进本部”联席会议",
+    "summary": "日本首相主持女性活跃与性别平等相关高层会议，推动政策协调。",
+    "analysis": "该会议主要影响日本女性就业、社会参与及性别平等政策。可能推动更多支持女性职业发展、育儿支援等措施，值得关注后续具体政策出台及其对劳动力市场的影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年度男女共同参画社会づくり功労者内閣総理大臣表彰式に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/25hyoushou.html",
+   "date": "2026-06-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席令和8年度男女共同参画社会建设功勋者内阁总理大臣表彰仪式",
+    "summary": "日本首相出席表彰仪式，表彰在推动男女平等社会建设中做出贡献的个人或团体。",
+    "analysis": "该动态主要影响日本社会性别平等领域的推动者及相关政策执行者。表彰仪式有助于提升公众对男女共同参画社会的关注，可能进一步推动政府出台更多支持女性就业、育儿及领导力提升的政策。值得关注的是，此举是否预示未来在立法或预算上对性别平等有更大投入。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は自由民主党・日本維新の会による「補助金・基金・政府効率化」に関する提言を受け取りました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/25shukou.html",
+   "date": "2026-06-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受自民党与日本维新会关于“补贴·基金·政府效率化”的建议",
+    "summary": "日本首相接受两党关于优化补贴、基金及政府效率化的政策建议。",
+    "analysis": "该提言主要针对日本政府财政支出效率，可能推动补贴和基金整合，减少浪费。对依赖政府补贴的企业和行业影响较大，需关注后续具体改革措施及对财政纪律的强化。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "岩手県沖を震源とする地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/25_a.html",
+   "date": "2026-06-25",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以岩手县海域为震源的地震",
+    "summary": "日本政府发布岩手县海域地震信息，可能涉及灾害应对。",
+    "analysis": "该信息针对日本岩手县及周边地区居民，可能引发防灾应急响应。值得关注的是地震震级及后续海啸预警，对当地民生和基础设施有潜在影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "岩手県沖を震源とする地震についての特設ページを公開しました",
+   "url": "https://www.kantei.go.jp/jp/kikikanri/earthquake20260625.html",
+   "date": "2026-06-25",
+   "org": "特集ページ",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以岩手县海域为震源的地震特设页面已公开",
+    "summary": "日本政府发布岩手县海域地震专题页面，提供灾害信息与应对指引。",
+    "analysis": "该动态主要面向日本国内民众及在日外国人，提供地震实时信息与避难建议，有助于减少灾害恐慌和次生伤害。值得关注的是，政府快速响应可能预示后续应急措施或防灾政策调整。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は岩手県沖を震源とする地震についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/25bura.html",
+   "date": "2026-06-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就岩手县海域地震召开记者会",
+    "summary": "日本首相就岩手县海域地震发布官方应对说明。",
+    "analysis": "该动态针对日本国内防灾应急体系及受灾地区民众，可能影响灾后救援效率与财政支出安排。值得关注的是政府是否启动紧急拨款机制及对核电站等关键设施的影响评估。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は岩手県沖を震源とする地震についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0625kaiken.html",
+   "date": "2026-06-25",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就岩手县海域地震召开记者会",
+    "summary": "日本首相就岩手县海域地震发布官方应对说明。",
+    "analysis": "该动态主要影响日本东北地区居民及防灾应急体系。可能引发对地震预警、灾后救援及基础设施韧性的关注。值得留意政府后续的灾害评估与财政支援措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "岩手県沖を震源とする地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/25_a1.html",
+   "date": "2026-06-25",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以岩手县海域为震源的地震",
+    "summary": "日本官方发布岩手县海域地震相关通报。",
+    "analysis": "该信息针对日本国内及周边地区，可能引发对地震灾害的应急响应与防灾部署关注。值得关注的是震源位置及后续余震风险。",
     "category": "民生社会"
    }
   },
