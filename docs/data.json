@@ -1,16 +1,243 @@
 {
- "generated_at": "2026-06-26 00:12 UTC",
+ "generated_at": "2026-06-27 00:11 UTC",
  "brief": {
-  "text": "今日三国政策动向中，最值得关注的是美国在量子技术与加密安全领域的双重布局：白宫发布量子创新政策声明，同时总统签署行政命令应对高级加密攻击，凸显其在科技竞争与国家安全上的战略协同。日本方面，首相高市早苗密集主持经济财政咨询会议、接受两党关于政府效率化与安全保障的建议，并连续应对青森县与岩手县海域地震，显示出灾害应急与结构性改革并重的治理重心。中国虽未在清单中列明具体政策，但美日动向均隐含对华科技竞争与安全博弈的关联：美国量子与加密政策直接指向未来技术主导权，日本则通过经济财政与安全政策调整，强化其在中美博弈中的自主应对能力。三国在科技、安全与灾害治理上的政策节奏，反映出2026年全球治理中竞争与韧性并存的复杂态势。",
-  "date": "2026-06-26"
+  "text": "今日要点：日本多地连续遭遇地震，政府密集发布应急响应与总理指示，凸显防灾减灾为当前首要任务；同时高市首相主持经济财政咨询会议及性别平等推进会议，并计划访问印度，显示其在内政外交上的多线布局。美国方面，白宫发布量子技术政策声明与应对高级加密攻击的行政命令，强化科技安全与前沿竞争力；OPM上调联邦雇员制服津贴上限，内政部简化候鸟狩猎流程，体现行政细节调整。三国政策虽无直接联动，但美日在科技安全与外交动向（如日本访印、美国量子布局）上隐含对华战略竞争背景，值得持续关注。",
+  "date": "2026-06-27"
  },
  "errors": [],
  "counts": {
   "cn": 30,
-  "us": 47,
-  "jp": 66
+  "us": 50,
+  "jp": 77
  },
  "items": [
+  {
+   "country": "jp",
+   "title": "山梨県東部・富士五湖を震源とする地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/27_a.html",
+   "date": "2026-06-27",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以山梨县东部·富士五湖为震源的地震",
+    "summary": "日本政府就山梨县东部富士五湖地区地震发布官方信息。",
+    "analysis": "该信息针对日本国内及可能受地震影响的周边地区，可能引发对富士山火山活动及区域交通、旅游业的关注。值得注意地震是否与火山活动相关，以及政府后续防灾措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Uniform Allowances",
+   "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12976/uniform-allowances",
+   "date": "2026-06-26",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-12976",
+   "excerpt": "The Office of Personnel Management (OPM) is confirming the effective date of its direct final rule amending 5 CFR part 591, subpart A, to increase the governmentwide maximum annual uniform allowance rate to $1,500 and make related technical and clarifying changes. OPM received no significant adverse",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-26/pdf/2026-12976.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "制服津贴",
+    "summary": "OPM确认将联邦雇员年度制服津贴上限提高至1500美元。",
+    "analysis": "该政策主要影响联邦政府中需要穿制服的雇员，如执法、邮政等岗位。提高津贴上限有助于减轻员工自付费用，但可能增加政府财政支出。值得关注的是，OPM未收到重大反对意见，表明该调整获得广泛支持。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Process for Authorizing Seasonal Migratory Game Bird Hunting",
+   "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12951/process-for-authorizing-seasonal-migratory-game-bird-hunting",
+   "date": "2026-06-26",
+   "org": "Interior Department, Fish and Wildlife Service",
+   "doc_no": "2026-12951",
+   "excerpt": "This direct final rule changes the administrative process for authorizing seasonal migratory game bird hunting in the United States. Migratory game bird hunting regulations are currently promulgated annually to provide opportunities for recreation and sustenance; aid Federal, State, and Tribal gover",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-26/pdf/2026-12951.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "授权季节性候鸟狩猎的行政流程变更",
+    "summary": "美国内政部鱼类与野生动物局发布直接最终规则，修改季节性候鸟狩猎授权流程。",
+    "analysis": "该规则主要影响联邦、州及部落政府及狩猎者，简化年度法规制定流程以提升效率。值得关注的是，流程简化可能加速狩猎许可发放，但对候鸟保护监管的平衡性需持续观察。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "U.S. Ecology Nevada, Inc. High Mercury Subcategory Wastes Land Disposal Restrictions Variance",
+   "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12927/us-ecology-nevada-inc-high-mercury-subcategory-wastes-land-disposal-restrictions-variance",
+   "date": "2026-06-26",
+   "org": "Environmental Protection Agency",
+   "doc_no": "2026-12927",
+   "excerpt": "The Environmental Protection Agency (EPA) is granting, with conditions, U.S. Ecology Nevada Inc.'s (USE) petition for a site- specific treatability variance (SSTV) from the Resource Conservation and Recovery Act (RCRA) Land Disposal Restrictions (LDR) treatment standards. USE's petition is for a var",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-26/pdf/2026-12927.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "美国生态内华达公司高汞子类别废物土地处置限制豁免",
+    "summary": "EPA批准了U.S. Ecology Nevada公司针对高汞废物土地处置标准的特定场地处理变通申请。",
+    "analysis": "该豁免主要影响废物处理企业U.S. Ecology Nevada及涉及高汞废物处置的相关行业。可能降低其合规成本，但需关注EPA附加条件是否严格，以及是否引发其他企业效仿申请，影响废物处理监管一致性。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "山梨県東部・富士五湖を震源とする地震についての特設ページを公開しました",
+   "url": "https://www.kantei.go.jp/jp/kikikanri/earthquake20260626.html",
+   "date": "2026-06-26",
+   "org": "特集ページ",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "山梨县东部·富士五湖地震专题页面已公开",
+    "summary": "日本政府发布以山梨县东部富士五湖为震源的地震专题页面。",
+    "analysis": "该动态主要面向日本国内居民及赴日游客，旨在提供地震灾害信息与应对指南。可能影响当地旅游业及居民生活，值得关注的是富士五湖地区作为旅游热点，地震信息透明度将影响公众安全与出行决策。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は岩手県沖を震源とする地震についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0626kaiken.html",
+   "date": "2026-06-26",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就岩手县海域地震召开记者会",
+    "summary": "日本首相就岩手县海域地震发布官方应对说明。",
+    "analysis": "该动态针对日本国内民众及防灾部门，可能影响灾后救援与重建工作。值得关注的是政府应急响应效率及对区域经济活动的潜在冲击。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "山梨県東部・富士五湖を震源とする地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/26_p2.html",
+   "date": "2026-06-26",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以山梨县东部·富士五湖为震源的地震",
+    "summary": "日本政府就山梨县东部富士五湖地区地震发布官方通报。",
+    "analysis": "此次地震可能对当地居民生活及旅游业造成短期影响，需关注震后次生灾害及基础设施恢复情况。值得关注的是富士山周边地质活动是否趋于活跃。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "山梨県東部・富士五湖を震源とする地震に関する総理指示（２２：３２）",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260626shiji.html",
+   "date": "2026-06-26",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "山梨县东部·富士五湖为震源的地震相关总理指示（22:32）",
+    "summary": "日本首相就山梨县东部富士五湖地震发布紧急指示。",
+    "analysis": "该指示针对地震应急响应，影响当地居民及防灾部门，可能涉及救援与疏散。值得关注震级及次生灾害风险。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１１回中東情勢に関する関係閣僚会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/26kaigi_middle-east.html",
+   "date": "2026-06-26",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第11次中东局势相关阁僚会议",
+    "summary": "日本首相高市早苗主持召开中东局势相关阁僚会议，讨论应对措施。",
+    "analysis": "该会议表明日本政府正密切关注中东紧张局势，可能影响日本能源进口安全及外交政策。值得关注的是日本是否会调整对中东国家的援助或制裁立场，以及其对国际油价和日元汇率的潜在影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "セーシェル独立５０周年及び日・セーシェル外交関係開設５０周年に際する高市総理大臣による書簡の発出",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260626message.html",
+   "date": "2026-06-26",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "塞舌尔独立50周年及日·塞舌尔外交关系建立50周年之际高市总理大臣发出贺信",
+    "summary": "日本首相高市早苗就塞舌尔独立及两国建交50周年致贺信。",
+    "analysis": "此举旨在巩固日本与塞舌尔的外交关系，强化在印度洋地区的合作。对塞舌尔而言，获得日本高层祝贺有助于提升其国际形象。值得关注的是日本对非洲及岛国外交的持续投入。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理のインド訪問について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/26_p.html",
+   "date": "2026-06-26",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于高市总理访问印度",
+    "summary": "日本首相高市计划访问印度，推动双边外交与经济合作。",
+    "analysis": "此次访问主要影响日印两国在安全与经济领域的合作，可能加强印太战略协调。值得关注的是双方在供应链、基础设施及防务技术上的具体成果。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "天皇皇后両陛下のオランダ王国及びベルギー王国御訪問についての内閣官房長官談話を掲載しました",
+   "url": "https://www.kantei.go.jp/jp/tyokan/105/20260626danwa.html",
+   "date": "2026-06-26",
+   "org": "長官談話など",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于天皇皇后两陛下访问荷兰王国及比利时王国的内阁官房长官谈话",
+    "summary": "日本政府发布官房长官谈话，宣布天皇皇后将访问荷兰和比利时。",
+    "analysis": "此次访问属于皇室外交，旨在强化日本与荷兰、比利时的友好关系。对日本而言，有助于提升国际形象和双边合作氛围，值得关注的是访问期间可能涉及的文化交流或高层会晤。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は国際原子力機関（ＩＡＥＡ）のラファエル・マリアーノ・グロッシー事務局長による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/26hyoukei.html",
+   "date": "2026-06-26",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受国际原子能机构（IAEA）总干事拉斐尔·马里亚诺·格罗西的礼节性拜访",
+    "summary": "日本首相高市早苗会见IAEA总干事格罗西，讨论核能合作与安全议题。",
+    "analysis": "此次会晤显示日本政府继续重视与国际原子能机构的合作，特别是在福岛核废水排海及核能安全领域。对日本核能政策及周边国家环境安全关切可能产生直接影响，值得关注后续是否涉及核废水监测或核能技术合作新动向。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/26_a.html",
+   "date": "2026-06-26",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，通报当日内阁审议事项。",
+    "analysis": "该信息主要面向日本国内行政体系及公众，表明政府决策流程的透明度。由于缺乏具体内容，影响有限，但需关注后续详细政策发布。",
+    "category": "其他"
+   }
+  },
   {
    "country": "jp",
    "title": "高市総理は青森県における地震に関する指示を行いました",
