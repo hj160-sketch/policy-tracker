@@ -1,16 +1,163 @@
 {
- "generated_at": "2026-06-30 00:06 UTC",
+ "generated_at": "2026-07-01 00:08 UTC",
  "brief": {
-  "text": "今日要点：2026年6月30日，三国政策动向聚焦于国内治理与外交安全。美国方面，DHS发布外国人登记临时最终规则，强化移民管控；同时EPA批准高汞废物处置豁免，体现环境监管的灵活性。日本首相高市早苗密集出席规制改革、海洋政策及中东局势会议，并计划访问印度，显示其积极推动经济改革与外交拓展；此外，日本连续应对山梨县及岩手县地震，凸显防灾应急的紧迫性。中国则联合发布《养老服务师职业资格制度暂行规定》，着力应对人口老龄化，提升养老服务质量。跨国关联方面，日本高市首相访印计划可能牵动中美印三方在印太地区的经济与安全博弈，而美国移民新规或影响跨国人才流动，间接与日本规制改革中吸引外资的意图形成竞争。整体来看，三国政策均以内政优先，但外交与安全动向暗含战略调整。",
-  "date": "2026-06-30"
+  "text": "今日要点：2026年6月30日至7月1日，美日两国密集发布多项政策动向。美国方面，拜登政府签署行政令推进再生农业，旨在提升农业可持续性与气候韧性，同时修订外大陆架事故报告规则，强化能源安全监管。日本方面，首相高市早苗连续主持经济财政咨询会议、增长战略会议及规制改革推进会议，释放出加速结构性改革、推动地方振兴与吸引外资的强烈信号。值得注意的是，美日政策均聚焦于增强经济韧性与供应链安全，虽未直接点名对方，但在农业可持续性、外资审查与海洋资源管理等领域存在潜在协调空间。此外，美国国土安全部发布外国人登记新规，显示其移民与安全审查趋严，可能影响跨国人才流动。总体看，两国正通过行政与立法手段强化国内治理，为应对全球经济不确定性做准备。",
+  "date": "2026-07-01"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 51,
-  "jp": 81
+  "us": 54,
+  "jp": 87
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Advancing Regenerative Agriculture and Strengthening American Farm Resilience",
+   "url": "https://www.federalregister.gov/documents/2026/06/30/2026-13254/advancing-regenerative-agriculture-and-strengthening-american-farm-resilience",
+   "date": "2026-06-30",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-13254",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-30/pdf/2026-13254.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "推进再生农业与增强美国农业韧性",
+    "summary": "美国政府发布行政令，推动再生农业实践以提升农业可持续性与韧性。",
+    "analysis": "该政策主要影响美国农民、农业企业及食品供应链，可能通过补贴和技术支持促进土壤健康与碳封存，值得关注其对农业成本、产量及国际市场农产品竞争力的长期影响。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Suitability and Fitness",
+   "url": "https://www.federalregister.gov/documents/2026/06/30/2026-13154/suitability-and-fitness",
+   "date": "2026-06-30",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-13154",
+   "excerpt": "The Office of Personnel Management (OPM) is amending the Federal Government personnel vetting adjudicative processes for determining suitability and taking suitability actions. The final rule will improve the efficiency, rigor, and timeliness by which OPM and agencies vet individuals for risk to the",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-30/pdf/2026-13154.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "适合性与资格",
+    "summary": "OPM修订联邦政府人员审查程序，提升效率与严谨性。",
+    "analysis": "该政策主要影响联邦政府雇员及求职者，通过优化审查流程提高效率，但可能增加背景审查的严格性。值得关注的是，新规可能对敏感岗位的招聘速度产生双重影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Marine Casualty Reporting on the Outer Continental Shelf",
+   "url": "https://www.federalregister.gov/documents/2026/06/30/2026-13137/marine-casualty-reporting-on-the-outer-continental-shelf",
+   "date": "2026-06-30",
+   "org": "Homeland Security Department, Coast Guard",
+   "doc_no": "2026-13137",
+   "excerpt": "This final rule revises marine casualty reporting criteria for Outer Continental Shelf (OCS) activities to focus on characteristics of the involved entity rather than location of the casualty. It also raises the property damage dollar threshold (PDT) for reporting marine casualties involving fixed O",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-06-30/pdf/2026-13137.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "外大陆架海上事故报告规定",
+    "summary": "修订外大陆架活动事故报告标准，聚焦实体特征而非地点，并提高财产损失门槛。",
+    "analysis": "该规则主要影响外大陆架作业的油气公司及运营商，通过提高财产损失报告门槛减轻合规负担，但需关注新标准对事故责任认定的潜在影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年第１０回経済財政諮問会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/30keizai.html",
+   "date": "2026-06-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理召开令和8年第10次经济财政咨询会议",
+    "summary": "日本总理高市主持召开经济财政咨询会议，讨论经济财政政策方向。",
+    "analysis": "该会议主要影响日本经济政策制定者和企业界，可能推动财政刺激或结构性改革。值得关注的是会议是否涉及应对通胀或日元汇率波动的具体措施。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第６回日本成長戦略会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/30seichyou.html",
+   "date": "2026-06-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第六次日本增长战略会议",
+    "summary": "日本总理高市早苗主持第六次增长战略会议，讨论经济政策方向。",
+    "analysis": "该会议主要影响日本企业和投资者，可能推出新的经济增长刺激措施。值得关注的是会议是否涉及结构性改革或产业扶持政策，以应对当前经济挑战。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "臨時閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/30_p.html",
+   "date": "2026-06-30",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "临时内阁会议概要",
+    "summary": "日本政府召开临时内阁会议，讨论并决定当前重要政策事项。",
+    "analysis": "该动态表明日本政府正就紧急或重要议题进行决策，可能涉及经济、外交或安全领域。需关注会议具体决议对市场、外交关系及社会民生的后续影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は月例経済報告等に関する関係閣僚会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/30getsurei.html",
+   "date": "2026-06-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席月度经济报告等相关阁僚会议",
+    "summary": "日本总理出席月度经济报告会议，讨论当前经济形势与政策方向。",
+    "analysis": "该会议旨在协调各经济部门对经济形势的判断，为后续政策调整提供依据。可能影响企业投资预期与消费者信心，值得关注其对日元汇率及通胀应对措施的表述。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第２回地域未来戦略本部を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202606/30chiikimiraisenryakuhonbu.html",
+   "date": "2026-06-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理召开第二届地区未来战略总部会议",
+    "summary": "日本总理主持召开地区未来战略会议，推动地方发展政策。",
+    "analysis": "该政策主要针对日本地方政府和区域经济，可能通过资源倾斜和战略规划促进地方振兴。值得关注的是其对城乡差距、地方产业升级及人口流失问题的应对措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202606/30_a.html",
+   "date": "2026-06-30",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，通报当日会议决定事项。",
+    "analysis": "该信息面向公众及政策相关方，表明政府决策流程的透明度。由于缺乏具体内容，需关注后续详细公告以评估对经济、社会等领域的实际影响。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Alien Registration Form and Evidence of Registration",
