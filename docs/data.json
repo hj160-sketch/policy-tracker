@@ -1,16 +1,98 @@
 {
- "generated_at": "2026-07-01 00:08 UTC",
+ "generated_at": "2026-07-02 00:10 UTC",
  "brief": {
-  "text": "今日要点：2026年6月30日至7月1日，美日两国密集发布多项政策动向。美国方面，拜登政府签署行政令推进再生农业，旨在提升农业可持续性与气候韧性，同时修订外大陆架事故报告规则，强化能源安全监管。日本方面，首相高市早苗连续主持经济财政咨询会议、增长战略会议及规制改革推进会议，释放出加速结构性改革、推动地方振兴与吸引外资的强烈信号。值得注意的是，美日政策均聚焦于增强经济韧性与供应链安全，虽未直接点名对方，但在农业可持续性、外资审查与海洋资源管理等领域存在潜在协调空间。此外，美国国土安全部发布外国人登记新规，显示其移民与安全审查趋严，可能影响跨国人才流动。总体看，两国正通过行政与立法手段强化国内治理，为应对全球经济不确定性做准备。",
-  "date": "2026-07-01"
+  "text": "今日要点：2026年7月2日，美日两国政策动向聚焦于科技、农业与外交安全。美国方面，拜登政府发布行政令推进再生农业，旨在提升农业可持续性与韧性，同时NASA更新环境法规以落实《国家环境政策法》变更，显示环境治理与农业政策协同。日本方面，首相高市早苗密集推动科技创新与创业（IVS 2026致辞）、经济财政咨询及增长战略会议，并主持海洋政策与规制改革会议，凸显其以科技驱动增长和放松管制的核心议程。值得关注的是，日本高市宣布将访问印度，结合其出席对日外国投资委员会，暗示日美印在供应链与科技合作上可能进一步联动，以应对全球竞争格局。此外，美国修订外大陆架事故报告规则，与日本强化海洋政策形成呼应，两国在海洋资源管理与安全领域的协调值得持续观察。",
+  "date": "2026-07-02"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 54,
-  "jp": 87
+  "us": 56,
+  "jp": 91
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Presidential Determination Concerning the Department of the Air Force's Rehabilitation and Revitalization of the Joint Base Andrews Golf Course",
+   "url": "https://www.federalregister.gov/documents/2026/07/01/2026-13408/presidential-determination-concerning-the-department-of-the-air-forces-rehabilitation-and",
+   "date": "2026-07-01",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-13408",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-01/pdf/2026-13408.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于空军部联合基地安德鲁斯高尔夫球场修复与振兴的总统决定",
+    "summary": "美国总统决定对安德鲁斯联合基地的高尔夫球场进行修复和振兴。",
+    "analysis": "该政策主要影响美国空军部及基地周边社区，可能涉及联邦资金用于设施升级和休闲资源优化。值得关注的是，此举或反映政府对军事基地生活质量的重视，但需留意预算分配是否合理及潜在的环境影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Procedures for Implementing the National Environmental Policy Act",
+   "url": "https://www.federalregister.gov/documents/2026/07/01/2026-13245/procedures-for-implementing-the-national-environmental-policy-act",
+   "date": "2026-07-01",
+   "org": "National Aeronautics and Space Administration",
+   "doc_no": "2026-13245",
+   "excerpt": "The National Aeronautics and Space Administration (NASA) is rescinding and repromulgating its regulations related to environmental quality to update the regulations to codify changes to NEPA. NASA has determined there is good cause to promulgate its revised NEPA implementing regulations in the form ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-01/pdf/2026-13245.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "实施《国家环境政策法》的程序",
+    "summary": "NASA废止并重新发布其环境质量相关法规，以更新并落实NEPA变更。",
+    "analysis": "该政策主要影响NASA内部及其项目承包商，可能简化或调整环境评估流程，加快航天项目审批。值得关注的是NASA以“正当理由”直接发布修订版法规，可能减少公众参与环节。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "ＩＶＳ ２０２６ 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260701message2.html",
+   "date": "2026-07-01",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "IVS 2026 高市总理视频致辞",
+    "summary": "日本总理高市早苗在IVS 2026会议上发表视频致辞，推动科技创新与创业。",
+    "analysis": "该动态针对日本科技创业生态，可能吸引国际投资与人才，提升日本在数字创新领域的竞争力。值得关注其对初创企业政策支持的具体方向。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は総理大臣公邸でインド訪問等について会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0701kaiken.html",
+   "date": "2026-07-01",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理在总理大臣官邸就访问印度等事宜举行记者会",
+    "summary": "日本首相高市就访问印度及相关外交政策发表说明。",
+    "analysis": "此动态表明日本政府进一步强化对印外交关系，可能涉及经济合作与安全议题。对日本企业及区域地缘格局有潜在影响，值得关注日印在供应链与防务领域的合作进展。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年安全功労者内閣総理大臣表彰の表彰式を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/01hyoushou.html",
+   "date": "2026-07-01",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理举行令和8年安全功勋者内阁总理大臣表彰仪式",
+    "summary": "日本首相高市早苗主持年度安全领域功勋者表彰仪式。",
+    "analysis": "该表彰针对在安全领域有突出贡献的个人或团体，体现政府对公共安全和社会稳定的重视。值得关注的是表彰对象是否涉及网络安全、防灾等新兴领域，可能影响相关行业从业者的社会认可度。",
+    "category": "民生社会"
+   }
+  },
   {
    "country": "us",
    "title": "Advancing Regenerative Agriculture and Strengthening American Farm Resilience",
@@ -156,6 +238,22 @@
     "summary": "日本政府发布内阁会议概要，通报当日会议决定事项。",
     "analysis": "该信息面向公众及政策相关方，表明政府决策流程的透明度。由于缺乏具体内容，需关注后续详细公告以评估对经济、社会等领域的实际影响。",
     "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "日豪友好協力基本条約署名５０周年記念晩餐会 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260701message.html",
+   "date": "2026-06-30",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "日澳友好合作基本条约签署50周年纪念晚宴 高市总理视频致辞",
+    "summary": "日本首相高市发表视频致辞，庆祝日澳友好合作基本条约签署50周年。",
+    "analysis": "该动态显示日本政府高度重视与澳大利亚的战略伙伴关系，可能推动双边在安全、经济等领域的进一步合作。值得关注的是，此举或为应对区域安全挑战、深化供应链合作铺路。",
+    "category": "外交安全"
    }
   },
   {
