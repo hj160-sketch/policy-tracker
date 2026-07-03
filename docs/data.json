@@ -1,16 +1,116 @@
 {
- "generated_at": "2026-07-02 00:10 UTC",
+ "generated_at": "2026-07-03 00:08 UTC",
  "brief": {
-  "text": "今日要点：2026年7月2日，美日两国政策动向聚焦于科技、农业与外交安全。美国方面，拜登政府发布行政令推进再生农业，旨在提升农业可持续性与韧性，同时NASA更新环境法规以落实《国家环境政策法》变更，显示环境治理与农业政策协同。日本方面，首相高市早苗密集推动科技创新与创业（IVS 2026致辞）、经济财政咨询及增长战略会议，并主持海洋政策与规制改革会议，凸显其以科技驱动增长和放松管制的核心议程。值得关注的是，日本高市宣布将访问印度，结合其出席对日外国投资委员会，暗示日美印在供应链与科技合作上可能进一步联动，以应对全球竞争格局。此外，美国修订外大陆架事故报告规则，与日本强化海洋政策形成呼应，两国在海洋资源管理与安全领域的协调值得持续观察。",
-  "date": "2026-07-02"
+  "text": "今日要点：2026年7月2日至3日，美日印三方政策动向呈现显著分化与潜在联动。美国方面，紧急授权摩洛哥磷酸盐肥料免税进口，凸显其应对农业供应链压力与对北非战略资源的依赖；同时，DOT撤销辅助费用透明规则，反映司法与行政在消费者保护上的博弈。日本首相高市早苗密集访问印度并发表署名文章，强调日印战略伙伴关系，意在强化印太地区安全与经济合作，对冲中国影响力。此外，美国推动再生农业行政令与日本增长战略会议均聚焦农业韧性与经济可持续性，虽无直接政策对接，但共同指向全球粮食安全与绿色转型议题。三国在肥料贸易、印太外交及农业科技领域存在隐性竞争与合作空间，需持续关注后续政策协调。",
+  "date": "2026-07-03"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 56,
-  "jp": 91
+  "us": 60,
+  "jp": 94
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Declaration of Emergency and Authorization for Temporary Duty-Free Importation of Phosphate Fertilizer From Morocco",
+   "url": "https://www.federalregister.gov/documents/2026/07/02/2026-13588/declaration-of-emergency-and-authorization-for-temporary-duty-free-importation-of-phosphate",
+   "date": "2026-07-02",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-13588",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-02/pdf/2026-13588.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于摩洛哥磷酸盐肥料紧急状态声明及临时免税进口授权",
+    "summary": "美国政府宣布紧急状态，临时授权摩洛哥磷酸盐肥料免税进口。",
+    "analysis": "该政策主要影响美国农业和化肥行业，短期内可缓解国内肥料供应紧张、降低农民成本，但可能冲击本土肥料生产商，并引发贸易伙伴关于公平竞争的关注。值得关注的是其“紧急状态”依据及对美摩贸易关系的长期影响。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Increasing Flexibility on Disclosure of Airline Ancillary Fees",
+   "url": "https://www.federalregister.gov/documents/2026/07/02/2026-13450/increasing-flexibility-on-disclosure-of-airline-ancillary-fees",
+   "date": "2026-07-02",
+   "org": "Transportation Department",
+   "doc_no": "2026-13450",
+   "excerpt": "The Department of Transportation (Department or DOT) is issuing this final rule to implement the Fifth Circuit's vacatur of the Department's 2024 Final Rule, Enhancing Transparency of Airline Ancillary Service Fees. Because the legal effect of the court's decision is to reinstate the rules previousl",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-02/pdf/2026-13450.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "关于提高航空公司辅助费用披露灵活性的最终规则",
+    "summary": "DOT发布最终规则，执行第五巡回法院对2024年辅助费用透明规则的撤销。",
+    "analysis": "该规则主要影响航空公司和消费者。航空公司将恢复之前的费用披露方式，可能降低运营成本，但消费者获取辅助费用信息的透明度下降。值得关注的是，此举可能削弱消费者权益保护，并引发后续监管调整。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Revised Medical Criteria for Evaluating Cardiovascular Disorders",
+   "url": "https://www.federalregister.gov/documents/2026/07/02/2026-13420/revised-medical-criteria-for-evaluating-cardiovascular-disorders",
+   "date": "2026-07-02",
+   "org": "Social Security Administration",
+   "doc_no": "2026-13420",
+   "excerpt": "We are revising the criteria in the Listing of Impairments (listings) that we use to evaluate claims involving cardiovascular disorders in adults and children under titles II and XVI of the Social Security Act (Act). The revisions reflect our adjudicative experience, advances in medical knowledge, a",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-02/pdf/2026-13420.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "心血管疾病评估医学标准修订",
+    "summary": "美国社保局修订心血管障碍的医学评估标准，更新成人和儿童相关条款。",
+    "analysis": "该修订主要影响申请社保残疾福利的心血管疾病患者及评估机构。更新标准可能使部分患者更易或更难获得福利，值得关注的是其依据最新医学知识调整，可能改变既往判例。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "National Environmental Policy Act",
+   "url": "https://www.federalregister.gov/documents/2026/07/02/2026-13372/national-environmental-policy-act",
+   "date": "2026-07-02",
+   "org": "Agriculture Department",
+   "doc_no": "2026-13372",
+   "excerpt": "This document corrects a technical error in the final rule that appeared in the April 3, 2026, Federal Register, titled \"National Environmental Policy Act.\"",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-02/pdf/2026-13372.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "国家环境政策法",
+    "summary": "美国农业部修正了2026年4月3日发布的《国家环境政策法》最终规则中的一处技术错误。",
+    "analysis": "该修正主要影响受《国家环境政策法》监管的农业项目和联邦土地管理活动。修正技术错误有助于减少法律不确定性，避免因程序瑕疵导致项目延误或诉讼。值得关注的是，此类修正可能反映政策执行中的细节调整，但实质影响有限。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はインド共和国のデリーを訪問しました（２）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/02india2.html",
+   "date": "2026-07-02",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理访问印度共和国德里（之二）",
+    "summary": "日本首相高市访问印度德里，推进双边外交合作。",
+    "analysis": "此次访问旨在强化日印战略伙伴关系，可能涉及经济、安全及印太合作。对中国而言，需关注日印在区域事务中的协调动向，可能影响地区平衡。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はインド共和国のデリーを訪問しました（１）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/02india1.html",
+   "date": "2026-07-02",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理访问印度共和国德里（第1报）",
+    "summary": "日本首相高市早苗访问印度德里，开展双边外交活动。",
+    "analysis": "此次访问主要针对日印双边关系，可能推动经济合作与安全对话。值得关注的是日印在印太战略框架下的协调进展，以及对区域供应链布局的潜在影响。",
+    "category": "外交安全"
+   }
+  },
   {
    "country": "us",
    "title": "Presidential Determination Concerning the Department of the Air Force's Rehabilitation and Revitalization of the Joint Base Andrews Golf Course",
@@ -91,6 +191,22 @@
     "summary": "日本首相高市早苗主持年度安全领域功勋者表彰仪式。",
     "analysis": "该表彰针对在安全领域有突出贡献的个人或团体，体现政府对公共安全和社会稳定的重视。值得关注的是表彰对象是否涉及网络安全、防灾等新兴领域，可能影响相关行业从业者的社会认可度。",
     "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "タイムズ・オブ・インディア紙への高市総理寄稿 日印関係：「戦略的な方向性を共有する信頼のパートナーシップ」",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260702message.html",
+   "date": "2026-07-01",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理在《印度时报》发表署名文章：日印关系——共享战略方向的信赖伙伴关系",
+    "summary": "日本首相高市在印度媒体发文，强调日印战略伙伴关系。",
+    "analysis": "此举旨在强化日印双边关系，尤其在印太战略框架下深化安全与经济合作。对印度而言，可增强其区域影响力；对中国而言，需关注日印在海洋安全与供应链领域的协调动向。",
+    "category": "外交安全"
    }
   },
   {
