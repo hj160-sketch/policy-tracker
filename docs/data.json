@@ -1,16 +1,65 @@
 {
- "generated_at": "2026-07-03 00:08 UTC",
+ "generated_at": "2026-07-04 00:07 UTC",
  "brief": {
-  "text": "今日要点：2026年7月2日至3日，美日印三方政策动向呈现显著分化与潜在联动。美国方面，紧急授权摩洛哥磷酸盐肥料免税进口，凸显其应对农业供应链压力与对北非战略资源的依赖；同时，DOT撤销辅助费用透明规则，反映司法与行政在消费者保护上的博弈。日本首相高市早苗密集访问印度并发表署名文章，强调日印战略伙伴关系，意在强化印太地区安全与经济合作，对冲中国影响力。此外，美国推动再生农业行政令与日本增长战略会议均聚焦农业韧性与经济可持续性，虽无直接政策对接，但共同指向全球粮食安全与绿色转型议题。三国在肥料贸易、印太外交及农业科技领域存在隐性竞争与合作空间，需持续关注后续政策协调。",
-  "date": "2026-07-03"
+  "text": "今日要点：美国、日本、中国近期政策动向呈现差异化聚焦。美国方面，7月2日紧急授权摩洛哥磷酸盐肥料免税进口，凸显其应对国内农业供应链压力的紧迫性；同日修订航空公司辅助费用披露规则，体现对行业监管的灵活调整。日本方面，首相高市早苗密集推动外交与经济议程，7月2日访问印度并发表署名文章强化日印战略伙伴关系，同时于6月30日召开增长战略会议与地区未来战略总部会议，聚焦经济韧性与地方发展。中国虽未在清单中直接体现，但美日动向隐含跨国关联：美国对摩洛哥肥料免税可能影响全球化肥贸易格局，间接牵动中国农业进口成本；日本深化与印度合作则在中美科技竞争背景下，进一步强化印太经济与安全布局。三国政策均折射出对供应链安全、区域合作与国内治理的同步重视。",
+  "date": "2026-07-04"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 60,
-  "jp": 94
+  "us": 61,
+  "jp": 97
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Presidential Determination on Assistance to Venezuela Consistent With the Trafficking Victims Protection Act of 2000",
+   "url": "https://www.federalregister.gov/documents/2026/07/06/2026-13631/presidential-determination-on-assistance-to-venezuela-consistent-with-the-trafficking-victims",
+   "date": "2026-07-06",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-13631",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13631.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于根据《2000年人口贩运受害者保护法》对委内瑞拉提供援助的总统决定",
+    "summary": "美国总统依据《人口贩运受害者保护法》决定是否对委内瑞拉提供援助。",
+    "analysis": "该决定主要影响委内瑞拉政府及美国对外援助政策。可能意味着美国将根据委内瑞拉在反人口贩运方面的表现调整援助，值得关注其对美委关系及地区人道主义局势的影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "ＷＨＸリーダーズ大阪 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260703message.html",
+   "date": "2026-07-03",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理在世界博览会大阪领导人会议上的视频致辞",
+    "summary": "日本首相高市早苗向大阪世博会领导人会议发表视频致辞。",
+    "analysis": "该动态主要面向国际社会及日本国内各界，旨在通过世博会平台展示日本开放姿态与领导力。值得关注的是高市首相的发言可能涉及经济合作、科技创新或外交议题，对日本国际形象及后续政策方向有指示作用。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/3_a.html",
+   "date": "2026-07-03",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，通报当日会议主要内容。",
+    "analysis": "该信息为日常政务通报，对公众影响有限，但可能涉及重要政策决策。需关注后续具体政策内容，尤其是经济或外交方面的动向。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Declaration of Emergency and Authorization for Temporary Duty-Free Importation of Phosphate Fertilizer From Morocco",
@@ -108,6 +157,22 @@
     "title_zh": "高市总理访问印度共和国德里（第1报）",
     "summary": "日本首相高市早苗访问印度德里，开展双边外交活动。",
     "analysis": "此次访问主要针对日印双边关系，可能推动经济合作与安全对话。值得关注的是日印在印太战略框架下的协调进展，以及对区域供应链布局的潜在影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はインド共和国のデリーを訪問しました（３）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/02india3.html",
+   "date": "2026-07-02",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理访问印度共和国德里（第三报）",
+    "summary": "日本首相高市早苗访问印度德里，进行外交活动。",
+    "analysis": "此次访问旨在深化日印双边关系，可能涉及经济合作与安全对话。对日本而言，有助于拓展南亚外交影响力；对印度，则获得更多投资与技术合作机会。值得关注双方在印太战略框架下的具体合作成果。",
     "category": "外交安全"
    }
   },
