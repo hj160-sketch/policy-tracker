@@ -1,16 +1,49 @@
 {
- "generated_at": "2026-07-06 23:29 UTC",
+ "generated_at": "2026-07-07 23:23 UTC",
  "brief": {
-  "text": "今日三国政策动向中，最值得关注的是中美日之间围绕安全与外交的微妙互动。日本政府于7月6日连续发布关于中国弹道导弹发射通知的信息，并宣布取消相关警报，显示中日之间在导弹发射通报机制上已形成一定沟通与管控，这有助于降低误判风险。同日，美国总统依据《人口贩运受害者保护法》决定是否对委内瑞拉提供援助，延续了美国在拉美地区的人权与安全干预。此外，日本首相高市早苗近期密集访问印度，并致贺秘鲁新总统，凸显日本在印太及拉美地区的外交布局。美国方面则于7月2日临时授权摩洛哥磷酸盐肥料免税进口，反映其在全球供应链与农业安全上的应急调整。整体来看，三国政策虽无直接冲突，但日本对华导弹信息的处理与美国对拉美援助的决策，均隐含大国博弈与区域安全治理的跨国关联。",
-  "date": "2026-07-06"
+  "text": "今日要点：美国交通部延长航空公司退款规则执法自由裁量权，侧重消费者保护，但未涉及国际协调；日本连续发布与中国弹道导弹发射相关的警报及取消信息，显示中日间军事通信机制在运行，但紧张态势仍存。日本首相向秘鲁当选总统致贺，并出席大阪世博会相关活动，体现其外交与软实力布局。美国依据《人口贩运受害者保护法》对委内瑞拉援助作出总统决定，延续其拉美政策。三国政策中，日本对华导弹动态的快速反应与信息发布机制值得关注，反映出东亚安全局势的敏感性；美日虽未直接联动，但各自在拉美与亚太的举措间接影响区域平衡。整体上，技术竞争与安全议题仍是三国政策交叉点。",
+  "date": "2026-07-07"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 61,
-  "jp": 100
+  "us": 62,
+  "jp": 101
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Airline Refunds and Other Consumer Protections",
+   "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13675/airline-refunds-and-other-consumer-protections",
+   "date": "2026-07-07",
+   "org": "Transportation Department",
+   "doc_no": "2026-13675",
+   "excerpt": "The U.S. Department of Transportation (Department or DOT) is extending its current enforcement discretion, announced on December 5, 2025, regarding specific refund regulations. Under current regulations, a flight assigned a different flight number than was active at the time of ticket purchase is co",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-07/pdf/2026-13675.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "航空公司退款及其他消费者保护措施",
+    "summary": "DOT延长对特定退款规则的执法自由裁量权。",
+    "analysis": "该政策主要影响航空公司和乘客。航空公司可暂时免于严格执行航班号变更相关的退款规定，可能减少短期合规成本；但乘客在航班号变更时获得退款的权利可能被削弱。值得关注的是执法自由裁量权的延长是否会导致消费者权益保护力度下降。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/7_a.html",
+   "date": "2026-07-07",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，涉及政策讨论与决策。",
+    "analysis": "该信息主要面向日本国内行政机构及公众，可能影响政策执行方向。值得关注的是会议中是否涉及经济或外交议题，但摘要缺失导致具体影响不明。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Presidential Determination on Assistance to Venezuela Consistent With the Trafficking Victims Protection Act of 2000",
