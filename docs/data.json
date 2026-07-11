@@ -1,16 +1,33 @@
 {
- "generated_at": "2026-07-10 23:23 UTC",
+ "generated_at": "2026-07-11 23:21 UTC",
  "brief": {
-  "text": "今日三国政策动向中，日本密集聚焦科技与民生领域：高市总理主持人工智能战略本部会议及综合科学技术与创新会议，凸显其在AI与药物研发领域的战略布局；同时推进孤独与孤立对策及家务支援服务，体现社会政策精细化。美国方面，能源部撤回一项零基监管规则，显示监管调整中的审慎态度；《独立宣言》250周年纪念则强化国家认同叙事。值得关注的是，日本于7月6日取消因中国弹道导弹发射通知设置的警报，这一动作与中美日三方在安全领域的微妙互动相关。整体看，日本在科技竞争与民生保障上双线并进，美国侧重国内监管与历史纪念，而中日之间因导弹事件引发的警报解除，暗示地区安全沟通机制仍在运作，但科技与安全领域的跨国竞争与合作张力依然存在。",
-  "date": "2026-07-10"
+  "text": "今日要点：美国、日本与中国政策动向呈现差异化聚焦。美国方面，7月13日发布危险物质自然资源损害评估最终规则，简化泄漏事故的赔偿程序，体现环境监管的精细化；同时能源部撤回一项零基监管规则，显示政策调整中的审慎态度。日本方面，高市总理密集推动多项国内议程：7月10日主持召开第5次人工智能战略本部会议及第85次综合科学技术与创新会议，凸显科技竞争中的战略布局；同日还推进药物研发能力提升、家务支援服务及孤独与孤立对策，反映社会福祉与产业创新并重的治理思路。值得注意的是，日本在AI与药物研发领域的加速投入，与美国在环境与消费者保护领域的规则调整形成对比，虽无直接贸易摩擦，但科技竞争暗流涌动，尤其在人工智能与生物医药领域，日美政策动向可能影响全球产业链布局。中国同日未发布重大政策，需关注后续动态。",
+  "date": "2026-07-11"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 64,
+  "us": 65,
   "jp": 107
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Natural Resource Damages for Hazardous Substances",
+   "url": "https://www.federalregister.gov/documents/2026/07/13/2026-14052/natural-resource-damages-for-hazardous-substances",
+   "date": "2026-07-13",
+   "org": "Interior Department",
+   "doc_no": "2026-14052",
+   "excerpt": "This final rule revises the simplified Type A procedures in the regulations for conducting natural resource damage assessments for hazardous substance releases. Additionally, this final rule includes several conforming changes and corrections intended to fix citations, provide for consistent use of ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-13/pdf/2026-14052.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "危险物质自然资源损害评估最终规则",
+    "summary": "修订危险物质泄漏的自然资源损害评估简化程序。",
+    "analysis": "该规则主要影响涉及危险物质泄漏的责任方及监管机构，可能增加企业的合规成本与赔偿责任。值得关注的是简化程序可能加速评估流程，提高执法效率。",
+    "category": "法律监管"
+   }
+  },
   {
    "country": "jp",
    "title": "高市総理は創薬力向上のための官民協議会に出席しました",
