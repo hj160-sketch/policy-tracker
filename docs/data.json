@@ -1,16 +1,81 @@
 {
- "generated_at": "2026-07-13 23:22 UTC",
+ "generated_at": "2026-07-14 23:21 UTC",
  "brief": {
-  "text": "今日要点：2026年7月13日，美日两国政策动向显著。美国发布危险物质自然资源损害评估最终规则，简化泄漏事故的赔偿程序，强化环境监管执行力度。日本首相高市早苗密集推动科技与创新议程，同日于WebX 2026强调Web3与区块链发展，并主持召开第5次人工智能战略本部会议，显示日本正加速布局前沿数字技术与AI战略。此前，日本还召开了提升药物研发能力的官民协议会及综合科学技术与创新会议，凸显其以科技驱动经济增长的意图。值得注意的是，美国能源部于7月9日撤回一项零基监管规则，反映出其国内监管政策存在反复。美日在人工智能、区块链等领域的政策推进，虽未直接对抗，但已形成科技竞争与规则制定的潜在跨国关联，尤其在数字治理与绿色技术标准方面，双方动向值得持续关注。",
-  "date": "2026-07-13"
+  "text": "今日要点：美国内政部与商务部于7月14日撤销《濒危物种法》中“伤害”的监管定义，此举可能削弱联邦政府对栖息地破坏的管控，引发环保与产业界激烈博弈。日本方面，首相高市早苗同日主持中央防灾会议并发表乌克兰问题书面致辞，延续其在外交与安全领域的积极姿态；此前一周，日本密集推进人工智能战略、Web3发展及药物研发等科技政策，显示其加速布局前沿技术以提升竞争力。中美日三国政策虽无直接联动，但美国环境监管松绑与日本科技战略强化形成对比，反映出各自在产业与安全议题上的不同侧重。",
+  "date": "2026-07-14"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 65,
-  "jp": 109
+  "us": 66,
+  "jp": 112
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Rescinding the Definition of “Harm” Under the Endangered Species Act",
+   "url": "https://www.federalregister.gov/documents/2026/07/14/2026-14195/rescinding-the-definition-of-harm-under-the-endangered-species-act",
+   "date": "2026-07-14",
+   "org": "Interior Department, Fish and Wildlife Service, Commerce Department, National Oceanic and Atmospheric Administration",
+   "doc_no": "2026-14195",
+   "excerpt": "We, the U.S. Fish and Wildlife Service (FWS) and the National Marine Fisheries Service (NMFS; collectively referred to as the \"Services\") rescind the regulatory definition of \"harm\" in our Endangered Species Act (ESA or the Act) regulations. This rescission removes the regulatory definition of \"harm",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-14/pdf/2026-14195.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "撤销《濒危物种法》中“伤害”的定义",
+    "summary": "美国内政部及商务部撤销《濒危物种法》中“伤害”的监管定义。",
+    "analysis": "该政策主要影响依赖《濒危物种法》保护物种的环保组织、开发企业及联邦机构。撤销定义可能削弱对栖息地破坏等间接伤害的监管，增加开发项目审批的灵活性，但可能引发法律挑战。值得关注的是此举是否会导致物种保护标准降低。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "ウクライナに関する有志連合首脳会合に際する高市内閣総理大臣書面メッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260714message.html",
+   "date": "2026-07-14",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市内阁总理大臣关于乌克兰相关有志联合首脑会议的书面致辞",
+    "summary": "日本首相就乌克兰问题向国际联合会议发表书面声明。",
+    "analysis": "该动态显示日本持续关注乌克兰局势，并通过高层表态强化与西方盟友的协调。可能影响日本对俄制裁政策及对乌援助力度，值得关注日本在安全外交上进一步向美欧靠拢的动向。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/14_a.html",
+   "date": "2026-07-14",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，通报当日会议讨论内容与决策。",
+    "analysis": "该信息主要面向政府机构及公众，表明内阁正常运作并公开决策过程。值得关注的是会议中可能涉及的政策调整或重大议题，需结合后续详细内容评估影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第４６回中央防災会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/14bousai.html",
+   "date": "2026-07-14",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第46届中央防灾会议",
+    "summary": "日本首相高市早苗主持中央防灾会议，部署防灾减灾工作。",
+    "analysis": "该动态主要影响日本各级政府及防灾相关部门，可能推动防灾政策更新与资源调配。值得关注的是会议是否涉及新灾害应对机制或重点区域防灾强化措施。",
+    "category": "民生社会"
+   }
+  },
   {
    "country": "us",
    "title": "Natural Resource Damages for Hazardous Substances",
