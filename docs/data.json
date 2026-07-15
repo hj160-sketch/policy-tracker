@@ -1,16 +1,82 @@
 {
- "generated_at": "2026-07-14 23:21 UTC",
+ "generated_at": "2026-07-15 23:23 UTC",
  "brief": {
-  "text": "今日要点：美国内政部与商务部于7月14日撤销《濒危物种法》中“伤害”的监管定义，此举可能削弱联邦政府对栖息地破坏的管控，引发环保与产业界激烈博弈。日本方面，首相高市早苗同日主持中央防灾会议并发表乌克兰问题书面致辞，延续其在外交与安全领域的积极姿态；此前一周，日本密集推进人工智能战略、Web3发展及药物研发等科技政策，显示其加速布局前沿技术以提升竞争力。中美日三国政策虽无直接联动，但美国环境监管松绑与日本科技战略强化形成对比，反映出各自在产业与安全议题上的不同侧重。",
-  "date": "2026-07-14"
+  "text": "今日要点：2026年7月15日，中美日三国政策动向呈现显著分野。美国同日调整商用飞机及发动机进口政策，此举可能影响全球航空供应链，尤其对日本航空制造业构成潜在竞争压力；同时，美国内政部撤销《濒危物种法》中“伤害”的定义，削弱了环保监管力度，或引发国际环保组织批评。日本方面，首相高市早苗密集出席党首讨论与中央防灾会议，并借WebX 2026会议力推Web3与区块链发展，显示其将数字创新作为经济战略核心。值得关注的是，美国航空进口政策调整与日本科技战略之间虽无直接关联，但两国在高端制造与数字经济领域的竞争态势已隐现。此外，日本就乌克兰问题发表书面致辞，延续其外交立场，而美国同日延迟安大略湖保护区条款生效，则体现其国内政策优先于国际环境承诺的倾向。三国政策动向整体呈现“美国聚焦产业与资源博弈、日本强化数字与防灾双轨、中国当日无重大发布”的格局。",
+  "date": "2026-07-15"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 66,
-  "jp": 112
+  "us": 68,
+  "jp": 114
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Adjusting Imports of Commercial Aircraft, Jet Engines, and Aircraft and Engine Parts Into the United States",
+   "url": "https://www.federalregister.gov/documents/2026/07/15/2026-14334/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united",
+   "date": "2026-07-15",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14334",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-15/pdf/2026-14334.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "调整美国商用飞机、喷气发动机及飞机与发动机零部件的进口政策",
+    "summary": "美国政府调整商用飞机及相关产品的进口政策。",
+    "analysis": "该政策主要影响波音等美国航空制造商及外国竞争对手。可能通过关税或配额限制进口，保护本土产业，但或推高航空成本。需关注对中美贸易及全球供应链的冲击。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Lake Ontario National Marine Sanctuary; Delay of Effective Date",
+   "url": "https://www.federalregister.gov/documents/2026/07/15/2026-14204/lake-ontario-national-marine-sanctuary-delay-of-effective-date",
+   "date": "2026-07-15",
+   "org": "Commerce Department, National Oceanic and Atmospheric Administration",
+   "doc_no": "2026-14204",
+   "excerpt": "The National Oceanic and Atmospheric Administration (NOAA) designated the Lake Ontario National Marine Sanctuary (LONMS) on June 6, 2024, and the final rule became effective on July 22, 2024. However, as discussed in the final rule, the effective date for the provision that prohibits grappling into ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-15/pdf/2026-14204.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "安大略湖国家海洋保护区；生效日期延迟",
+    "summary": "NOAA延迟安大略湖国家海洋保护区中禁止抓锚条款的生效日期。",
+    "analysis": "该延迟主要影响在安大略湖区域活动的航运、渔业及水下作业相关方，可能暂时缓解对传统锚泊方式的限制，但需关注最终生效时间及替代合规要求。值得注意该条款对水下文化遗产保护与商业利益的平衡。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は国家基本政策委員会合同審査会（党首討論）に出席しました（２）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/15goudou_shinsakai_2.html",
+   "date": "2026-07-15",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席国家基本政策委员会联合审查会（党首讨论）（二）",
+    "summary": "日本首相高市早苗出席党首讨论，就国家基本政策进行辩论。",
+    "analysis": "该动态显示日本执政党与在野党就重大政策展开直接交锋，可能影响未来立法方向。值得关注高市总理在讨论中释放的政策信号，尤其是经济与外交领域。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は国家基本政策委員会合同審査会（党首討論）に出席しました（１）",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/15goudou_shinsakai.html",
+   "date": "2026-07-15",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席国家基本政策委员会联合审查会（党首讨论）（1）",
+    "summary": "日本首相高市早苗出席党首讨论，就国家基本政策进行辩论。",
+    "analysis": "该动态显示日本政府高层正就国家基本政策展开公开讨论，可能涉及经济、外交等重大议题。值得关注的是讨论中是否提出新政策方向或调整，这将影响日本国内政治格局及对外关系。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Rescinding the Definition of “Harm” Under the Endangered Species Act",
