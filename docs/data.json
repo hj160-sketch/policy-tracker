@@ -1,16 +1,84 @@
 {
- "generated_at": "2026-07-15 23:23 UTC",
+ "generated_at": "2026-07-16 23:21 UTC",
  "brief": {
-  "text": "今日要点：2026年7月15日，中美日三国政策动向呈现显著分野。美国同日调整商用飞机及发动机进口政策，此举可能影响全球航空供应链，尤其对日本航空制造业构成潜在竞争压力；同时，美国内政部撤销《濒危物种法》中“伤害”的定义，削弱了环保监管力度，或引发国际环保组织批评。日本方面，首相高市早苗密集出席党首讨论与中央防灾会议，并借WebX 2026会议力推Web3与区块链发展，显示其将数字创新作为经济战略核心。值得关注的是，美国航空进口政策调整与日本科技战略之间虽无直接关联，但两国在高端制造与数字经济领域的竞争态势已隐现。此外，日本就乌克兰问题发表书面致辞，延续其外交立场，而美国同日延迟安大略湖保护区条款生效，则体现其国内政策优先于国际环境承诺的倾向。三国政策动向整体呈现“美国聚焦产业与资源博弈、日本强化数字与防灾双轨、中国当日无重大发布”的格局。",
-  "date": "2026-07-15"
+  "text": "今日三国政策动向中，美国延续两项针对跨国犯罪与海外公民安全的紧急状态，凸显其国家安全与反恐优先的持续关切；同时，通过豁免化工设施排放监管以促进制造业安全，并调整商用飞机及零部件进口政策，显示其产业保护与贸易调整意图。日本方面，首相高市早苗密集参与党首讨论、防灾会议及Web3峰会，强调国内政策协调与科技发展导向，尤其对区块链和Web3的重视，反映出日本在数字竞争中的战略布局。值得注意的是，美国调整飞机进口政策与日本推动高科技产业形成潜在关联，可能影响两国在航空与数字技术领域的贸易与竞争格局。此外，美国撤销《濒危物种法》中“伤害”定义，与日本防灾会议形成对比，体现两国在环境与灾害应对上的不同侧重。整体来看，三国政策均聚焦于安全、产业与科技，但路径与优先级存在差异。",
+  "date": "2026-07-16"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 68,
+  "us": 72,
   "jp": 114
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Significant Transnational Criminal Organizations",
+   "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14454/continuation-of-the-national-emergency-with-respect-to-significant-transnational-criminal",
+   "date": "2026-07-16",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14454",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/pdf/2026-14454.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于重大跨国犯罪组织国家紧急状态的延续",
+    "summary": "美国总统宣布继续维持针对重大跨国犯罪组织的国家紧急状态。",
+    "analysis": "该政策延续了对跨国犯罪组织的制裁和执法力度，主要影响涉及非法贩运、洗钱等活动的组织及相关企业。值得关注的是，此举可能加强国际执法合作，并对在美运营的外国企业合规提出更高要求。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Hostage-Taking and the Wrongful Detention of United States Nationals Abroad",
+   "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14453/continuation-of-the-national-emergency-with-respect-to-hostage-taking-and-the-wrongful-detention-of",
+   "date": "2026-07-16",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14453",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/pdf/2026-14453.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于继续实施针对劫持人质及非法拘留海外美国公民的国家紧急状态",
+    "summary": "美国延长针对海外公民被劫持或非法拘留的国家紧急状态。",
+    "analysis": "该政策持续影响被拘押美国公民及其家属，并强化美国政府对相关国家的外交施压与制裁手段。值得关注的是，此举可能加剧美国与某些国家的紧张关系，并影响跨国企业与人员的安全风险评估。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Regulatory Relief for Certain Stationary Sources To Promote American Chemical Manufacturing Security",
+   "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14452/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security",
+   "date": "2026-07-16",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14452",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/pdf/2026-14452.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "为促进美国化工制造业安全而对特定固定源实施监管松绑",
+    "summary": "美国总统行政令，豁免部分化工设施排放监管以提升产业安全。",
+    "analysis": "该政策主要针对化工企业，通过减少环保合规负担来刺激国内生产与投资。可能带来环境风险上升，但有助于降低化工品进口依赖，值得关注其与州级环保法规的冲突。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Endangered and Threatened Wildlife and Plants; Revised Designation of Critical Habitat for the Contiguous U.S. Distinct Population Segment of the Canada Lynx",
+   "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14299/endangered-and-threatened-wildlife-and-plants-revised-designation-of-critical-habitat-for-the",
+   "date": "2026-07-16",
+   "org": "Interior Department, Fish and Wildlife Service",
+   "doc_no": "2026-14299",
+   "excerpt": "We, the U.S. Fish and Wildlife Service (Service), revise the critical habitat designation for the contiguous U.S. distinct population segment (DPS) of the Canada lynx (Lynx canadensis) under the Endangered Species Act of 1973, as amended (Act). In total, approximately 14,030 square miles (36,340 squ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/pdf/2026-14299.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "濒危和受威胁野生动物及植物；修订美国本土加拿大猞猁独特种群段的关键栖息地指定",
+    "summary": "美国鱼类和野生动物管理局修订了加拿大猞猁关键栖息地的指定范围。",
+    "analysis": "该政策主要影响土地开发者、林业和能源行业，可能限制在约14,030平方英里范围内的开发活动。值得关注的是，关键栖息地的扩大将加强物种保护，但可能引发与地方经济利益的冲突。",
+    "category": "能源环境"
+   }
+  },
   {
    "country": "us",
    "title": "Adjusting Imports of Commercial Aircraft, Jet Engines, and Aircraft and Engine Parts Into the United States",
