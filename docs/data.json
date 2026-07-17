@@ -1,16 +1,133 @@
 {
- "generated_at": "2026-07-16 23:21 UTC",
+ "generated_at": "2026-07-17 23:20 UTC",
  "brief": {
-  "text": "今日三国政策动向中，美国延续两项针对跨国犯罪与海外公民安全的紧急状态，凸显其国家安全与反恐优先的持续关切；同时，通过豁免化工设施排放监管以促进制造业安全，并调整商用飞机及零部件进口政策，显示其产业保护与贸易调整意图。日本方面，首相高市早苗密集参与党首讨论、防灾会议及Web3峰会，强调国内政策协调与科技发展导向，尤其对区块链和Web3的重视，反映出日本在数字竞争中的战略布局。值得注意的是，美国调整飞机进口政策与日本推动高科技产业形成潜在关联，可能影响两国在航空与数字技术领域的贸易与竞争格局。此外，美国撤销《濒危物种法》中“伤害”定义，与日本防灾会议形成对比，体现两国在环境与灾害应对上的不同侧重。整体来看，三国政策均聚焦于安全、产业与科技，但路径与优先级存在差异。",
-  "date": "2026-07-16"
+  "text": "今日三国政策动向中，美国密集调整国家纪念碑边界与濒危物种保护规则，显示其环境与资源管理政策正转向更宽松的产业导向；同时，CFTC修订掉期保证金规则、DHS收紧非移民签证入境期限，反映金融监管与移民制度的双重收紧。日本方面，高市首相就皇室典范修正法案召开记者会，并主持中央防灾会议，显示内政与灾害应对仍是优先议题；其视频致辞推动Web3与区块链发展，体现对数字经济的战略布局。值得关注的是，美国对化工设施排放监管松绑与日本推进区块链技术，可能间接影响全球制造业与科技竞争格局，尤其在清洁能源与数字资产领域，中美日之间的政策分化或将加剧产业链调整与规则博弈。",
+  "date": "2026-07-17"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 72,
-  "jp": 114
+  "us": 77,
+  "jp": 117
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Modifying the Grand Staircase-Escalante National Monument",
+   "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14549/modifying-the-grand-staircase-escalante-national-monument",
+   "date": "2026-07-17",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14549",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14549.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "修改大阶梯-埃斯卡兰特国家纪念碑",
+    "summary": "美国行政令调整大阶梯-埃斯卡兰特国家纪念碑边界或管理规则。",
+    "analysis": "该政策主要影响犹他州土地管理、能源开发及环保团体。可能放宽采矿或能源勘探限制，引发环保争议。值得关注边界调整对原住民权益和生态保护的具体影响。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Modifying the Bears Ears National Monument",
+   "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14548/modifying-the-bears-ears-national-monument",
+   "date": "2026-07-17",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14548",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14548.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "修改熊耳国家 monument",
+    "summary": "美国政府发布行政命令，调整熊耳国家纪念区的边界或管理政策。",
+    "analysis": "该政策主要影响原住民部落、环保组织及矿业能源企业。可能缩小保护区范围，开放土地用于资源开采，引发法律诉讼和环保争议。值得关注对原住民文化遗产和生态系统的潜在破坏。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Death of Senator Lindsey Graham",
+   "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14547/death-of-senator-lindsey-graham",
+   "date": "2026-07-17",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14547",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14547.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "参议员林赛·格雷厄姆去世",
+    "summary": "美国政府宣布参议员林赛·格雷厄姆去世的消息。",
+    "analysis": "该消息主要影响美国政坛及外交政策走向。格雷厄姆是共和党资深参议员，其去世可能导致参议院力量格局变化，尤其在对外政策议题上出现立场调整。值得关注后续补选及两党博弈。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Margin Requirements for Uncleared Swaps for Swap Dealers and Major Swap Participants",
+   "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14509/margin-requirements-for-uncleared-swaps-for-swap-dealers-and-major-swap-participants",
+   "date": "2026-07-17",
+   "org": "Commodity Futures Trading Commission",
+   "doc_no": "2026-14509",
+   "excerpt": "The Commodity Futures Trading Commission (\"Commission\") is amending the margin requirements for uncleared swaps applicable to swap dealers and major swap participants that are not subject to the margin rules of a prudential regulator. The amendment revises the definition of \"margin affiliate\" in the",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14509.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "未清算掉期交易商和主要掉期参与者的保证金要求",
+    "summary": "CFTC修订未清算掉期保证金规则，重新定义“保证金关联方”。",
+    "analysis": "该修订主要影响不受审慎监管机构约束的掉期交易商和主要掉期参与者，可能降低其合规成本或扩大关联方范围。值得关注的是，新定义可能影响跨境交易和集团内部风险敞口管理。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of Foreign Information Media",
+   "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant",
+   "date": "2026-07-17",
+   "org": "Homeland Security Department",
+   "doc_no": "2026-14439",
+   "excerpt": "The Department of Homeland Security (DHS) is amending its regulations to change the admission period in the F, J, and I classifications from duration of status to an admission for a fixed time period, and additional changes to admission and extension requirements. This final rule will provide additi",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14439.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "为非移民学术学生、交流访问者及外国信息媒体代表设定固定入境期限及延期程序",
+    "summary": "DHS将F、J、I类签证的入境期限从身份有效期改为固定期限，并调整延期要求。",
+    "analysis": "该政策主要影响持F、J、I签证的非移民学生、交流访问者及外国媒体代表。固定期限将增加签证到期后需申请延期的行政负担，可能导致部分人员因程序复杂而面临身份中断风险。值得关注的是，此举可能收紧对国际人才流动的管控，影响学术交流与媒体工作。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は総理大臣官邸で皇室典範改正の法案成立等についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0717kaiken.html",
+   "date": "2026-07-17",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理在首相官邸就皇室典范修正法案成立等事宜举行记者会",
+    "summary": "日本首相高市就皇室典范修正法案成立召开记者会说明。",
+    "analysis": "该法案涉及皇位继承规则等皇室制度调整，可能影响日本皇室结构及皇位继承顺序。值得关注的是法案内容是否涉及女性或女系天皇的承认，这将对日本社会传统观念和性别平等议题产生深远影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/17_a.html",
+   "date": "2026-07-17",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，通报当日会议决策内容。",
+    "analysis": "该信息面向公众及政策相关方，旨在提高政府决策透明度。值得关注的是内阁会议中可能涉及的重要政策调整或法律修订，对后续行政执行具有指导意义。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Continuation of the National Emergency With Respect to Significant Transnational Criminal Organizations",
@@ -77,6 +194,22 @@
     "summary": "美国鱼类和野生动物管理局修订了加拿大猞猁关键栖息地的指定范围。",
     "analysis": "该政策主要影响土地开发者、林业和能源行业，可能限制在约14,030平方英里范围内的开发活动。值得关注的是，关键栖息地的扩大将加强物种保护，但可能引发与地方经济利益的冲突。",
     "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "ＦＲＯＮＴｉａプロジェクト キックオフイベント 高市総理ビデオメッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260716message.html",
+   "date": "2026-07-16",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "FRONTIa项目启动活动 高市总理视频致辞",
+    "summary": "日本总理高市为FRONTIa项目启动活动发表视频致辞。",
+    "analysis": "该动态表明日本政府正式启动FRONTIa项目，可能涉及前沿科技或产业创新。对科技企业、研究机构有政策利好，值得关注项目具体领域及配套支持措施。",
+    "category": "科技产业"
    }
   },
   {
