@@ -1,16 +1,33 @@
 {
- "generated_at": "2026-07-17 23:20 UTC",
+ "generated_at": "2026-07-18 23:21 UTC",
  "brief": {
-  "text": "今日三国政策动向中，美国密集调整国家纪念碑边界与濒危物种保护规则，显示其环境与资源管理政策正转向更宽松的产业导向；同时，CFTC修订掉期保证金规则、DHS收紧非移民签证入境期限，反映金融监管与移民制度的双重收紧。日本方面，高市首相就皇室典范修正法案召开记者会，并主持中央防灾会议，显示内政与灾害应对仍是优先议题；其视频致辞推动Web3与区块链发展，体现对数字经济的战略布局。值得关注的是，美国对化工设施排放监管松绑与日本推进区块链技术，可能间接影响全球制造业与科技竞争格局，尤其在清洁能源与数字资产领域，中美日之间的政策分化或将加剧产业链调整与规则博弈。",
-  "date": "2026-07-17"
+  "text": "今日要点：美国于7月20日依据301条款对巴西启动贸易调查，涉及数字服务、知识产权及乙醇市场等，此举可能加剧全球贸易摩擦，并间接影响中国在拉美的经贸布局。同日，美国调整F、J、I类签证为固定入境期限，收紧国际人才流动政策，或对科技与学术交流产生抑制。日本方面，首相高市推动皇室典范修正案及FRONTIa项目，显示其在内政与科技战略上的双重发力。值得关注的是，美国同日撤销《濒危物种法》中“伤害”定义，并松绑化工排放监管，与日本强化防灾会议形成环境治理路径的对比。三国政策在贸易规则、人才流动及产业安全上呈现差异化竞争态势，需警惕美国单边主义对多边体系的冲击。",
+  "date": "2026-07-18"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 77,
+  "us": 78,
   "jp": 117
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Action by the United States in the Investigation Under Section 301 of the Trade Act of 1974 of Brazil's Acts, Policies, and Practices Related to Digital Trade and Electronic Payment Services; Unfair, Preferential Tariffs; Anti-Corruption Enforcement; Intellectual Property Protection; Ethanol Market Access; and Illegal Deforestation",
+   "url": "https://www.federalregister.gov/documents/2026/07/20/2026-14654/action-by-the-united-states-in-the-investigation-under-section-301-of-the-trade-act-of-1974-of",
+   "date": "2026-07-20",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14654",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-20/pdf/2026-14654.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "美国根据1974年贸易法第301条对巴西数字贸易与电子支付服务、不公平优惠关税、反腐败执法、知识产权保护、乙醇市场准入及非法森林砍伐等相关行为、政策和实践展开调查的行动",
+    "summary": "美国对巴西多项贸易与政策问题启动301调查。",
+    "analysis": "该调查针对巴西在数字贸易、知识产权、乙醇市场及环境等领域的行为，可能引发美国对巴西加征关税或贸易制裁。值得关注的是调查范围广泛，涉及科技、农业和环境政策，或影响双边贸易关系及全球供应链。",
+    "category": "经济金融"
+   }
+  },
   {
    "country": "us",
    "title": "Modifying the Grand Staircase-Escalante National Monument",
