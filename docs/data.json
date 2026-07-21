@@ -1,16 +1,99 @@
 {
- "generated_at": "2026-07-20 23:24 UTC",
+ "generated_at": "2026-07-21 23:22 UTC",
  "brief": {
-  "text": "今日要点：美国于7月20日依据301条款对巴西启动贸易调查，涉及数字服务、知识产权及乙醇市场等，此举可能加剧全球贸易摩擦，并间接影响中国在拉美的经贸布局。同日，美国调整F、J、I类签证为固定入境期限，收紧国际人才流动政策，或对科技与学术交流产生抑制。日本方面，首相高市推动皇室典范修正案及FRONTIa项目，显示其在内政与科技战略上的双重发力。值得关注的是，美国同日撤销《濒危物种法》中“伤害”定义，并松绑化工排放监管，与日本强化防灾会议形成环境治理路径的对比。三国政策在贸易规则、人才流动及产业安全上呈现差异化竞争态势，需警惕美国单边主义对多边体系的冲击。",
-  "date": "2026-07-18"
+  "text": "今日三国政策动向中，美国卫生与公众服务部更正了2027年医保参数规则中的排版错误，确保《患者保护与平价医疗法案》相关福利与支付参数的准确性；同时，美国对巴西启动301调查，涉及数字贸易、知识产权及环境政策，可能加剧美巴贸易摩擦。日本方面，高市总理主持召开经济财政与增长战略联席会议，聚焦未来政策方向，并正式成立皇室典范修正法案，体现国内制度调整。值得注意的是，美国同日修订了《濒危物种法》中关键栖息地指定的经济考量规则，与日本首相在“海之日”强调海洋保护形成呼应，凸显两国在环境治理上的政策差异与潜在合作空间。此外，美国调整非移民签证入境期限为固定期限，可能影响国际人才流动，与日本增长战略中的人力资源议题间接关联。",
+  "date": "2026-07-21"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 78,
-  "jp": 117
+  "us": 81,
+  "jp": 120
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/07/21/2026-14709/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and",
+   "date": "2026-07-21",
+   "org": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+   "doc_no": "2026-14709",
+   "excerpt": "This document corrects typographical errors in the final rule that appeared in the May 20, 2026, Federal Register titled \"Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program.\"",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-21/pdf/2026-14709.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "《患者保护与平价医疗法案》，卫生与公众服务部2027年福利与支付参数通知；以及基本健康计划；更正",
+    "summary": "美国CMS更正2026年5月20日发布的关于2027年医保参数最终规则中的排版错误。",
+    "analysis": "该更正主要影响参与平价医疗法案市场的保险公司和消费者，确保2027年福利与支付参数的技术准确性。值得关注的是，尽管是技术性修正，但任何参数调整都可能间接影响保费和补贴计算，需留意后续实际执行细节。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Endangered and Threatened Wildlife and Plants; Regulations Pertaining to Endangered and Threatened Wildlife and Plants",
+   "url": "https://www.federalregister.gov/documents/2026/07/21/2026-14633/endangered-and-threatened-wildlife-and-plants-regulations-pertaining-to-endangered-and-threatened",
+   "date": "2026-07-21",
+   "org": "Interior Department, Fish and Wildlife Service",
+   "doc_no": "2026-14633",
+   "excerpt": "We, the U.S. Fish and Wildlife Service (FWS or the Service), revise our regulations concerning protections of threatened species under the Endangered Species Act (Act). We are removing the \"blanket rule\" option for protecting newly listed threatened species pursuant to section 4(d) of the Act.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-21/pdf/2026-14633.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "濒危和受威胁野生动物及植物；关于濒危和受威胁野生动物及植物的法规修订",
+    "summary": "美国鱼类和野生动物管理局取消对新列入受威胁物种的“ blanket rule”保护选项。",
+    "analysis": "该政策主要影响环保组织、开发商及联邦机构。取消 blanket rule 意味着新列入受威胁物种不再自动获得与濒危物种相同的保护，可能削弱对物种的早期保护，增加物种灭绝风险。值得关注的是，此举可能加速开发项目审批，但引发环保诉讼。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Endangered and Threatened Wildlife and Plants; Regulations for Designating Critical Habitat",
+   "url": "https://www.federalregister.gov/documents/2026/07/21/2026-14629/endangered-and-threatened-wildlife-and-plants-regulations-for-designating-critical-habitat",
+   "date": "2026-07-21",
+   "org": "Interior Department, Fish and Wildlife Service",
+   "doc_no": "2026-14629",
+   "excerpt": "We, the U.S. Fish and Wildlife Service (FWS or the Service), amend portions of our regulations for section 4 of the Endangered Species Act of 1973, as amended (Act or ESA). Specifically, we revise regulations related to section 4(b)(2) of the Act. Section 4(b)(2) requires consideration of the econom",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-21/pdf/2026-14629.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "濒危和受威胁野生动植物；关键栖息地指定法规修订",
+    "summary": "美国内政部鱼类和野生动物局修订《濒危物种法》第4(b)(2)条关于关键栖息地指定的经济考量法规。",
+    "analysis": "该修订主要影响涉及土地开发、能源和基础设施项目的企业及地方政府，可能因强化经济影响分析而增加项目审批成本或延迟。值得关注的是新规如何平衡物种保护与经济发展，以及是否引发法律挑战。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は令和８年第１１回経済財政諮問会議・第７回日本成長戦略会議の合同会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/21keizai_seichyou.html",
+   "date": "2026-07-21",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开令和8年第11次经济财政咨询会议·第7次日本增长战略会议联席会议",
+    "summary": "日本总理主持召开经济财政与增长战略联合会议，讨论未来政策方向。",
+    "analysis": "该会议可能涉及日本中长期经济财政政策与增长战略的调整，对企业和投资者具有政策导向意义。值得关注的是会议是否提出新的刺激措施或结构性改革方案，将影响日本经济复苏路径及市场预期。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/21_a.html",
+   "date": "2026-07-21",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于内阁会议概要",
+    "summary": "日本政府发布内阁会议概要，涉及政策决策与行政动态。",
+    "analysis": "该信息主要面向日本国内行政机构及公众，可能影响政策执行效率与透明度。值得关注的是内阁会议中是否涉及重大经济或外交议题，需进一步查看具体内容。",
+    "category": "其他"
+   }
+  },
   {
    "country": "us",
    "title": "Action by the United States in the Investigation Under Section 301 of the Trade Act of 1974 of Brazil's Acts, Policies, and Practices Related to Digital Trade and Electronic Payment Services; Unfair, Preferential Tariffs; Anti-Corruption Enforcement; Intellectual Property Protection; Ethanol Market Access; and Illegal Deforestation",
@@ -26,6 +109,22 @@
     "summary": "美国对巴西多项贸易与政策问题启动301调查。",
     "analysis": "该调查针对巴西在数字贸易、知识产权、乙醇市场及环境等领域的行为，可能引发美国对巴西加征关税或贸易制裁。值得关注的是调查范围广泛，涉及科技、农业和环境政策，或影响双边贸易关系及全球供应链。",
     "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "「海の日」を迎えるに当たっての内閣総理大臣メッセージ",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260720message.html",
+   "date": "2026-07-20",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "迎接「海之日」之际的内阁总理大臣致辞",
+    "summary": "日本首相在海洋日前夕发表致辞，强调海洋重要性及保护海洋的呼吁。",
+    "analysis": "该致辞主要面向日本国民及海洋相关产业，旨在提升公众对海洋资源与环境保护的意识。可能推动海洋政策讨论，值得关注其对海洋经济与生态保护的潜在影响。",
+    "category": "民生社会"
    }
   },
   {
