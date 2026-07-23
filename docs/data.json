@@ -1,16 +1,200 @@
 {
- "generated_at": "2026-07-22 23:24 UTC",
+ "generated_at": "2026-07-23 23:23 UTC",
  "brief": {
-  "text": "今日要点：2026年7月22日，美日两国政策动向集中释放。日本方面，政府正式公开《骨太方针2026》特集页面，标志着年度经济财政运营基本方针进入实施阶段；同日首相高市早苗出席会计师协会大会，强调经济治理与专业监管的协同。美国方面，卫生与公众服务部更正2027年医保参数规则中的排版错误，体现对《平价医疗法案》执行细节的持续调整；内政部与鱼类和野生动物局分别修订濒危物种法规，取消对新列入受威胁物种的“blanket rule”保护，并调整关键栖息地指定的经济考量，显示环境政策向更灵活、成本敏感方向转变。值得关注的是，美国于7月20日依据301条款对巴西启动贸易调查，涉及数字服务、知识产权及乙醇市场等，虽未直接针对中日，但反映出美国在全球数字贸易与绿色产业领域强化规则主导权的趋势，可能间接影响亚太供应链与多边贸易谈判格局。",
-  "date": "2026-07-22"
+  "text": "今日要点：2026年7月23日，美国、日本、中国政策动态呈现显著分化。美国方面密集发布多项贸易保护与产业安全措施，包括对加拿大汽车、乳制品及酒精饮料加征报复性关税，并进一步调整铝进口政策，同时通过行政令强化国防供应链关键材料本土化采购，凸显其以“美国制造”为核心的经济民族主义倾向。日本则聚焦国内治理与外交布局，首相高市早苗推动中老年女性健康护理指南制定，并与所罗门群岛总理举行首脑会谈，显示其在太平洋岛国地区的战略投入。值得注意的是，美国同日宣布对巴西启动301调查，涉及数字贸易、知识产权及乙醇市场准入，表明其正将贸易施压工具从传统盟友（加拿大）扩展至新兴经济体，可能加剧全球供应链重构与多边贸易规则博弈。",
+  "date": "2026-07-23"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 81,
-  "jp": 122
+  "us": 89,
+  "jp": 125
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Mali",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-15024/continuation-of-the-national-emergency-with-respect-to-mali",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15024",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-15024.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于延续马里国家紧急状态的公告",
+    "summary": "美国总统宣布延长针对马里的国家紧急状态。",
+    "analysis": "该政策主要影响美国对马里的外交与安全政策，可能延续对马里相关个人和实体的制裁。值得关注的是，此举反映美国对马里安全局势持续担忧，或影响西非地区反恐合作。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-15003/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15003",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-15003.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "保障美国国防供应链并确保关键材料的国内采购",
+    "summary": "美国行政令要求加强国防供应链安全，推动关键材料本土化采购。",
+    "analysis": "该政策主要影响国防承包商、关键材料供应商及依赖进口的制造业。短期内可能推高采购成本，但长期将增强美国国防供应链自主性，减少对外依赖。值得关注其对稀土、半导体等战略物资的管控力度及对盟友供应链的潜在冲击。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Made in America Week, 2026",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14999/made-in-america-week-2026",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14999",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14999.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "美国制造周，2026",
+    "summary": "美国政府宣布2026年7月为“美国制造周”，强调促进国内制造业。",
+    "analysis": "该政策旨在鼓励联邦采购和消费者优先选择美国本土产品，可能对进口商品形成竞争压力，尤其影响中国等制造业出口国。值得关注的是其配套措施及对供应链回流的具体激励。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Captive Nations Week, 2026",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14998/captive-nations-week-2026",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14998",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14998.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "被奴役国家周，2026",
+    "summary": "美国总统宣布2026年7月第三周为“被奴役国家周”，纪念受压迫民族。",
+    "analysis": "该公告主要针对美国国内及国际关注受压迫民族的人士，可能强化对特定国家（如中国、俄罗斯等）的意识形态批评。值得关注的是其可能影响美国外交政策基调及对相关国家的制裁或援助立场。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Motor Vehicles",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14997/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14997",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14997.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "征收额外关税以抵消加拿大对美国汽车贸易的歧视",
+    "summary": "美国对加拿大汽车征收额外关税，报复其歧视性贸易行为。",
+    "analysis": "该政策主要针对加拿大汽车及零部件出口商，可能导致双边贸易摩擦升级。美国消费者将面临汽车价格上涨，同时可能冲击北美汽车供应链。值得关注加拿大是否采取反制措施及对USMCA协定的影响。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Dairy",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14992/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14992",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14992.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "对加拿大乳制品歧视美国商业行为加征额外关税",
+    "summary": "美国对加拿大乳制品政策实施报复性关税。",
+    "analysis": "该政策针对加拿大乳制品行业，可能提高美国进口乳制品成本，加剧美加贸易摩擦。值得关注的是此举对北美供应链及后续贸易谈判的影响。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Alcoholic Beverages",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14991/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14991",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14991.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "征收附加税以抵消加拿大对美国酒精饮料贸易的歧视",
+    "summary": "美国对加拿大酒精饮料征收附加税，报复其歧视性贸易措施。",
+    "analysis": "该政策针对加拿大酒精饮料进口，可能提高美国消费者成本，加剧美加贸易摩擦。值得关注的是此举是否引发加拿大反制，以及是否影响北美贸易协定稳定性。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Further Strengthening Actions Taken To Adjust Imports of Aluminum Into the United States",
+   "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14990/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states",
+   "date": "2026-07-23",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-14990",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14990.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "进一步加强调整铝进口到美国的行动",
+    "summary": "美国政府发布行政令，进一步加强对铝进口的调整措施。",
+    "analysis": "该政策主要影响铝出口国（如加拿大、中国等）及美国国内铝消费行业。可能提高进口关税或收紧配额，推升美国铝价，增加下游制造成本，同时利好美国本土铝生产商。值得关注后续具体措施及贸易伙伴的反制行动。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はソロモン諸島のマシュー・クーパー・ワレ首相と首脳会談を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/23solomon.html",
+   "date": "2026-07-23",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理与所罗门群岛总理马修·库珀·瓦莱举行首脑会谈",
+    "summary": "日本首相与所罗门群岛总理举行双边首脑会谈。",
+    "analysis": "此次会谈主要针对日本与所罗门群岛的外交安全合作，可能涉及太平洋地区的地缘政治博弈。值得关注的是日本在太平洋岛国的影响力拓展，以及对中国在该地区存在的制衡意图。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は「女性のヘルスケアに関するガイダンス（中高年編）」の策定に係る面会を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/23menkai.html",
+   "date": "2026-07-23",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就制定“女性健康护理指南（中老年篇）”举行会谈",
+    "summary": "日本总理推动制定中老年女性健康护理指南。",
+    "analysis": "该政策主要针对中老年女性群体，可能提升其健康管理意识和医疗资源可及性。值得关注的是，此举或与应对少子老龄化、促进女性劳动参与率相关，体现政府将女性健康纳入社会政策统筹的倾向。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は都道府県議会議長との懇談会を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/23todoufuken.html",
+   "date": "2026-07-23",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理召开与都道府县议会议长的恳谈会",
+    "summary": "日本首相与地方议会议长举行恳谈会，讨论地方议题。",
+    "analysis": "该动态主要影响日本地方政府与中央政府的沟通协调，可能推动地方自治政策调整。值得关注的是恳谈会是否涉及财政分配或地方行政改革议题。",
+    "category": "民生社会"
+   }
+  },
   {
    "country": "jp",
    "title": "主要政策（骨太の方針２０２６）特集ページを公開しました",
