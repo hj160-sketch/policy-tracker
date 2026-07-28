@@ -1,16 +1,179 @@
 {
- "generated_at": "2026-07-27 23:26 UTC",
+ "generated_at": "2026-07-28 23:24 UTC",
  "brief": {
-  "text": "今日要点：2026年7月27日，美日政策动向显著。日本首相高市早苗召开记者会，可能涉及国内经济与外交战略；此前日本推动中老年女性健康护理指南及与所罗门群岛首脑会谈，显示其强化社会政策与太平洋岛国布局。美国方面，7月23日密集发布多项行政令，核心聚焦国防供应链安全与关键材料本土采购，并借“美国制造周”强化制造业回流；同时，美国对加拿大乳制品、汽车及酒精饮料加征报复性关税，凸显美加贸易摩擦升级。值得关注的是，美国对铝进口的进一步调整可能影响全球铝贸易链，而日本在半导体与供应链领域与美国存在潜在协同，但当前未见直接联动。三国政策中，美国贸易保护主义与日本社会投资形成鲜明对比，需警惕跨国贸易摩擦对全球供应链的连锁冲击。",
-  "date": "2026-07-27"
+  "text": "今日三国政策动向中，最值得关注的是美国依据301条款对60个经济体发起强迫劳动产品进口调查，此举具有显著贸易保护色彩，可能对中国、日本等主要贸易伙伴的供应链合规与出口环境造成直接影响。同日，美国决定推进与沙特在核能领域的合作，并发布先进反应堆监管新规，显示其在清洁能源技术出口与地缘布局上的双重意图。日本方面，熊本地区发生地震，政府迅速启动灾害应对机制，同时授予运动员国民荣誉奖，体现其危机管理与公共外交并重的治理节奏。整体来看，美国以贸易调查与核能合作为抓手强化经济安全与能源外交，日本则聚焦国内应急与软实力建设，中美日之间在贸易规则与能源技术领域的竞争与合作态势进一步显现。",
+  "date": "2026-07-28"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 90,
-  "jp": 129
+  "us": 93,
+  "jp": 136
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Actions by the United States in the Investigations Under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy To Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced With Forced Labor",
+   "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15274/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the",
+   "date": "2026-07-28",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15274",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-28/pdf/2026-15274.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "美国根据1974年贸易法第301条对60个经济体未能禁止并有效执行禁止进口强迫劳动产品的行为、政策和做法展开调查的行动",
+    "summary": "美国对60个经济体未能有效禁止强迫劳动产品进口展开301调查。",
+    "analysis": "该政策主要针对60个经济体的贸易行为，可能对相关国家的出口产业造成冲击，尤其是劳动密集型产品。值得关注的是，调查范围广泛，可能引发贸易摩擦，并推动全球供应链中劳工标准的提升。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Presidential Determination on the Proposed Agreement for Cooperation Between the Government of the United States of America and the Government of the Kingdom of Saudi Arabia Concerning Peaceful Uses of Nuclear Energy",
+   "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15273/presidential-determination-on-the-proposed-agreement-for-cooperation-between-the-government-of-the",
+   "date": "2026-07-28",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15273",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-28/pdf/2026-15273.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于美国政府与沙特阿拉伯王国政府拟议的和平利用核能合作协定的总统决定",
+    "summary": "美国总统决定推进与沙特在和平利用核能领域的合作协定。",
+    "analysis": "该决定将深化美沙核能合作，可能影响中东地区核不扩散格局及能源竞争。值得关注的是沙特是否获得铀浓缩等敏感技术，以及此举对伊朗、以色列等国的战略影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15213/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-correction",
+   "date": "2026-07-28",
+   "org": "Nuclear Regulatory Commission",
+   "doc_no": "2026-15213",
+   "excerpt": "The U.S. Nuclear Regulatory Commission (NRC) published a final rule in the Federal Register on March 30, 2026, to add a risk-informed, performance-based, and technology-inclusive regulatory framework for commercial nuclear plants. The final rule contained an error in the amendatory instruction for t",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-28/pdf/2026-15213.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "先进反应堆的风险知情、技术包容性监管框架；更正",
+    "summary": "NRC发布最终规则，为先进核电厂增加风险知情、基于绩效且技术包容的监管框架。",
+    "analysis": "该规则主要影响核电行业及监管机构，通过引入灵活框架降低先进反应堆的审批壁垒，可能加速新型核能技术商业化。值得关注其对核安全标准与创新平衡的示范效应。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１回令和８年熊本地震非常災害対策本部会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/28hijoukaigi.html",
+   "date": "2026-07-28",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第1次令和8年熊本地震非常灾害对策本部会议",
+    "summary": "日本政府召开熊本地震灾害对策会议，启动应急响应机制。",
+    "analysis": "该会议针对熊本地震灾区民众及救援机构，可能加速救灾物资调配与重建资金拨付。值得关注的是令和8年（2026年）的命名方式，暗示此次地震可能具有较高烈度或影响范围。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "熊本県熊本地方を震源とする地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/28_p3.html",
+   "date": "2026-07-28",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以熊本县熊本地区为震源的地震",
+    "summary": "日本政府就熊本地区地震发布官方通报及应对措施。",
+    "analysis": "该动态针对熊本县及周边居民和基础设施，可能造成人员伤亡、房屋损毁及交通中断。值得关注的是政府应急响应效率及对区域经济活动的短期冲击。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は熊本県熊本地方を震源とする地震についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0728kaiken.html",
+   "date": "2026-07-28",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就熊本县熊本地区地震举行记者会",
+    "summary": "日本首相高市就熊本县地震召开记者会，通报灾情与应对措施。",
+    "analysis": "此次地震对熊本县及周边居民生活、基础设施造成直接影响，政府紧急响应可能涉及救灾物资调配与灾后重建。值得关注的是震级、伤亡情况及后续余震风险，以及政府财政支出对地方经济的影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "熊本県熊本地方を震源とする地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/28_p2.html",
+   "date": "2026-07-28",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于以熊本县熊本地区为震源的地震",
+    "summary": "日本官方发布熊本地震信息，通报震情及应对措施。",
+    "analysis": "该信息主要影响熊本县及周边居民和基础设施，可能引发交通中断、建筑损毁及次生灾害。值得关注的是政府应急响应速度及灾后重建安排。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は熊本県熊本地方を震源とする地震に関する総理指示を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/discourse/20260728shiji.html",
+   "date": "2026-07-28",
+   "org": "総理の発表",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就熊本县熊本地方地震发布总理指示",
+    "summary": "日本首相就熊本地震发布紧急应对指示。",
+    "analysis": "该指示主要针对灾区居民及地方政府，要求迅速开展救援与灾情评估。可能影响当地交通、基础设施及居民生活，需关注后续救灾进展及经济恢复措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要／髙木美帆氏に対する国民栄誉賞の授与について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/28_a.html",
+   "date": "2026-07-28",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "内阁会议概要／授予高木美帆国民荣誉奖",
+    "summary": "日本政府决定授予速滑运动员高木美帆国民荣誉奖。",
+    "analysis": "该决定表彰高木美帆在体育领域的杰出成就，对运动员本人及日本体育界具有激励作用。值得关注的是，此举可能提升公众对冬季运动的关注度，并推动相关体育政策支持。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第４３回犯罪対策閣僚会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/28hanzaitaisaku.html",
+   "date": "2026-07-28",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第43次犯罪对策阁僚会议",
+    "summary": "日本首相高市早苗主持召开了第43次犯罪对策阁僚会议。",
+    "analysis": "该会议主要针对日本国内犯罪防控与公共安全议题，可能推动更严格的治安政策或立法。值得关注的是会议是否涉及网络犯罪、跨境犯罪等新威胁，以及是否影响在日外国人的监管措施。",
+    "category": "法律监管"
+   }
+  },
   {
    "country": "jp",
    "title": "高市総理は記者会見を行いました",
