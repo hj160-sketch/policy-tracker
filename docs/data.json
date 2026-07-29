@@ -1,16 +1,163 @@
 {
- "generated_at": "2026-07-28 23:24 UTC",
+ "generated_at": "2026-07-29 23:24 UTC",
  "brief": {
-  "text": "今日三国政策动向中，最值得关注的是美国依据301条款对60个经济体发起强迫劳动产品进口调查，此举具有显著贸易保护色彩，可能对中国、日本等主要贸易伙伴的供应链合规与出口环境造成直接影响。同日，美国决定推进与沙特在核能领域的合作，并发布先进反应堆监管新规，显示其在清洁能源技术出口与地缘布局上的双重意图。日本方面，熊本地区发生地震，政府迅速启动灾害应对机制，同时授予运动员国民荣誉奖，体现其危机管理与公共外交并重的治理节奏。整体来看，美国以贸易调查与核能合作为抓手强化经济安全与能源外交，日本则聚焦国内应急与软实力建设，中美日之间在贸易规则与能源技术领域的竞争与合作态势进一步显现。",
-  "date": "2026-07-28"
+  "text": "今日要点：2026年7月29日，美、日、中三国政策动向各有侧重。美国方面，延续对巴西的国家紧急状态，并依据《1974年贸易法》第301条对60个经济体未能有效禁止强迫劳动产品进口展开调查，此举可能加剧全球供应链审查与贸易摩擦。同时，美国推进与沙特在和平利用核能领域的合作，并发布先进核反应堆监管新规，显示其核能技术出口与安全监管并重的战略。日本方面，重点聚焦于令和8年熊本地震的紧急应对与灾后重建，首相高市早苗连续召开灾害对策本部会议并发布总理指示，凸显灾害管理的优先级。此外，日本召开社会保障国民会议与犯罪对策阁僚会议，显示内政改革与公共安全并进。三国政策虽无直接联动，但美国的贸易调查与核能合作动向可能对全球产业链及能源技术竞争产生间接影响，值得持续关注。",
+  "date": "2026-07-29"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 93,
-  "jp": 136
+  "us": 96,
+  "jp": 143
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Brazil",
+   "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil",
+   "date": "2026-07-29",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15389",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-29/pdf/2026-15389.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于巴西国家紧急状态的延续",
+    "summary": "美国政府宣布延长针对巴西的国家紧急状态。",
+    "analysis": "该政策主要影响美国与巴西之间的外交与安全关系，可能涉及对巴西特定个人或实体的制裁延续。值得关注的是，此举表明美国认为巴西局势仍对美国国家安全构成威胁，可能影响双边合作及投资环境。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Restoring Trust in the Smithsonian Institution",
+   "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15357/restoring-trust-in-the-smithsonian-institution",
+   "date": "2026-07-29",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15357",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-29/pdf/2026-15357.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "恢复对史密森尼学会的信任",
+    "summary": "总统行政办公室发布关于恢复史密森尼学会公信力的政策指令。",
+    "analysis": "该政策主要影响史密森尼学会及其下属博物馆、研究机构的管理层与员工。可能要求加强内容审查、调整展览方向或人事安排，值得关注的是其背后反映的政府与学术文化机构之间的信任关系变化。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Endangered and Threatened Wildlife and Plants; Revised Designation of Critical Habitat for the Contiguous U.S. Distinct Population Segment of the Canada Lynx; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15298/endangered-and-threatened-wildlife-and-plants-revised-designation-of-critical-habitat-for-the",
+   "date": "2026-07-29",
+   "org": "Interior Department, Fish and Wildlife Service",
+   "doc_no": "2026-15298",
+   "excerpt": "We, the U.S. Fish and Wildlife Service (Service), are correcting one amendatory instruction in the final rule that published in the Federal Register on June 16, 2026. That rule finalized the revised critical habitat designation for the contiguous U.S. distinct population segment (DPS) of the Canada ",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-29/pdf/2026-15298.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "濒危和受威胁野生动物及植物；对加拿大猞猁美国本土种群关键栖息地的修订指定；更正",
+    "summary": "美国鱼类和野生动物管理局更正2026年6月16日最终规则中的一项修订指令。",
+    "analysis": "该更正主要影响环保组织、土地开发者及联邦机构。更正可能调整关键栖息地边界，影响土地使用规划。值得关注的是，这反映了濒危物种保护政策在执行层面的细节修正，可能引发法律或合规争议。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は７月の月例経済報告等に関する関係閣僚会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/29getsurei.html",
+   "date": "2026-07-29",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席7月月度经济报告等相关阁僚会议",
+    "summary": "日本首相高市早苗出席7月经济报告相关阁僚会议。",
+    "analysis": "该会议通常评估最新经济形势并协调政策应对，可能影响日本央行货币政策及财政刺激方向。值得关注其对通胀、就业和日元汇率的判断，以及是否释放进一步宽松或收紧信号。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第２回社会保障国民会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/29shakaihoshou.html",
+   "date": "2026-07-29",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理召开第二届社会保障国民会议",
+    "summary": "日本总理召开社会保障国民会议，讨论社保改革方向。",
+    "analysis": "该会议主要影响日本国民及社保体系，可能推动养老金、医疗等领域的改革。值得关注的是改革力度及对财政可持续性的影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第２回令和８年熊本地震非常災害対策本部会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/29hijoukaigi.html",
+   "date": "2026-07-29",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第2次令和8年熊本地震非常灾害对策本部会议",
+    "summary": "日本总理主持熊本地震灾后应对会议，部署救灾与重建工作。",
+    "analysis": "该动态针对熊本地震灾区居民及地方政府，可能加速救灾资金拨付与重建政策出台。值得关注的是日本政府对重大自然灾害的应急响应机制及灾后财政支持力度。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "令和８年熊本地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/29_a.html",
+   "date": "2026-07-29",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于令和8年熊本地震",
+    "summary": "日本政府发布关于令和8年熊本地震的官方信息。",
+    "analysis": "该信息针对熊本地震灾区居民及救援机构，可能涉及灾后重建与应急响应措施。值得关注的是政府是否宣布紧急状态或追加财政支援。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は政府与党政策懇談会に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/29yotou_kondankai.html",
+   "date": "2026-07-29",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席政府与执政党政策恳谈会",
+    "summary": "日本首相高市早苗出席政府与执政党政策协调会议。",
+    "analysis": "该动态显示日本政府正加强与执政党的政策协调，可能为后续重大经济或安全政策铺路。值得关注会议是否涉及财政刺激或外交议题，对市场预期和日企战略有潜在影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は熊本県熊本地方を震源とする地震についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0729kaiken.html",
+   "date": "2026-07-29",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就熊本县熊本地区地震举行记者会",
+    "summary": "日本首相高市就熊本地震发表官方应对说明。",
+    "analysis": "该动态主要针对受灾地区居民及地方政府，表明中央政府已启动应急响应机制。值得关注的是政府对灾情评估及后续救援、重建措施的部署速度，可能影响区域经济恢复与社会稳定。",
+    "category": "民生社会"
+   }
+  },
   {
    "country": "us",
    "title": "Actions by the United States in the Investigations Under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy To Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced With Forced Labor",
@@ -172,6 +319,22 @@
     "summary": "日本首相高市早苗主持召开了第43次犯罪对策阁僚会议。",
     "analysis": "该会议主要针对日本国内犯罪防控与公共安全议题，可能推动更严格的治安政策或立法。值得关注的是会议是否涉及网络犯罪、跨境犯罪等新威胁，以及是否影响在日外国人的监管措施。",
     "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "令和８年熊本地震についての特設ページを公開しました",
+   "url": "https://www.kantei.go.jp/jp/kikikanri/earthquake20260728.html",
+   "date": "2026-07-28",
+   "org": "特集ページ",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于令和8年熊本地震的特设页面已公开",
+    "summary": "日本政府发布令和8年熊本地震专题页面，提供灾害信息与应对措施。",
+    "analysis": "该页面主要面向受灾民众及救援机构，提供地震相关的最新信息和支援政策。值得关注的是政府如何协调灾后重建与防灾体系，可能影响地方经济恢复和居民生活保障。",
+    "category": "民生社会"
    }
   },
   {
