@@ -1,16 +1,113 @@
 {
- "generated_at": "2026-07-29 23:24 UTC",
+ "generated_at": "2026-07-30 23:25 UTC",
  "brief": {
-  "text": "今日要点：2026年7月29日，美、日、中三国政策动向各有侧重。美国方面，延续对巴西的国家紧急状态，并依据《1974年贸易法》第301条对60个经济体未能有效禁止强迫劳动产品进口展开调查，此举可能加剧全球供应链审查与贸易摩擦。同时，美国推进与沙特在和平利用核能领域的合作，并发布先进核反应堆监管新规，显示其核能技术出口与安全监管并重的战略。日本方面，重点聚焦于令和8年熊本地震的紧急应对与灾后重建，首相高市早苗连续召开灾害对策本部会议并发布总理指示，凸显灾害管理的优先级。此外，日本召开社会保障国民会议与犯罪对策阁僚会议，显示内政改革与公共安全并进。三国政策虽无直接联动，但美国的贸易调查与核能合作动向可能对全球产业链及能源技术竞争产生间接影响，值得持续关注。",
-  "date": "2026-07-29"
+  "text": "今日三国政策动向中，日本聚焦于两项关键议题：一是高市总理宣布探讨降低食品饮料消费税并引入补贴型税额抵扣制度，旨在缓解民生压力；二是连续多日召开熊本地震灾害对策会议，全力部署救灾与重建工作。美国方面，最值得关注的是依据1974年贸易法第301条对60个经济体未能有效禁止强迫劳动产品进口展开调查，此举可能对全球供应链产生广泛影响，尤其涉及中国等主要制造业国家。此外，美国推进与沙特在和平利用核能领域的合作协定，显示其能源外交布局。中国当日未发布显著政策动态，但美国对多国的贸易调查与日本内政调整，均可能间接影响区域经贸格局与供应链安全。",
+  "date": "2026-07-30"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 96,
-  "jp": 143
+  "us": 97,
+  "jp": 148
  },
  "items": [
+  {
+   "country": "us",
+   "title": "General Services Administration Property Management Regulation (GSPMR); Nondiscrimination on the Basis of the Age Act Regulation for Programs or Activities Receiving Federal Financial Assistance; Technical Amendment",
+   "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15368/general-services-administration-property-management-regulation-gspmr-nondiscrimination-on-the-basis",
+   "date": "2026-07-30",
+   "org": "General Services Administration",
+   "doc_no": "2026-15368",
+   "excerpt": "The General Services Administration (GSA) is publishing a technical amendment to effectuate the rule published March 6, 2026. That published rule required clarifying edits in the amendatory instructions in order to facilitate the removal of GSA's regulations from the government-wide Federal Property",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-30/pdf/2026-15368.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "总务管理局财产管理法规；接受联邦财政援助的项目或活动中基于年龄的反歧视法规；技术性修订",
+    "summary": "GSA发布技术性修订，以落实2026年3月6日发布的规则，删除相关联邦财产法规。",
+    "analysis": "该技术性修订主要影响接受联邦财政援助的项目或活动，确保其遵守年龄反歧视规定。对GSA内部法规清理有直接作用，但对外部实体影响有限，值得关注的是法规删除后的合规衔接问题。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は｢飲食料品に係る消費税率の引下げ｣及び｢給付付き税額控除｣についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0730kaiken.html",
+   "date": "2026-07-30",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就“降低食品饮料消费税”及“附带补贴的税额抵扣”举行记者会",
+    "summary": "日本总理宣布探讨降低食品饮料消费税并引入补贴型税额抵扣制度。",
+    "analysis": "该政策主要影响日本消费者和食品行业，可能通过降低食品税负缓解民众生活成本压力，同时补贴型税额抵扣有助于低收入群体。值得关注的是政策实施对财政可持续性的影响及具体抵扣机制设计。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第３回令和８年熊本地震非常災害対策本部会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/30hijoukaigi.html",
+   "date": "2026-07-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第3次令和8年熊本地震非常灾害对策本部会议",
+    "summary": "日本总理召开熊本地震灾害对策会议，部署救灾与重建工作。",
+    "analysis": "该动态针对熊本地震受灾地区及居民，影响包括加速救灾资源调配和灾后重建进程。值得关注的是政府可能出台专项财政支持或法律修订，以应对灾害长期影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は北方少年少女による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/30hoppou.html",
+   "date": "2026-07-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受北方少年少女的礼节性拜访",
+    "summary": "日本首相高市早苗会见来自北方领土的青少年代表团。",
+    "analysis": "该动态主要针对日俄争议领土（北方四岛）的青少年群体，旨在强化日本国民对北方领土的主权意识。此举可能影响日俄关系，值得关注日本在领土问题上对年轻一代的宣传教育策略。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "臨時閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/30_a.html",
+   "date": "2026-07-30",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "临时内阁会议概要",
+    "summary": "日本政府召开临时内阁会议，讨论并决定当前重要政策事项。",
+    "analysis": "该动态表明日本政府正就紧急或重大议题进行高层决策，可能涉及经济刺激、外交安全或社会民生等领域。需关注会议具体决议内容，因其将直接影响相关行业及公众利益。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "経済財政諮問会議",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/30keizai.html",
+   "date": "2026-07-30",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "经济财政咨询会议",
+    "summary": "日本首相一日行程中涉及经济财政咨询会议的相关动态。",
+    "analysis": "该会议是日本政府经济财政政策的核心决策平台，其讨论内容可能影响未来财政预算、税制改革及经济增长战略。值得关注的是会议是否涉及新的刺激措施或结构性改革方向，对企业和投资者预期有重要引导作用。",
+    "category": "经济金融"
+   }
+  },
   {
    "country": "us",
    "title": "Continuation of the National Emergency With Respect to Brazil",
