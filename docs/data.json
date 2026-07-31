@@ -1,16 +1,162 @@
 {
- "generated_at": "2026-07-30 23:25 UTC",
+ "generated_at": "2026-07-31 23:24 UTC",
  "brief": {
-  "text": "今日三国政策动向中，日本聚焦于两项关键议题：一是高市总理宣布探讨降低食品饮料消费税并引入补贴型税额抵扣制度，旨在缓解民生压力；二是连续多日召开熊本地震灾害对策会议，全力部署救灾与重建工作。美国方面，最值得关注的是依据1974年贸易法第301条对60个经济体未能有效禁止强迫劳动产品进口展开调查，此举可能对全球供应链产生广泛影响，尤其涉及中国等主要制造业国家。此外，美国推进与沙特在和平利用核能领域的合作协定，显示其能源外交布局。中国当日未发布显著政策动态，但美国对多国的贸易调查与日本内政调整，均可能间接影响区域经贸格局与供应链安全。",
-  "date": "2026-07-30"
+  "text": "今日要点：美国、日本、中国政策动向聚焦于安全、灾害与经贸合规。美国延续对黎巴嫩及巴西的国家紧急状态，凸显中东与拉美地缘风险持续；同时依据1974年贸易法第301条，对60个经济体未能有效禁止强迫劳动产品进口展开调查，此举将显著影响全球供应链合规成本，尤其对依赖对美出口的亚洲经济体构成压力。日本方面，首相高市早苗密集主持核能、网络安全、熊本地震及热中症对策等阁僚会议，显示其政府正统筹应对能源安全、自然灾害韧性及公共健康风险；此外，探讨降低食品饮料消费税并引入补贴型税额抵扣，反映内需刺激与民生纾困并行的政策取向。中国虽无直接动态，但美日政策动向均涉及供应链与区域稳定，三国在贸易合规、能源转型及灾害治理上的互动值得持续关注。",
+  "date": "2026-07-31"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 97,
-  "jp": 148
+  "us": 99,
+  "jp": 155
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to Lebanon",
+   "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15658/continuation-of-the-national-emergency-with-respect-to-lebanon",
+   "date": "2026-07-31",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15658",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-31/pdf/2026-15658.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于黎巴嫩国家紧急状态的延续",
+    "summary": "美国总统宣布将针对黎巴嫩的国家紧急状态继续延长一年。",
+    "analysis": "该决定主要影响美国对黎巴嫩及相关方的制裁和外交政策，延续对特定实体和个人的经济限制。可能加剧黎巴嫩经济困境，但显示美国持续关注地区安全。值得关注后续制裁名单及对中东局势的影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "FLSA Claims and Compliance",
+   "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15597/flsa-claims-and-compliance",
+   "date": "2026-07-31",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-15597",
+   "excerpt": "The Office of Personnel Management (OPM) is issuing this direct final rule to update the provisions concerning Fair Labor Standards Act (FLSA) claims submissions to OPM.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-31/pdf/2026-15597.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "FLSA索赔与合规",
+    "summary": "OPM发布直接最终规则，更新FLSA索赔提交程序。",
+    "analysis": "该规则影响联邦雇员及机构，明确FLSA索赔流程，可能提高处理效率。需关注合规要求变化，确保机构及时调整内部程序。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１４回原子力関係閣僚会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/31genshiryoku.html",
+   "date": "2026-07-31",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第14次原子能相关阁僚会议",
+    "summary": "日本首相高市早苗主持原子能阁僚会议，讨论核能政策与安全措施。",
+    "analysis": "该会议可能推动日本核能重启及新政策，影响能源企业和民众电价。关注点在于是否调整核废料处理及事故应对措施，或影响国际核能合作。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第４回令和８年熊本地震非常災害対策本部会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/31hijoukaigi.html",
+   "date": "2026-07-31",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第4次令和8年熊本地震非常灾害对策本部会议",
+    "summary": "日本总理主持熊本地震灾后对策会议，协调救援与重建工作。",
+    "analysis": "该动态针对熊本地震灾区居民及地方政府，影响包括救灾资源分配和重建进度。值得关注的是政府后续财政投入及防灾政策调整，可能对区域经济和社会稳定产生长期影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "熱中症対策に関する関係閣僚会議の開催について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/31_p.html",
+   "date": "2026-07-31",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "关于召开预防中暑相关阁僚会议的通知",
+    "summary": "日本政府召开阁僚会议，统筹部署预防中暑的跨部门对策。",
+    "analysis": "该会议主要影响日本民众及地方政府，可能推动加强防暑宣传、设施补贴和医疗应急准备。值得关注的是其跨部门协调机制及后续具体措施，尤其在极端高温频发背景下。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１回熱中症対策に関する関係閣僚会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/31necchuushou.html",
+   "date": "2026-07-31",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席首届热中症对策相关阁僚会议",
+    "summary": "日本总理高市早苗主持首次热中症对策阁僚会议，部署防暑措施。",
+    "analysis": "该会议针对日本民众及户外工作者，可能推动加强防暑预警、公共设施降温及医疗资源调配。值得关注后续具体政策及预算安排，尤其对老年人、儿童等脆弱群体保护措施。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第５回地域未来戦略に関する関係副大臣等会議・地域未来戦略に関する総理報告に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/31chiikimirai.html",
+   "date": "2026-07-31",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第五届地区未来战略相关副大臣等会议及总理报告",
+    "summary": "日本总理高市早苗出席地区未来战略会议，听取报告并推动地方发展。",
+    "analysis": "该政策主要影响日本地方政府和区域经济，可能通过战略部署促进地方产业升级和人口回流。值得关注的是具体扶持措施及财政配套，以及如何平衡区域间发展差距。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要／内閣官房及び内閣府の人事／国家情報会議の開催／クマ被害対策等に関する関係閣僚会議の開催／令和８年熊本地震について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/31_a.html",
+   "date": "2026-07-31",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "内阁会议概要／内阁官房及内阁府人事／国家情报会议召开／关于熊害对策等相关阁僚会议的召开／关于令和8年熊本地震",
+    "summary": "日本政府公布内阁会议概要，涉及人事、情报会议、熊害对策及熊本地震应对。",
+    "analysis": "该动态主要影响日本国内治理与灾害应对，涉及政府人事调整和熊害对策，可能影响地方民生和防灾体系。值得关注的是熊本地震后续处理及国家情报会议的安全决策。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第６回サイバーセキュリティ戦略本部を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202607/31security.html",
+   "date": "2026-07-31",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第六届网络安全战略本部会议",
+    "summary": "日本首相高市早苗主持召开网络安全战略本部会议，讨论国家网络安全对策。",
+    "analysis": "该会议可能推动日本强化关键基础设施防护及网络防御能力，对科技企业、政府机构及国际合作伙伴产生直接影响。值得关注后续可能出台的网络安全新规或战略调整。",
+    "category": "外交安全"
+   }
+  },
   {
    "country": "us",
    "title": "General Services Administration Property Management Regulation (GSPMR); Nondiscrimination on the Basis of the Age Act Regulation for Programs or Activities Receiving Federal Financial Assistance; Technical Amendment",
