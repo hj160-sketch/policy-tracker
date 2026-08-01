@@ -1,16 +1,100 @@
 {
- "generated_at": "2026-07-31 23:24 UTC",
+ "generated_at": "2026-08-01 23:22 UTC",
  "brief": {
-  "text": "今日要点：美国、日本、中国政策动向聚焦于安全、灾害与经贸合规。美国延续对黎巴嫩及巴西的国家紧急状态，凸显中东与拉美地缘风险持续；同时依据1974年贸易法第301条，对60个经济体未能有效禁止强迫劳动产品进口展开调查，此举将显著影响全球供应链合规成本，尤其对依赖对美出口的亚洲经济体构成压力。日本方面，首相高市早苗密集主持核能、网络安全、熊本地震及热中症对策等阁僚会议，显示其政府正统筹应对能源安全、自然灾害韧性及公共健康风险；此外，探讨降低食品饮料消费税并引入补贴型税额抵扣，反映内需刺激与民生纾困并行的政策取向。中国虽无直接动态，但美日政策动向均涉及供应链与区域稳定，三国在贸易合规、能源转型及灾害治理上的互动值得持续关注。",
-  "date": "2026-07-31"
+  "text": "今日要点：美国人事管理办公室（OPM）密集发布系列最终规定，将裁员及 suitability 上诉机构从功绩制保护委员会（MSPB）转移至自身，并修订裁员规则优先绩效而非资历，同时精简试用期上诉程序，显示联邦人事管理权力集中化与效率导向的显著趋势。日本方面，首相高市早苗连续主持熊本地震对策本部会议及原子能、网络安全、热中症对策等阁僚会议，并宣布探讨降低食品饮料消费税及补贴型税额抵扣，反映其灾后应急、核能安全与民生经济多线并进。中国当日无重大新政策发布。跨国关联上，美日虽无直接政策交锋，但美国联邦人事改革或影响驻日美军文职体系，而日本核能政策动向亦牵动全球能源安全与供应链稳定，值得持续关注。",
+  "date": "2026-08-01"
  },
  "errors": [],
  "counts": {
   "cn": 48,
-  "us": 99,
-  "jp": 155
+  "us": 103,
+  "jp": 156
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Reduction in Force Appeals",
+   "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15666/reduction-in-force-appeals",
+   "date": "2026-08-03",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-15666",
+   "excerpt": "The Office of Personnel Management (OPM) is issuing final regulations to revise how an employee may appeal a furlough of more than 30 days, separation, or demotion by a reduction-in-force (RIF) action. OPM will replace the Merit Systems Protection Board (MSPB) as the adjudicative agency for such app",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/pdf/2026-15666.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "裁员上诉程序最终规定",
+    "summary": "OPM发布最终规定，将裁员上诉机构从MSPB改为OPM。",
+    "analysis": "该规定影响联邦雇员，尤其是面临裁员、降职或长期停职者。上诉程序变更可能降低独立审查保障，引发对公平性的关注。需留意后续实施细则及法律挑战。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Reduction in Force",
+   "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
+   "date": "2026-08-03",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-15665",
+   "excerpt": "The Office of Personnel Management (OPM) is revising its reduction in force (RIF) regulations to make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and by modif",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/pdf/2026-15665.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "裁员规定修订",
+    "summary": "OPM修订裁员法规，优先绩效而非资历，以精简高效。",
+    "analysis": "影响联邦雇员，尤其资深员工可能面临更大裁员风险。该政策强调绩效导向，可能提升政府效率，但需关注公平性和员工士气。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Streamlining Probationary and Trial Period Appeals",
+   "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals",
+   "date": "2026-08-03",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-15654",
+   "excerpt": "The Office of Personnel Management (OPM) is issuing a final rule to change the circumstances and procedures for adjudicating appeals from employees terminated during their probationary and trial periods and supervisors and managers who fail to complete their probationary periods. Executive order, \"S",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/pdf/2026-15654.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "精简试用期及见习期上诉程序",
+    "summary": "OPM发布最终规则，调整试用期员工及未完成试用期主管的上诉程序。",
+    "analysis": "该规则影响联邦试用期员工及主管，可能缩短上诉流程、限制申诉机会，提高解雇效率。值得关注其是否削弱员工保护，引发法律挑战。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Suitability Action Appeals",
+   "url": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
+   "date": "2026-08-03",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-15650",
+   "excerpt": "The Office of Personnel Management (OPM) is issuing final regulations to revise how an applicant, appointee, or employee may appeal a suitability action taken under 5 CFR part 731. OPM will replace the Merit Systems Protection Board (MSPB) as the adjudicative agency for such appeals. The change will",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/pdf/2026-15650.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": " suitability 行动上诉规则修订",
+    "summary": "OPM发布最终规则，将 suitability 上诉机构从 MSPB 改为自身。",
+    "analysis": "该规则影响联邦求职者、雇员及机构，上诉裁决权转移至OPM，可能降低上诉独立性，增加行政效率但削弱制衡。关注点在于对雇员权利保障的影响。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第５回令和８年熊本地震非常災害対策本部会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/01hijoukaigi.html",
+   "date": "2026-08-01",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第5次令和8年熊本地震非常灾害对策本部会议",
+    "summary": "日本总理主持熊本地震灾后对策会议，协调救援与重建工作。",
+    "analysis": "该动态针对熊本地震灾区居民及地方政府，影响包括救援效率提升和重建资金分配。值得关注后续具体措施及财政支持力度，可能涉及民生社会政策调整。",
+    "category": "民生社会"
+   }
+  },
   {
    "country": "us",
    "title": "Continuation of the National Emergency With Respect to Lebanon",
