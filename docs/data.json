@@ -1,18 +1,114 @@
 {
- "generated_at": "2026-08-04 23:25 UTC",
+ "generated_at": "2026-08-05 23:24 UTC",
  "brief": {
-  "text": "今日要点：日本方面，高市总理聚焦国内灾害应对与核能政策，连续主持熊本地震对策本部会议并赴灾区视察，同时召开原子能阁僚会议及首届热中症对策会议，显示其执政重心在于灾后重建与能源安全。美国方面，OPM密集发布多项最终规定，将裁员及 suitability 上诉机构从MSPB转移至自身，并修订裁员规则以绩效取代资历，显著强化行政机构对人事管理的控制权，此举或引发公务员体系稳定性争议。跨国关联上，美日虽无直接政策互动，但美国人事改革与日本核能政策均反映各自内部治理调整；值得注意的是，美国对黎巴嫩紧急状态延续一年，显示中东局势仍为美方安全关切，而日本对广岛、长崎的访问或隐含对核裁军议题的立场，与美核政策形成潜在张力。",
-  "date": "2026-08-04"
+  "text": "今日要点：美国、日本与中国政策动向聚焦于安全、产业与灾害应对。美国方面，总统宣布继续延长针对外国对手在军事、情报及网络等敏感技术领域的国家紧急状态，凸显对科技竞争与供应链安全的持续警惕；同时依据《国防生产法》支持可回收关键矿产生产，并发布石英表面产品进口调整公告，显示其强化本土产业与资源自主的战略意图。日本方面，高市总理主导熊本地震连续对策会议，协调重建；同时正式引入“附带给付的税收抵免”制度，并接受经团联政策建议，兼顾民生纾困与经济结构改革。值得关注的是，美日政策均隐含对关键技术与供应链的布局，与中国的产业政策形成潜在竞争，三国在矿产、科技及贸易领域的互动或将成为未来博弈焦点。",
+  "date": "2026-08-05"
  },
- "errors": [
-  "us: 503 Server Error: Service Temporarily Unavailable for url: https://www.federalregister.gov/api/v1/documents.json?per_page=15&order=newest&conditions%5Btype%5D%5B%5D=RULE&conditions%5Bsignificant%5D=1"
- ],
+ "errors": [],
  "counts": {
   "cn": 48,
-  "us": 103,
-  "jp": 162
+  "us": 108,
+  "jp": 166
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Continuation of the National Emergency With Respect to the Advancement by Countries of Concern in Sensitive Technologies and Products Critical for the Military, Intelligence, Surveillance, or Cyber-Enabled Capabilities of Such Countries",
+   "url": "https://www.federalregister.gov/documents/2026/08/05/2026-16015/continuation-of-the-national-emergency-with-respect-to-the-advancement-by-countries-of-concern-in",
+   "date": "2026-08-05",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-16015",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-05/pdf/2026-16015.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于继续延长针对关注国家在军事、情报、监视或网络能力关键敏感技术及产品方面进展的国家紧急状态",
+    "summary": "美国总统宣布继续延长针对敏感技术领域外国对手的国家紧急状态。",
+    "analysis": "该政策主要影响被列为“关注国家”的实体，尤其是中国科技企业。可能加剧技术出口管制和投资限制，推高相关行业供应链成本。值得关注后续具体制裁清单及盟友协同动作。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "To Facilitate Positive Adjustment to Competition From Imports of Quartz Surface Products",
+   "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15975/to-facilitate-positive-adjustment-to-competition-from-imports-of-quartz-surface-products",
+   "date": "2026-08-05",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15975",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-05/pdf/2026-15975.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "促进石英表面产品进口竞争积极调整的总统公告",
+    "summary": "美国总统公告，旨在应对石英表面产品进口竞争，促进产业调整。",
+    "analysis": "该政策针对美国石英表面产品制造商及进口商，可能通过关税或配额限制进口，保护本土产业。影响包括国内价格上涨、供应链调整，值得关注具体措施及对贸易伙伴的反制。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は「給付付き税額控除」の制度導入の基本方針の閣議決定についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0805kaiken.html",
+   "date": "2026-08-05",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就“附带给付的税收抵免”制度引入基本方针的阁议决定举行记者会",
+    "summary": "日本政府决定引入“给付付き税額控除”制度，并召开内阁会议及记者会说明。",
+    "analysis": "该政策主要影响低收入家庭和育儿群体，通过税收抵免与现金给付结合减轻负担，可能刺激消费。需关注具体抵免额度、适用条件及财政来源，以及是否扩大至中产阶层。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第７回令和８年熊本地震非常災害対策本部会議に出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/05hijoukaigi.html",
+   "date": "2026-08-05",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理出席第7次令和8年熊本地震非常灾害对策本部会议",
+    "summary": "日本总理主持熊本地震灾后对策会议，协调重建与支援工作。",
+    "analysis": "该动态针对熊本地震灾区居民及地方政府，可能加速灾后重建资金拨付和基础设施修复。值得关注的是政府应对灾害的效率和资源调配，对民生恢复有直接影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "臨時閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202608/5_p.html",
+   "date": "2026-08-05",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "临时内阁会议概要",
+    "summary": "日本政府召开临时内阁会议，发布会议概要。",
+    "analysis": "该动态表明日本政府正就特定议题进行紧急决策，可能涉及政策调整或危机应对。需关注后续具体措施，对相关行业及公众可能产生直接影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は「経団連夏季フォーラム２０２６総括」を受け取りました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/05shukou.html",
+   "date": "2026-08-05",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受“经团联夏季论坛2026总结”",
+    "summary": "日本首相高市早苗接收经济团体联合会夏季论坛的政策建议书。",
+    "analysis": "该动态显示政府与商界领袖的密切互动，可能为后续经济刺激政策铺路。关注经团联提出的税制、劳动市场等建议是否被采纳，将影响企业投资和就业环境。",
+    "category": "经济金融"
+   }
+  },
   {
    "country": "jp",
    "title": "高市総理は髙木美帆氏に対する国民栄誉賞の表彰式を行いました",
@@ -59,6 +155,57 @@
     "summary": "日本高市总理将访问广岛和长崎，可能涉及核政策或纪念活动。",
     "analysis": "该访问可能强化日本对核爆历史的重视，影响国内核政策讨论及对外核裁军立场。值得关注是否宣布新倡议，或影响美日核保护伞相关舆论。",
     "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Authorizing Cameron County, Texas, To Own, Operate, and Maintain the Brownsville and Matamoros Bridge in Brownsville, Texas",
+   "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15860/authorizing-cameron-county-texas-to-own-operate-and-maintain-the-brownsville-and-matamoros-bridge-in",
+   "date": "2026-08-04",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15860",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15860.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "授权得克萨斯州卡梅伦县拥有、运营和维护位于布朗斯维尔的布朗斯维尔-马塔莫罗斯大桥",
+    "summary": "授权卡梅伦县运营布朗斯维尔与墨西哥马塔莫罗斯之间的跨境桥梁。",
+    "analysis": "该政策影响美墨边境交通与贸易，可能提升地方基础设施管理效率，促进跨境物流和人员往来。值得关注其运营成本、收费政策及对边境安全的影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials",
+   "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15859/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended",
+   "date": "2026-08-04",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-15859",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15859.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "根据1950年《国防生产法》第101条（经修订）关于可回收关键矿产和材料的总统决定",
+    "summary": "美国总统依据《国防生产法》发布决定，支持可回收关键矿产和材料的国内生产。",
+    "analysis": "该决定将影响矿业、回收及国防供应链企业，可能通过联邦资金或采购促进关键矿产回收，减少对外依赖。值得关注其对稀土、锂等战略资源的扶持力度及后续实施细则。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Accessible Lavatories on Single-Aisle Aircraft and Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs",
+   "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15835/accessible-lavatories-on-single-aisle-aircraft-and-ensuring-safe-accommodations-for-air-travelers",
+   "date": "2026-08-04",
+   "org": "Transportation Department",
+   "doc_no": "2026-15835",
+   "excerpt": "The U.S. Department of Transportation (DOT or Department) is extending its previously announced enforcement discretion for four provisions of the final rule on \"Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs\" (Wheelchair Rule I) related to airline liability for mi",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15835.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "单通道飞机无障碍卫生间及确保使用轮椅的残疾航空旅客安全 accommodations",
+    "summary": "美国交通部延长对轮椅规则I四项条款的执法自由裁量权。",
+    "analysis": "该政策主要影响航空公司和残疾旅客。延长执法自由裁量权意味着航空公司暂时不会因未完全合规而受罚，但旅客可能继续面临无障碍设施不足。值得关注后续正式执法时间及合规要求。",
+    "category": "民生社会"
    }
   },
   {
