@@ -68,18 +68,34 @@
   .item h4 a { color: var(--text); text-decoration: none; }
   .item h4 a:hover { color: var(--accent); }
   .orig { font-size: .78rem; color: var(--muted); margin-top: 2px; }
-  .summary { font-size: .87rem; margin-top: 6px; }
-  .analysis {
-    font-size: .85rem; color: var(--muted); margin-top: 8px; padding: 8px 12px;
-    border-left: 3px solid var(--accent); background: rgba(77,163,255,.06);
-    border-radius: 0 8px 8px 0;
+  .policy-detail {
+    margin-top: 12px; padding: 10px 12px;
+    border: 1px solid var(--border); border-radius: 8px;
+    background: rgba(255,255,255,.025);
   }
-  .analysis b { color: var(--accent); font-weight: 600; }
+  .policy-detail.impact {
+    border-left: 3px solid var(--accent);
+    background: rgba(77,163,255,.06);
+  }
+  .detail-label {
+    display: block; margin-bottom: 4px; color: var(--accent);
+    font-size: .82rem; font-weight: 700;
+  }
+  .detail-text {
+    color: var(--text); font-size: .87rem; line-height: 1.75;
+    white-space: pre-wrap; overflow-wrap: anywhere;
+  }
   .links { margin-top: 8px; font-size: .78rem; }
   .links a { color: var(--accent); text-decoration: none; margin-right: 14px; }
   .empty, .loading { text-align: center; color: var(--muted); padding: 60px 0; }
   footer { margin-top: 40px; font-size: .75rem; color: var(--muted); text-align: center; }
   footer a { color: var(--muted); }
+  @media (max-width: 600px) {
+    .wrap { padding: 18px 10px 56px; }
+    .item { padding: 13px 12px; }
+    .policy-detail { padding: 9px 10px; }
+    .detail-text { font-size: .85rem; line-height: 1.7; }
+  }
 </style>
 </head>
 <body>
@@ -181,7 +197,8 @@ function render() {
   if (category !== "all") items = items.filter(i => i.ai && i.ai.category === category);
   if (query) items = items.filter(i => {
     const a = i.ai || {};
-    return [i.title, a.title_zh, a.summary, a.analysis, i.org, i.doc_no]
+    return [i.title, i.title_zh, a.title_zh, a.explanation, a.impact,
+      a.summary, a.analysis, i.org, i.org_zh, a.org_zh, i.doc_no]
       .join(" ").toLowerCase().includes(query);
   });
 
@@ -206,6 +223,8 @@ function card(i) {
   const a = i.ai || {};
   const titleZh = a.title_zh || i.title_zh || i.title;
   const orgZh = a.org_zh || i.org_zh || i.org;
+  const explanation = a.explanation || a.summary;
+  const impact = a.impact || a.analysis;
   const showOrig = titleZh && titleZh !== i.title;
   const showOrgOrig = orgZh && i.org && orgZh !== i.org;
   return `
@@ -220,8 +239,8 @@ function card(i) {
     ${showOrig ? `<div class="orig">原文:${esc(i.title)}</div>` : ""}
     ${orgZh ? `<div class="orig">发布:${esc(orgZh)}</div>` : ""}
     ${showOrgOrig ? `<div class="orig">发布机构原文:${esc(i.org)}</div>` : ""}
-    ${a.summary ? `<div class="summary">${esc(a.summary)}</div>` : ""}
-    ${a.analysis ? `<div class="analysis"><b>AI 分析</b> · ${esc(a.analysis)}</div>` : ""}
+    ${explanation ? `<section class="policy-detail"><span class="detail-label">详细解释</span><div class="detail-text">${esc(explanation)}</div></section>` : ""}
+    ${impact ? `<section class="policy-detail impact"><span class="detail-label">影响与意义</span><div class="detail-text">${esc(impact)}</div></section>` : ""}
     <div class="links">
       <a href="${esc(i.url)}" target="_blank" rel="noopener">查看原文 ↗</a>
       ${i.pdf ? `<a href="${esc(i.pdf)}" target="_blank" rel="noopener">官方 PDF ↗</a>` : ""}
