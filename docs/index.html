@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>中美日政策追踪</title>
+<title>中美日韩及中国香港政策追踪</title>
 <style>
   :root {
     --bg: #0f1419; --card: #1a2129; --card-hover: #1f2933;
     --border: #2c3640; --text: #e7edf3; --muted: #8b9aa8;
     --accent: #4da3ff; --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6;
+    --kr: #3aa6a0; --hk: #d98245;
   }
   @media (prefers-color-scheme: light) {
     :root {
@@ -60,6 +61,7 @@
   .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: .74rem; margin-bottom: 6px; }
   .badge { border-radius: 5px; padding: 1px 7px; font-weight: 600; color: #fff; }
   .badge.cn { background: var(--cn); } .badge.us { background: var(--us); } .badge.jp { background: var(--jp); }
+  .badge.kr { background: var(--kr); } .badge.hk { background: var(--hk); }
   .cat { color: var(--accent); border: 1px solid var(--accent); border-radius: 5px; padding: 0 6px; }
   .src, .org { color: var(--muted); }
   .item h4 { font-size: .98rem; line-height: 1.45; }
@@ -83,7 +85,7 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>🌏 中美日政策追踪 <a href="graph.html" style="font-size:.65em;color:var(--accent);text-decoration:none;vertical-align:middle">🕸️ 关系图</a> <a href="mindmap.html" style="font-size:.65em;color:var(--accent);text-decoration:none;vertical-align:middle">🧠 脑图</a></h1>
+    <h1>🌏 中美日韩及中国香港政策追踪 <a href="graph.html" style="font-size:.65em;color:var(--accent);text-decoration:none;vertical-align:middle">🕸️ 关系图</a> <a href="mindmap.html" style="font-size:.65em;color:var(--accent);text-decoration:none;vertical-align:middle">🧠 脑图</a></h1>
     <div class="sub" id="meta">加载中…</div>
   </header>
 
@@ -97,6 +99,8 @@
     <button class="tab" data-c="cn">🇨🇳 中国</button>
     <button class="tab" data-c="us">🇺🇸 美国</button>
     <button class="tab" data-c="jp">🇯🇵 日本</button>
+    <button class="tab" data-c="kr">🇰🇷 韩国</button>
+    <button class="tab" data-c="hk">🇭🇰 中国香港</button>
     <input id="search" type="search" placeholder="搜索标题 / 机构 / 分析…">
   </div>
   <div class="chips" id="chips"></div>
@@ -104,14 +108,14 @@
   <div id="list"><div class="loading">数据加载中…</div></div>
 
   <footer>
-    数据来源:中国政府网 · Federal Register · 首相官邸 | AI 分析由 DeepSeek 生成,仅供参考<br>
+    数据来源:中国政府网 · Federal Register · 首相官邸 · 韩国政策简报 · 香港政府新闻网 | AI 分析由 DeepSeek 生成,仅供参考<br>
     <span id="gen"></span>
   </footer>
 </div>
 
 <script>
-const FLAG = { cn: "🇨🇳", us: "🇺🇸", jp: "🇯🇵" };
-const NAME = { cn: "中国", us: "美国", jp: "日本" };
+const FLAG = { cn: "🇨🇳", us: "🇺🇸", jp: "🇯🇵", kr: "🇰🇷", hk: "🇭🇰" };
+const NAME = { cn: "中国", us: "美国", jp: "日本", kr: "韩国", hk: "中国香港" };
 let DATA = null, country = "all", category = "all", query = "";
 
 const saved = JSON.parse(localStorage.getItem("ptPrefs") || "{}");
@@ -128,7 +132,7 @@ fetch("data.json?_=" + Date.now())
 function init() {
   const c = DATA.counts || {};
   document.getElementById("meta").textContent =
-    `共 ${DATA.items.length} 条 · 中国 ${c.cn||0} / 美国 ${c.us||0} / 日本 ${c.jp||0} · 更新于 ${DATA.generated_at||"—"}`;
+    `共 ${DATA.items.length} 条 · 中国 ${c.cn||0} / 美国 ${c.us||0} / 日本 ${c.jp||0} / 韩国 ${c.kr||0} / 中国香港 ${c.hk||0} · 更新于 ${DATA.generated_at||"—"}`;
   document.getElementById("gen").textContent = "最后更新:" + (DATA.generated_at || "—");
 
   if (DATA.brief && DATA.brief.text) {

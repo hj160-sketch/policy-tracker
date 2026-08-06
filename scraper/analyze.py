@@ -9,7 +9,7 @@ API_KEY = os.environ.get("DEEPSEEK_API_KEY", "").strip()
 API_URL = "https://api.deepseek.com/chat/completions"
 MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
 
-COUNTRY_NAME = {"cn": "中国", "us": "美国", "jp": "日本"}
+COUNTRY_NAME = {"cn": "中国", "us": "美国", "jp": "日本", "kr": "韩国", "hk": "中国香港"}
 CATEGORIES = ["经济金融", "科技产业", "外交安全", "民生社会", "能源环境", "法律监管", "其他"]
 
 
@@ -80,11 +80,11 @@ def daily_brief(recent_items, today):
         a = it.get("ai") or {}
         lines.append(f"[{COUNTRY_NAME.get(it['country'])}] {it['date']} "
                      f"{a.get('title_zh') or it['title']} — {a.get('summary') or ''}")
-    prompt = f"""你是一名政策分析师。今天是{today}。以下是中国、美国、日本最近发布的政策动态清单:
+    prompt = f"""你是一名政策分析师。今天是{today}。以下是中国、美国、日本、韩国和中国香港最近发布的政策动态清单:
 
 {chr(10).join(lines)}
 
-请用中文写一段150-250字的「今日要点」综述:概括三国最值得关注的政策动向,如有跨国关联(如贸易、科技竞争)请点出。直接输出正文,不要标题、不要列表。"""
+请用中文写一段150-250字的「今日要点」综述:概括五地最值得关注的政策动向,如有跨境关联(如贸易、科技竞争)请点出。直接输出正文,不要标题、不要列表。"""
     try:
         return _chat([{"role": "user", "content": prompt}], max_tokens=500).strip()
     except Exception as e:

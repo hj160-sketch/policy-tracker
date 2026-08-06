@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""抓取中国/美国/日本官方政策数据源"""
+"""抓取中国/美国/日本/韩国/中国香港官方政策数据源"""
+from email.utils import parsedate_to_datetime
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -218,9 +219,89 @@ def fetch_japan(n=20):
     return items
 
 
+def fetch_korea(n=15, page=1, start_date="", end_date=""):
+    """韩国政策简报·政策新闻（韩国政府官方政策门户）。"""
+    base = "https://www.korea.kr"
+    url = f"{base}/news/policyNewsList.do"
+    if page > 1 or start_date or end_date:
+        r = requests.post(url, data={"pageIndex": page, "startDate": start_date,
+                                     "endDate": end_date},
+                          headers=UA, timeout=TIMEOUT)
+    else:
+        r = requests.get(url, headers=UA, timeout=TIMEOUT)
+    r.raise_for_status()
+    r.encoding = "utf-8"
+    soup = BeautifulSoup(r.text, "html.parser")
+    items, seen = [], set()
+    for a in soup.select('a[href*="policyNewsView.do"]'):
+        title_el = a.select_one("strong")
+        if not a or not title_el:
+            continue
+        href = a.get("href") or ""
+        if href.startswith("/"):
+            href = base + href
+        if not href.startswith("http") or href in seen:
+            continue
+        source_parts = [x.get_text(" ", strip=True)
+                        for x in a.select(".source span")]
+        date = next((x.replace(".", "-") for x in source_parts
+                     if re.fullmatch(r"\d{4}\.\d{2}\.\d{2}", x)), "")
+        org = next((x for x in reversed(source_parts)
+                    if not re.fullmatch(r"\d{4}\.\d{2}\.\d{2}", x)), "")
+        lead = a.select_one(".lead")
+        seen.add(href)
+        items.append({
+            "country": "kr",
+            "title": _clean(title_el.get_text(" ", strip=True)),
+            "url": href,
+            "date": date,
+            "org": _clean(org),
+            "doc_no": "",
+            "excerpt": _clean(lead.get_text(" ", strip=True) if lead else "")[:300],
+            "source": "韩国政策简报·政策新闻",
+        })
+        if len(items) >= n:
+            break
+    return items
+
+
+def fetch_hong_kong(n=15):
+    """香港政府新闻网·重要新闻 RSS（繁体中文官方来源）。"""
+    feed = "https://www.news.gov.hk/tc/common/html/topstories.rss.xml"
+    r = requests.get(feed, headers=UA, timeout=TIMEOUT)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.content, "xml")
+    items = []
+    for entry in soup.find_all("item")[:n]:
+        link = entry.find("link")
+        title = entry.find("title")
+        if not link or not link.get_text(strip=True) or not title:
+            continue
+        pub = entry.find("pubDate")
+        date = ""
+        if pub:
+            try:
+                date = parsedate_to_datetime(pub.get_text(strip=True)).strftime("%Y-%m-%d")
+            except (TypeError, ValueError, OverflowError):
+                pass
+        desc = entry.find("description")
+        items.append({
+            "country": "hk",
+            "title": _clean(title.get_text(" ", strip=True)),
+            "url": link.get_text(strip=True),
+            "date": date,
+            "org": "香港特别行政区政府新闻处",
+            "doc_no": "",
+            "excerpt": _clean(desc.get_text(" ", strip=True) if desc else "")[:300],
+            "source": "香港政府新闻网·重要新闻",
+        })
+    return items
+
+
 def fetch_all():
     result, errors = [], []
-    for name, fn in [("china", fetch_china), ("us", fetch_us), ("japan", fetch_japan)]:
+    for name, fn in [("china", fetch_china), ("us", fetch_us), ("japan", fetch_japan),
+                     ("korea", fetch_korea), ("hong_kong", fetch_hong_kong)]:
         try:
             got = fn()
             print(f"[fetch] {name}: {len(got)} items")

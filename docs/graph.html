@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>政策关系图 · 中美日政策追踪</title>
+<title>政策关系图 · 五地政策追踪</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/dist/vis-network.min.js"></script>
 <style>
   :root {
     --bg: #0f1419; --card: #1a2129; --border: #2c3640; --text: #e7edf3;
     --muted: #8b9aa8; --accent: #4da3ff;
-    --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6; --topic: #d9a441;
+    --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6; --kr: #3aa6a0; --hk: #d98245; --topic: #d9a441;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { height: 100%; }
@@ -33,6 +33,8 @@
   .chip.on.cn { background: var(--cn); border-color: var(--cn); color: #fff; }
   .chip.on.us { background: var(--us); border-color: var(--us); color: #fff; }
   .chip.on.jp { background: var(--jp); border-color: var(--jp); color: #fff; }
+  .chip.on.kr { background: var(--kr); border-color: var(--kr); color: #fff; }
+  .chip.on.hk { background: var(--hk); border-color: var(--hk); color: #fff; }
   .chip.on.rel { background: #e08c3a; border-color: #e08c3a; color: #fff; }
   select, input[type=search] {
     background: var(--bg); color: var(--text); border: 1px solid var(--border);
@@ -68,6 +70,8 @@
     <span class="chip cn on" data-c="cn">中国</span>
     <span class="chip us on" data-c="us">美国</span>
     <span class="chip jp on" data-c="jp">日本</span>
+    <span class="chip kr on" data-c="kr">韩国</span>
+    <span class="chip hk on" data-c="hk">中国香港</span>
     <select id="topicSel"><option value="">全部主题</option></select>
     <select id="impSel">
       <option value="3">重要性 ≥3</option>
@@ -81,6 +85,8 @@
     <span><span class="dot" style="background:var(--cn)"></span>中国</span>
     <span><span class="dot" style="background:var(--us)"></span>美国</span>
     <span><span class="dot" style="background:var(--jp)"></span>日本</span>
+    <span><span class="dot" style="background:var(--kr)"></span>韩国</span>
+    <span><span class="dot" style="background:var(--hk)"></span>中国香港</span>
     <span><span class="dot" style="background:var(--topic)"></span>主题</span>
     <span style="color:#e08c3a">— 橙线=直接关联</span>
   </div>
@@ -95,10 +101,10 @@
 </div>
 
 <script>
-const C = { cn: "#e05c5c", us: "#5c8fe0", jp: "#b07cc6", topic: "#d9a441" };
-const NAME = { cn: "中国", us: "美国", jp: "日本" };
+const C = { cn: "#e05c5c", us: "#5c8fe0", jp: "#b07cc6", kr: "#3aa6a0", hk: "#d98245", topic: "#d9a441" };
+const NAME = { cn: "中国", us: "美国", jp: "日本", kr: "韩国", hk: "中国香港" };
 let G = null, network = null;
-let state = { countries: new Set(["cn","us","jp"]), topic: "", minImp: 4, relOnly: false, q: "" };
+let state = { countries: new Set(["cn","us","jp","kr","hk"]), topic: "", minImp: 4, relOnly: false, q: "" };
 const panel = document.getElementById("panel");
 
 fetch("graph.json?_=" + Date.now()).then(r => r.json()).then(d => { G = d; init(); })

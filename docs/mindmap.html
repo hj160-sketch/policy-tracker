@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>政策脑图 · 中美日政策追踪</title>
+<title>政策脑图 · 五地政策追踪</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <style>
   :root {
     --bg: #0f1419; --card: #1a2129; --border: #2c3640; --text: #e7edf3;
     --muted: #8b9aa8; --accent: #4da3ff;
-    --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6; --topic: #d9a441;
+    --cn: #e05c5c; --us: #5c8fe0; --jp: #b07cc6; --kr: #3aa6a0; --hk: #d98245; --topic: #d9a441;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { height: 100%; }
@@ -73,9 +73,10 @@
 </div>
 
 <script>
-const C = { cn: "#e05c5c", us: "#5c8fe0", jp: "#b07cc6", topic: "#d9a441", root: "#4da3ff" };
-const NAME = { cn: "🇨🇳 中国", us: "🇺🇸 美国", jp: "🇯🇵 日本" };
-const SHORT = { cn: "中国", us: "美国", jp: "日本" };
+const COUNTRIES = ["cn", "us", "jp", "kr", "hk"];
+const C = { cn: "#e05c5c", us: "#5c8fe0", jp: "#b07cc6", kr: "#3aa6a0", hk: "#d98245", topic: "#d9a441", root: "#4da3ff" };
+const NAME = { cn: "🇨🇳 中国", us: "🇺🇸 美国", jp: "🇯🇵 日本", kr: "🇰🇷 韩国", hk: "🇭🇰 中国香港" };
+const SHORT = { cn: "中国", us: "美国", jp: "日本", kr: "韩国", hk: "中国香港" };
 let G = null, chart = null;
 let state = { minImp: 4, mode: "country", q: "" };
 const panel = document.getElementById("panel");
@@ -122,7 +123,7 @@ function render() {
   const pol = G.nodes.filter(n => n.type === "policy" && n.importance >= state.minImp);
   let children;
   if (state.mode === "country") {
-    children = ["cn", "us", "jp"].map(c => {
+    children = COUNTRIES.map(c => {
       const mine = pol.filter(n => n.country === c);
       const byTopic = {};
       mine.forEach(n => (n.topics || ["其他"]).slice(0, 1).forEach(t => (byTopic[t] ||= []).push(n)));
@@ -148,7 +149,7 @@ function render() {
       itemStyle: { color: C.topic }, symbol: "diamond", symbolSize: 14,
       label: { color: "#e8c886", fontSize: 13, fontWeight: "bold" },
       collapsed: !arr.some(hit),
-      children: ["cn", "us", "jp"].map(c => {
+      children: COUNTRIES.map(c => {
         const mine = arr.filter(n => n.country === c);
         return mine.length ? {
           name: `${SHORT[c]} (${mine.length})`,
@@ -175,7 +176,7 @@ function render() {
     series: [{
       type: "tree", layout: "orthogonal", orient: "LR",
       data: [{
-        name: `中美日政策\n(${pol.length}条)`,
+        name: `五地政策\n(${pol.length}条)`,
         itemStyle: { color: C.root }, symbolSize: 24,
         label: { color: "#fff", fontSize: 15, fontWeight: "bold" },
         children,

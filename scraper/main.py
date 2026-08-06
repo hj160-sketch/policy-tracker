@@ -33,13 +33,24 @@ def main():
     new_items = [it for it in fetched if it["url"] not in known]
     print(f"[main] fetched={len(fetched)} new={len(new_items)}")
 
-    # AI 分析(只分析新条目;没有 key 时跳过,前端会显示原始信息)
+    # AI 分析（新条目优先，并补齐此前因额度/密钥缺失而未分析的条目）
+    analysis_queue = new_items + [it for it in known.values() if not it.get("ai")]
+    queued_urls, deduped_queue = set(), []
+    for it in analysis_queue:
+        if it["url"] not in queued_urls:
+            queued_urls.add(it["url"])
+            deduped_queue.append(it)
+    analysis_queue = deduped_queue
+    analyzed_count = 0
     if analyze.available():
-        for i, it in enumerate(new_items):
+        for i, it in enumerate(analysis_queue):
             if i >= MAX_ANALYZE:
                 print(f"[main] reached MAX_ANALYZE={MAX_ANALYZE}, rest left unanalyzed")
                 break
-            it["ai"] = analyze.analyze_item(it)
+            result = analyze.analyze_item(it)
+            if result:
+                it["ai"] = result
+                analyzed_count += 1
     else:
         print("[main] DEEPSEEK_API_KEY not set, skipping AI analysis")
 
@@ -51,7 +62,7 @@ def main():
 
     # 今日要点:有新条目且可用 AI 时重新生成,否则保留旧的
     brief = data.get("brief")
-    if new_items and analyze.available():
+    if analyzed_count and analyze.available():
         cutoff = (datetime.date.today() - datetime.timedelta(days=4)).isoformat()
         recent = [it for it in items if (it.get("date") or "") >= cutoff]
         new_brief = analyze.daily_brief(recent or items[:20], today)
@@ -64,7 +75,7 @@ def main():
         "brief": brief,
         "errors": errors,
         "counts": {c: sum(1 for it in items if it["country"] == c)
-                   for c in ("cn", "us", "jp")},
+                   for c in ("cn", "us", "jp", "kr", "hk")},
         "items": items,
     }
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)

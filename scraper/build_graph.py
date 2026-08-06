@@ -13,15 +13,16 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 MAJOR_FILE = ROOT / "docs" / "major.json"
 GRAPH_FILE = ROOT / "docs" / "graph.json"
 MAX_PER_TOPIC = 40  # 单主题送入关联识别的最大条数(按重要性取前N)
+COUNTRY_NAME = {"cn": "中国", "us": "美国", "jp": "日本", "kr": "韩国", "hk": "中国香港"}
 
 
 def find_relations(topic, items):
     """对同主题政策,让 DeepSeek 找出两两直接关联(回应/反制/配套/递进)"""
     if len(items) < 2:
         return []
-    lines = [f"{j}. [{ {'cn':'中国','us':'美国','jp':'日本'}[it['country']] }] {it['date']} {it.get('title_zh') or it['title']}"
+    lines = [f"{j}. [{COUNTRY_NAME.get(it['country'], it['country'])}] {it['date']} {it.get('title_zh') or it['title']}"
              for j, it in enumerate(items)]
-    prompt = f"""以下是「{topic}」主题下中美日的政策清单。找出存在**直接关系**的政策对(如: 一国反制/回应另一国、同一国配套或递进措施、明确针对同一事件)。宁缺毋滥,只列把握大的。
+    prompt = f"""以下是「{topic}」主题下中国、美国、日本、韩国和中国香港的政策清单。找出存在**直接关系**的政策对(如: 一地反制/回应另一地、同一地配套或递进措施、明确针对同一事件)。宁缺毋滥,只列把握大的。
 输出 JSON 数组(可为空,不要其他内容),每个元素: {{"a": 序号, "b": 序号, "rel": "关系简述(8字以内,如'关税反制''配套措施''回应出口管制')"}}
 
 {chr(10).join(lines)}"""

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""回填 2025-07 以来的三国重大政策 → docs/major.json
+"""回填 2025-07 以来的五地重大政策 → docs/major.json
 用法: python scraper/backfill.py  (需 DEEPSEEK_API_KEY)
 流程: 抓取候选 → DeepSeek 批量打分筛选+打主题标签 → 重要条目生成摘要分析 → 写 major.json
 """
@@ -156,6 +156,35 @@ def fetch_jp_history():
     return items
 
 
+def fetch_kr_history():
+    """韩国政策简报最近十页政策新闻。"""
+    import fetch as F
+    items = []
+    end_date = datetime.date.today().isoformat()
+    for page in range(1, 11):
+        try:
+            got = F.fetch_korea(n=100, page=page, start_date=SINCE, end_date=end_date)
+        except Exception as e:
+            print(f"[kr] page {page} failed: {e}")
+            break
+        got = [it for it in got if (it.get("date") or "") >= SINCE]
+        if not got:
+            break
+        items.extend(got)
+        time.sleep(0.5)
+    print(f"[kr] {len(items)} candidates")
+    return items
+
+
+def fetch_hk_history():
+    """香港政府新闻网 RSS 中仍在线的近期重要新闻。"""
+    import fetch as F
+    items = [it for it in F.fetch_hong_kong(n=100)
+             if (it.get("date") or "") >= SINCE]
+    print(f"[hk] {len(items)} candidates")
+    return items
+
+
 # ---------- AI 筛选 + 打标 ----------
 
 def batch_screen(items):
@@ -210,7 +239,8 @@ def enrich(items):
 def main():
     if not analyze.available():
         raise SystemExit("需要 DEEPSEEK_API_KEY")
-    cands = fetch_cn_history() + fetch_us_history() + fetch_jp_history()
+    cands = (fetch_cn_history() + fetch_us_history() + fetch_jp_history()
+             + fetch_kr_history() + fetch_hk_history())
     # 去重
     seen, uniq = set(), []
     for it in cands:
