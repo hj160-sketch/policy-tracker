@@ -208,7 +208,7 @@ function showPanel(n) {
     <span class="badge" style="background:${C[n.country]}">${SHORT[n.country]}</span>
     ${(n.topics||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
     <h2>${esc(n.title_zh)}</h2>
-    <div class="meta">${esc(n.date||"")} · ${esc(n.org||"")}${n.doc_no?" · "+esc(n.doc_no):""}<br>
+    <div class="meta">${esc(n.date||"")} · ${esc(n.org_zh||n.org||"")}${n.doc_no?" · "+esc(n.doc_no):""}<br>
       重要性 ${"★".repeat(n.importance)}</div>
     ${n.summary ? `<div class="sec">${esc(n.summary)}</div>` : ""}
     ${n.analysis ? `<div class="sec"><b>AI 分析</b> · ${esc(n.analysis)}</div>` : ""}

@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: policy-data-writes
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -26,6 +30,15 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python scraper/main.py
 
+      - name: 补齐日本政策中文详解
+        id: japan_enrichment
+        continue-on-error: true
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          JP_ENRICH_BATCH_SIZE: "5"
+          JP_ENRICH_MAX_ITEMS: "20"
+        run: bash scraper/enrich_japan_checkpoints.sh
+
       - name: 提交更新
         run: |
           git config user.name "policy-bot"
@@ -33,3 +46,7 @@ jobs:
           git add docs/data.json
           git diff --cached --quiet || git commit -m "data update $(date -u +%F)"
           git push
+
+      - name: 报告日本政策补齐失败
+        if: steps.japan_enrichment.outcome == 'failure'
+        run: exit 1

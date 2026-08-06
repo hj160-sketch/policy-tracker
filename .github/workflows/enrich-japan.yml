@@ -15,13 +15,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: policy-data-writes
+  cancel-in-progress: false
+
 jobs:
   enrich-japan:
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    concurrency:
-      group: enrich-japan-data
-      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
@@ -33,24 +34,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Enrich Japan items
+      - name: Enrich and publish each checkpoint
         id: enrichment
         timeout-minutes: 330
         continue-on-error: true
+        shell: bash
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           JP_ENRICH_BATCH_SIZE: ${{ inputs.batch_size }}
           JP_ENRICH_MAX_ITEMS: ${{ inputs.max_items }}
-        run: python scraper/enrich_japan.py
-
-      - name: Commit checkpoints
-        if: always()
-        run: |
-          git config user.name "policy-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add docs/data.json
-          git diff --cached --quiet || git commit -m "enrich Japan policy details $(date -u +%F)"
-          git push
+        run: bash scraper/enrich_japan_checkpoints.sh
 
       - name: Report enrichment failure
         if: steps.enrichment.outcome == 'failure'

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from difflib import SequenceMatcher
 import io
 import json
 import os
@@ -31,6 +32,7 @@ FETCH_TIMEOUT = int(os.environ.get("JP_FETCH_TIMEOUT", "25"))
 PAGE_CHAR_LIMIT = int(os.environ.get("JP_PAGE_CHAR_LIMIT", "6500"))
 MAX_RESPONSE_BYTES = int(os.environ.get("JP_MAX_RESPONSE_BYTES", "12000000"))
 PDF_PAGE_LIMIT = int(os.environ.get("JP_PDF_PAGE_LIMIT", "40"))
+MAX_DETAIL_SIMILARITY = float(os.environ.get("JP_MAX_DETAIL_SIMILARITY", "0.90"))
 
 
 def parse_args() -> argparse.Namespace:
@@ -184,6 +186,13 @@ def fetch_official_page_text(
             parts.append(str(description["content"]))
         parts.append(main.get_text(" ", strip=True))
         text = _clean_page_text(" ".join(parts))
+        soft_404_markers = (
+            "お探しのページが見つかりません",
+            "ページが見つかりませんでした",
+            "ページが見つかりません",
+        )
+        if any(marker in text for marker in soft_404_markers):
+            return "", "official-soft-404"
         return text[:PAGE_CHAR_LIMIT], "official-html" if text else "empty-html"
     except Exception as exc:
         return "", f"parse-error:{type(exc).__name__}"
@@ -194,6 +203,27 @@ def merge_enrichment(item: dict[str, Any], result: dict[str, str]) -> None:
     if not isinstance(ai, dict):
         ai = {}
     item["ai"] = {**ai, **result}
+
+
+def most_similar_existing(
+    result: dict[str, str], items: list[dict[str, Any]]
+) -> tuple[float, str]:
+    """Return the highest same-field similarity against compliant records."""
+    best_score, best_url = 0.0, ""
+    for other in items:
+        if not analyze.japan_enrichment_is_compliant(other):
+            continue
+        other_ai = other.get("ai") or {}
+        for field in ("explanation", "impact"):
+            score = SequenceMatcher(
+                None,
+                result[field],
+                str(other_ai.get(field) or ""),
+                autojunk=False,
+            ).ratio()
+            if score > best_score:
+                best_score, best_url = score, str(other.get("url") or "")
+    return best_score, best_url
 
 
 def main() -> int:
@@ -224,6 +254,11 @@ def main() -> int:
             result = analyze.analyze_japan_detail(item, page_text=page_text)
             if not result:
                 raise ValueError("model output remained non-compliant after retries")
+            similarity, similar_url = most_similar_existing(result, japan)
+            if similarity >= MAX_DETAIL_SIMILARITY:
+                raise ValueError(
+                    f"generated detail is too similar ({similarity:.3f}) to {similar_url}"
+                )
             candidate = dict(item)
             merge_enrichment(candidate, result)
             if not analyze.japan_enrichment_is_compliant(candidate):
