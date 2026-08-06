@@ -204,8 +204,10 @@ function render() {
 
 function card(i) {
   const a = i.ai || {};
-  const titleZh = a.title_zh || i.title;
-  const showOrig = a.title_zh && a.title_zh !== i.title;
+  const titleZh = a.title_zh || i.title_zh || i.title;
+  const orgZh = a.org_zh || i.org_zh || i.org;
+  const showOrig = titleZh && titleZh !== i.title;
+  const showOrgOrig = orgZh && i.org && orgZh !== i.org;
   return `
   <div class="item">
     <div class="meta">
@@ -216,7 +218,8 @@ function card(i) {
     </div>
     <h4><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(titleZh)}</a></h4>
     ${showOrig ? `<div class="orig">原文:${esc(i.title)}</div>` : ""}
-    ${i.org ? `<div class="orig">发布:${esc(i.org)}</div>` : ""}
+    ${orgZh ? `<div class="orig">发布:${esc(orgZh)}</div>` : ""}
+    ${showOrgOrig ? `<div class="orig">发布机构原文:${esc(i.org)}</div>` : ""}
     ${a.summary ? `<div class="summary">${esc(a.summary)}</div>` : ""}
     ${a.analysis ? `<div class="analysis"><b>AI 分析</b> · ${esc(a.analysis)}</div>` : ""}
     <div class="links">

@@ -41,7 +41,7 @@ def _extract_json(text):
 
 
 def analyze_item(item):
-    """对单条政策生成:中文标题、一句话摘要、影响分析、分类。失败返回 None。"""
+    """对单条政策生成:中文标题、中文机构名、一句话摘要、影响分析、分类。失败返回 None。"""
     prompt = f"""你是一名政策分析师。以下是一条{COUNTRY_NAME.get(item['country'], '')}政府官方发布的信息,请用中文分析。
 
 标题: {item['title']}
@@ -52,6 +52,7 @@ def analyze_item(item):
 
 请输出 JSON(不要其他内容),字段:
 - "title_zh": 中文标题(原文已是中文则原样保留,英文/日文则翻译)
+- "org_zh": 发布机构的中文名称(未知则保留原文)
 - "summary": 一句话说明这条政策/动态是什么(40字以内)
 - "analysis": 影响分析,2-3句话:针对谁、可能产生什么影响、值得关注的点(120字以内)
 - "category": 从 {CATEGORIES} 中选一个最贴切的"""
@@ -62,6 +63,7 @@ def analyze_item(item):
             return None
         return {
             "title_zh": str(data.get("title_zh") or item["title"])[:120],
+            "org_zh": str(data.get("org_zh") or item.get("org") or "")[:80],
             "summary": str(data.get("summary") or "")[:100],
             "analysis": str(data.get("analysis") or "")[:300],
             "category": data.get("category") if data.get("category") in CATEGORIES else "其他",

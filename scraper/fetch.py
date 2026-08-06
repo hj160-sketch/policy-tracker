@@ -20,6 +20,18 @@ BROWSER_HEADERS = {
 }
 TIMEOUT = 30
 
+KOREAN_ORG_ZH = {
+    "산업통상부": "产业通商部",
+    "국무조정실": "国务调整室",
+    "문화체육관광부": "文化体育观光部",
+    "기상청": "气象厅",
+    "정책브리핑": "韩国政策简报",
+    "기후에너지환경부": "气候能源环境部",
+    "기획예산처": "企划预算处",
+    "재정경제부": "财政经济部",
+    "농림축산식품부": "农林畜产食品部",
+}
+
 
 def _clean(text):
     return re.sub(r"<[^>]+>", "", text or "").replace("　", " ").strip()
@@ -256,6 +268,7 @@ def fetch_korea(n=15, page=1, start_date="", end_date=""):
             "url": href,
             "date": date,
             "org": _clean(org),
+            "org_zh": KOREAN_ORG_ZH.get(_clean(org), ""),
             "doc_no": "",
             "excerpt": _clean(lead.get_text(" ", strip=True) if lead else "")[:300],
             "source": "韩国政策简报·政策新闻",
