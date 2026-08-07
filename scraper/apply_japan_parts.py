@@ -138,6 +138,11 @@ def main() -> int:
 
     for item in japan:
         ai = item.get("ai") if isinstance(item.get("ai"), dict) else {}
+        ai = {
+            key: value
+            for key, value in ai.items()
+            if key not in {"summary", "analysis"}
+        }
         record = dict(records[item["url"]])
         record["org_zh"] = analyze.normalized_japan_org_zh(
             item, record["org_zh"]

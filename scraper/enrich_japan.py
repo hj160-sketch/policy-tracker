@@ -202,6 +202,10 @@ def merge_enrichment(item: dict[str, Any], result: dict[str, str]) -> None:
     ai = item.get("ai")
     if not isinstance(ai, dict):
         ai = {}
+    # The long-form fields supersede the legacy generic summary/analysis.  Those
+    # fields could contain untranslated Japanese terms and are otherwise hidden
+    # by the detail UI, so retaining them only pollutes search and validation.
+    ai = {key: value for key, value in ai.items() if key not in {"summary", "analysis"}}
     item["ai"] = {**ai, **result}
 
 

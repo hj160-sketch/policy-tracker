@@ -87,12 +87,17 @@ def normalized_japan_org_zh(item, proposed=""):
 def japan_enrichment_is_compliant(item):
     """Return True only for a complete enrichment produced by this schema."""
     ai = item.get("ai") or {}
+    optional_chinese_fields = (ai.get("summary"), ai.get("analysis"))
     return (
         ai.get("jp_enrichment_version") == JP_ENRICHMENT_VERSION
         and _has_chinese(ai.get("title_zh"))
         and _has_chinese(ai.get("org_zh"))
         and _detail_is_valid(ai.get("explanation"))
         and _detail_is_valid(ai.get("impact"))
+        and not any(
+            JAPANESE_KANA_RE.search(str(value or ""))
+            for value in optional_chinese_fields
+        )
     )
 
 
