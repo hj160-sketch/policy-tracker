@@ -1,18 +1,37 @@
 {
- "generated_at": "2026-08-24 23:08 UTC",
+ "generated_at": "2026-08-25 23:10 UTC",
  "brief": {
-  "text": "今日要点综述：韩国密集出台多项政策，涵盖AI伦理原则、侨胞青年定居支持、暴雨灾区税务减免及电商通关平台试运行，展现其在科技治理与社会保障上的系统性布局；美国暂停对加拿大部分商品加征额外关税，释放贸易缓和信号，但跨境经贸摩擦仍存变数。中国香港聚焦民生与区域协同，推出幼稚园口腔检查、北都洪水桥片区开发及大湾区实习计划，同时皇岗口岸万人压力测试及律政司访疆推动跨境法律协作，凸显其联通内地的枢纽角色。值得关注的是，韩国AI伦理原则与香港推动AI普及应用形成科技治理与产业落地的互补路径，而美国关税调整或影响亚太供应链预期，五地政策在民生保障、科技竞争与跨境协作上呈现多维联动。",
-  "date": "2026-08-24"
+  "text": "今日要点：美国密集发布多项政策，除延续《与敌国贸易法》紧急状态外，重点推出新版国家太空运输政策，并集中更正多项公务员裁员与上诉规则，显示其行政体系调整与太空科技布局并进。日本则聚焦中东局势与物价上涨，宣布紧急缓和措施及综合对策，并处理熊本地震灾害建议，凸显内外压力下的应急治理。韩国发布AI伦理原则，确立三大价值与七大原则，旨在构建安全可信的AI社会，同时推进侨胞青年定居培训，兼顾科技伦理与社会融合。中国香港方面，爱国教育小组完成海南航天科技考察，强化国家认同；同时启动区议会选区咨询、中医医院住院服务扩展及秘鲁自贸协定生效，民生与经贸并重。值得关注的是，中美在太空政策与科技伦理领域形成竞合态势，而香港依托内地航天资源深化爱国教育，亦体现跨境联动。",
+  "date": "2026-08-25"
  },
- "errors": [],
+ "errors": [
+  "korea: HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /news/policyNewsList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7fc6c87e3b30>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))"
+ ],
  "counts": {
   "cn": 48,
-  "us": 126,
-  "jp": 206,
+  "us": 133,
+  "jp": 211,
   "kr": 105,
-  "hk": 93
+  "hk": 102
  },
  "items": [
+  {
+   "country": "hk",
+   "title": "考察團訪海南了解商業航天產業",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_165929_833.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "憲法和基本法推廣督導委員會轄下愛國主義教育工作小組舉辦海南航天科技考察團，團員獲安排到訪位於文昌市的海南商業航天發射場，了解國家商業航天市場化發展。&nbsp;發射場是國家首個完全採用商業化模式營運的商業航天發射場，第一期於2024年6月落成，同年11月30日成功進行首次發射。截至目前，發射場已成功發射21發火箭，順利把221顆衞星送入預定軌道。&nbsp;第二期發射場預計今年9月完成建設，年底首發，第三期和第四期正在規劃。&nbsp;海南國際商業航天發射有限公司發展計劃部副部長許錫鍇表示，未來商業航天發展前景非常好，除了低軌衞星互聯網星座的需求持續強勁，太空算力、太空礦產開發、在軌維修和太空",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "考察团访海南了解商业航天产业",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港爱国主义教育工作小组组织考察团访问海南商业航天发射场，了解国家商业航天发展。",
+    "analysis": "该动态针对香港青少年及公众，通过实地考察增强对国家航天科技成就的认知，促进爱国主义教育。同时，可能推动香港与内地商业航天领域的交流合作，值得关注后续对香港航天科技产业及青年就业的潜在影响。",
+    "category": "科技产业"
+   }
+  },
   {
    "country": "hk",
    "title": "考察航天科技 厚植愛國情懷",
@@ -28,6 +47,337 @@
     "summary": "香港爱国教育工作小组组织海南航天科技考察团，参观航天设施，推动爱国教育。",
     "analysis": "该考察团面向香港新闻界和大专学生，通过实地了解国家航天成就，增强国家认同感。此举有助于深化香港青少年的爱国教育，促进与内地的科技文化交流，值得关注其对香港社会舆论的正面引导作用。",
     "category": "科技产业"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Continuation of the Exercise of Certain Authorities Under the Trading With the Enemy Act",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17374/continuation-of-the-exercise-of-certain-authorities-under-the-trading-with-the-enemy-act",
+   "date": "2026-08-25",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-17374",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17374.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "继续行使《与敌国贸易法》项下特定权力的公告",
+    "org_zh": "总统行政办公室",
+    "summary": "延长依据《与敌国贸易法》行使特定权力的国家紧急状态。",
+    "analysis": "该公告延续对特定国家的经济制裁法律基础，影响相关实体和个人，可能加剧国际紧张局势。需关注后续制裁名单及执行力度。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "The National Space Transportation Policy",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17372/the-national-space-transportation-policy",
+   "date": "2026-08-25",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-17372",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17372.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "国家太空运输政策",
+    "org_zh": "总统行政办公室",
+    "summary": "美国发布新版国家太空运输政策，指导太空运输活动与相关技术发展。",
+    "analysis": "该政策将影响美国航天企业、科研机构及国际合作伙伴，可能推动商业航天发展并加强太空安全管控。值得关注其对国际太空合作和竞争格局的影响。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Reduction in Force Appeals; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17338/reduction-in-force-appeals-correction",
+   "date": "2026-08-25",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-17338",
+   "excerpt": "The Office of Personnel Management (OPM) published a final rule in the Federal Register on August 3, 2026, concerning reduction in force appeals. That document contained typographical and citation errors in the regulatory text. This document corrects the final rule.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17338.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "裁员上诉规则更正",
+    "org_zh": "人事管理办公室",
+    "summary": "OPM更正2026年8月3日发布的裁员上诉最终规则中的文字和引用错误。",
+    "analysis": "该更正针对受裁员影响的联邦雇员及机构，确保上诉程序文本准确无误，减少法律歧义。关注点在于更正是否影响上诉时效或程序细节，需核对原文。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Suitability Action Appeals; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17337/suitability-action-appeals-correction",
+   "date": "2026-08-25",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-17337",
+   "excerpt": "The Office of Personnel Management (OPM) published a final rule in the Federal Register on August 3, 2026, concerning suitability action appeals. That document contained typographical and structural errors in the regulatory text. This document corrects the final rule.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17337.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": " suitability 行动上诉；更正",
+    "org_zh": "人事管理办公室",
+    "summary": "人事管理办公室更正2026年8月3日关于 suitability 行动上诉的最终规则中的文字和结构错误。",
+    "analysis": "该更正针对受联邦 suitability 行动影响的求职者和雇员，确保法规文本准确无误，减少歧义。影响较小，但值得关注的是更正后的具体条款是否影响上诉程序细节。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Streamlining Probationary and Trial Period Appeals; Correction and Technical Amendment",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17336/streamlining-probationary-and-trial-period-appeals-correction-and-technical-amendment",
+   "date": "2026-08-25",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-17336",
+   "excerpt": "The Office of Personnel Management (OPM) published a final rule in the Federal Register on August 3, 2026, streamlining probationary and trial period appeals. That document contained typographical and clerical errors in the regulatory text. This document corrects the final rule. This document also m",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17336.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "简化试用期和试用期上诉程序；更正和技术性修订",
+    "org_zh": "人事管理办公室",
+    "summary": "OPM更正2026年8月3日关于简化试用期上诉的最终规则中的笔误和文书错误。",
+    "analysis": "该更正影响联邦雇员及应聘者，涉及试用期上诉程序的技术细节，确保规则文本准确无误。值得关注的是，简化上诉程序可能提高争议处理效率，但需留意实际操作中的公平性。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Reduction in Force; Correction",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17335/reduction-in-force-correction",
+   "date": "2026-08-25",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-17335",
+   "excerpt": "The Office of Personnel Management (OPM) published a final rule in the Federal Register on August 3, 2026, concerning reduction in force. That document contained typographical and clerical errors in amendatory instructions and in the regulatory text. This document corrects the final rule.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17335.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "裁员；更正",
+    "org_zh": "人事管理办公室",
+    "summary": "OPM更正2026年8月3日关于裁员的最终规则中的文字和文书错误。",
+    "analysis": "该更正主要影响联邦机构及雇员，确保裁员规则文本准确无误，避免执行歧义。关注点在于更正后的规则如何影响裁员程序及雇员权益，需留意后续实施细节。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Improving Performance, Accountability and Responsiveness in the Civil Service, and Recruitment and Relocation Incentive Waivers; Correcting Amendments",
+   "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and",
+   "date": "2026-08-25",
+   "org": "Personnel Management Office",
+   "doc_no": "2026-17334",
+   "excerpt": "The Office of Personnel Management (OPM) is correcting technical and conforming errors arising from two recent final rules: \"Improving Performance, Accountability and Responsiveness in the Civil Service,\" published February 6, 2026 and effective March 9, 2026, and \"Recruitment and Relocation Incenti",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-25/pdf/2026-17334.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "改善公务员绩效、问责与响应能力，以及招聘和搬迁激励豁免；更正修正案",
+    "org_zh": "人事管理办公室",
+    "summary": "OPM发布技术性更正，修正两项近期最终规则中的错误。",
+    "analysis": "该政策主要影响联邦公务员及招聘管理者，通过技术性更正确保规则准确实施，可能减少执行歧义。值得关注的是更正内容是否涉及激励措施的具体条件，影响招聘效率。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は「中東情勢を踏まえた緊急的激変緩和措置」及び「物価高対策」等についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0825kaiken.html",
+   "date": "2026-08-25",
+   "org": "総理会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就“基于中东局势的紧急剧烈变动缓和措施”及“物价高涨对策”等举行记者会",
+    "org_zh": "总理官邸",
+    "summary": "日本政府针对中东局势和物价上涨，宣布紧急缓和措施及物价对策。",
+    "analysis": "该政策主要影响日本企业和消费者，旨在缓解能源价格波动和通胀压力。可能包括补贴或价格管制，短期有助于稳定民生，但长期需关注财政负担和市场扭曲风险。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は「中東情勢を踏まえた緊急的激変緩和措置」及び「物価高対策」等についての会見を行いました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/25kaiken.html",
+   "date": "2026-08-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理就“基于中东局势的紧急缓和措施”及“物价上涨对策”等举行记者会",
+    "org_zh": "总理官邸",
+    "summary": "日本政府针对中东局势和物价上涨出台紧急缓和措施及综合对策。",
+    "analysis": "该政策主要影响日本企业和消费者，旨在缓解能源价格飙升和通胀压力。可能通过补贴或价格管制稳定民生，但财政负担和效果持续性值得关注。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は日本維新の会・令和８年熊本地震に関する災害対策本部による緊急提言申入れを受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/25moushiire.html",
+   "date": "2026-08-25",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受日本维新会关于令和8年熊本地震的灾害对策总部紧急建议",
+    "org_zh": "总理一日",
+    "summary": "高市总理接受日本维新会就熊本地震提出的紧急建议。",
+    "analysis": "该动态针对日本政府及熊本地震灾区，可能推动更快的灾后重建和防灾政策调整。值得关注的是在野党通过建议影响政府决策，体现政治互动。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "閣議の概要について",
+   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202608/25_a.html",
+   "date": "2026-08-25",
+   "org": "長官会見",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "内阁会议概要",
+    "org_zh": "日本内阁官房",
+    "category": "其他",
+    "explanation": "该页面为日本内阁官房长官于令和8年（2026年）8月25日（星期二）上午举行的例行记者会记录，主要内容为官房长官通报当日阁议的概要。据页面材料，本次阁议决定了普通案件3件、政令及人事事项。大臣发言环节中，松本尚大臣就一般职员工资等人事院劝告、国家公安委员会委员长就令和8年版警察白书、小野田大臣就H3火箭9号机发射‘引路’7号机、文部科学大臣就文化功劳者选考分科会委员及国立大学法人校长人事、高市总理就海外出差期间的事务代理分别进行了说明。阁僚恳谈会上，松本尚大臣谈及对长时间超时勤务职员的面试指导，黄川田大臣则就令和8年地方分权改革提案募集工作发言。页面还提及内阁府人事已获阁议承认，但具体内容未在正文中列出。该记者会属于首相官邸‘新着情報’栏目下的‘内阁官房长官记者会见’系列，页面提供了相关链接如定例阁议案件及警察白书等。材料未说明各案件的具体细节、政令内容或人事名单，也未提及任何预算数字或法律效果。",
+    "impact": "此次阁议概要的发布体现了日本内阁日常决策流程的透明度，其政策意义在于通过官房长官记者会向公众传达政府近期工作重点。直接利益相关方包括相关大臣、各所管部门及公务员群体，间接涉及警察、航天、教育、地方自治等领域。松本尚大臣提及的人事院劝告通常影响公务员薪资调整，可能引发财政支出变化；H3火箭发射‘引路’7号机关乎卫星导航系统完善，对航天产业和灾害管理有长期影响；警察白书则反映治安政策方向。地方分权改革提案征集可能调整中央与地方权限，影响地方政府运作。执行风险在于部分事项尚需后续法律程序或预算审批，页面材料未说明具体时间表或负责机构，因此不能视为已生效政策。值得跟踪的后续包括：内阁府辞令的正式发布、人事院劝告的具体内容及政府应对、H3火箭发射的实际日期和结果、地方分权改革提案的采纳情况，以及相关省厅后续发布的详细资料。外部反应可能来自在野党对人事和财政安排的质询，以及媒体对航天和公务员待遇的报道。",
+    "jp_enrichment_version": "jp-policy-detail-v1"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "走進紅色遺址 緬懷先烈壯志",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_150100_355.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "憲法和基本法推廣督導委員會轄下愛國主義教育工作小組舉辦的海南航天科技考察團今日展開最後一日訪問行程，參觀海南省的愛國主義教育基地---中共瓊崖第一次代表大會舊址，加深對國家革命歷史的認識。&nbsp;考察團過去兩日也到訪海南商業航天發射場、海南航天神舟科技館、文昌航天超算中心，以及海南長光衞星信息技術有限公司。工作小組組長陳清霞總結行程時表示，這次考察特意安排紅色遺址與航天科技行程，讓團員從歷史和當代兩個視角了解國家發展歷程。&nbsp;陳清霞表示，今年適逢中國共產黨成立105周年，瓊崖革命先驅秉持堅毅意志，為國家民族不懈奮鬥，充分展示其強烈愛國報國的拼搏精神，而今日國家航天員勇攀高峰，他們追",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "走進紅色遺址 緬懷先烈壯志",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港爱国教育工作小组组织海南航天科技考察团，参观红色遗址并总结行程。",
+    "analysis": "该动态针对香港青年及爱国教育工作者，通过实地考察增强国家认同感。可能影响香港社会爱国氛围，促进与内地科技文化交流。值得关注其将红色历史与航天科技结合的教育模式。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "區議會選區分界諮詢展開",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_160924_731.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "選舉管理委員會公布2027年區議會一般選舉區議會地方選區分界及名稱的臨時建議，並展開公眾諮詢，諮詢期至下月24日止。&nbsp;2027年區議會一般選舉明年年底舉行。選管會主席陸啟康表示，《選管會條例》規定，建議的區議會地方選區人口須盡量接近按照該條例所列的公式計算的數目，而選管會須確保各區議會地方選區人口沒有超出其適用的有關數目25%的上下限。&nbsp;根據人口推算，截至明年6月30日，各區議會地方選區的預計人口均在法例許可的幅度內，選管會原則上不會主動調整其分界。&nbsp;然而，選管會發現有一些於2023年區議會一般選舉地方選區劃界後落成的住宅建築物橫跨現行區議會地方選區分界。基於影響",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "區議會選區分界諮詢展開",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港选管会公布2027年区议会选区临时分界建议，并展开为期一个月的公众咨询。",
+    "analysis": "针对香港选民及区议会选举，影响选区划分的公平性与代表性。因新建住宅跨区，可能调整部分选区边界，需关注咨询期内公众意见及最终方案对选举结果的影响。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "解決民生難題 落實利民措施",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_182024_262.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "政務司副司長卓永興今日主持地區治理專組第13次會議，按照地區治理領導委員會交付的工作，統籌各部門就地區關注的議題制定具體落實措施，並持續檢視工作進度和績效。&nbsp;卓永興表示，專組持續監察和督導各部門優化各項針對地區大小議題的政策措施，積極回應社會所需，讓地區服務更有效、更到位。各部門會繼續秉持為民辦實事的理念，致力解決不同民生難題，提升地區治理效能。&nbsp;政務司司長主持的領導委員會先後為12個地區議題制定策略方針，專組在會上跟進有關項目的實施進度和成果。&nbsp;社區支援方面，截至6月底，各區地區服務及關愛隊伍已合共探訪或接觸超過121,000名獨居和雙老住戶、護老者和殘疾人士照",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "解決民生難題 落實利民措施",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港地区治理专组召开第13次会议，统筹各部门落实民生措施并检视进度。",
+    "analysis": "该动态针对香港基层民众，尤其是独居老人、护老者及残疾人，通过探访和支援提升社区服务质量。影响在于增强政府响应社会需求的能力，值得关注后续具体措施的执行成效及资源分配。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "中醫醫院12月中推24小時住院服務",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_135021_765.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "醫務衞生局與香港中醫醫院營運機構公布香港中醫醫院服務擴展計劃，包括12月11日起開展24小時住院服務、年底前加推十個專病項目，而自願醫保計劃明年起將涵蓋香港中醫醫院的住院服務。&nbsp;醫衞局局長盧寵茂說，香港中醫醫院去年啟用，市民普遍對醫院的環境和專業服務給予正面評價。醫院投入服務僅八個多月，已四度增加政府資助門診服務名額。醫院12月中起開展24小時住院服務，進一步帶領香港中醫藥服務由基層醫療邁向第二和第三層醫療服務。&nbsp;24小時住院服務涵蓋政府資助和市場導向服務，首階段設有93張住院病床、20張臨床試驗及研究中心病床和兩張加護病床。預計至2030年年底，醫院將提供共400張病床。",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "中醫醫院12月中推24小時住院服務",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港中醫醫院12月11日起提供24小時住院服務，並擴展專病項目及納入自願醫保。",
+    "analysis": "此政策惠及香港市民，提升中醫住院服務可及性，並推動中醫藥融入主流醫療體系。自願醫保覆蓋將減輕患者負擔，吸引更多市場導向服務，值得關注後續病床擴充及服務質量。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "AI支援 省時高效",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260824/20260824_164447_254.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "在人工智能（AI）效能提升組統籌下，機電工程署將為工務部門和其他政府部門提供AI支援服務，包括項目促成、算力支援和人才培訓，加快AI項目落地應用。&nbsp;為提供安全可靠的算力基礎設施，機電署建立私有雲。機電署總工程師/數碼科技賴震暉解釋，此舉可避免部門在開發期間採用公有雲的風險，也可省卻部門各自建立算力基礎設施的時間，加快落實項目。&nbsp;&nbsp;他說，約30個政府部門已聯絡機電署，逾90個項目獲確認、正在商討或屬有潛力的。另外，機電署已開始與不同部門積極推展20個項目。&nbsp;現行大部分政府建築物和醫院的中央空調系統控制方式均屬於預設或人手控制模式。機電署採用AI製冷機組優化",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "AI支援 省時高效",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港机电署统筹提供AI支援服务，建私有云，推动逾90个项目落地。",
+    "analysis": "该政策主要影响香港政府部门及公共设施，通过集中算力和技术支持，加速AI应用，提升公共服务效率。值得关注的是私有云建设降低安全风险，但需留意项目推进中的跨部门协调和数据治理。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "持續優化公眾骨灰龕位編配安排",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_153824_421.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "申訴專員公署今日發表公眾骨灰龕位編配主動調查報告。食物環境衞生署表示，接納報告提出的各項建議，公眾骨灰龕位早前已經劃一優化為每月編配，署方會仔細研究公署其他方面的建議，持續提升服務水平。&nbsp;署方指出，是否以每月編配模式提供龕位，很大程度取決於當時是否具備相關條件。2020年屯門曾咀靈灰安置所落成，署方隨即試行每月編配龕位以便利市民。近年再有多所公眾靈灰安置所先後落成，龕位整體供應持續充足，基本上無須輪候。&nbsp;因此，署方參考曾咀靈灰安置所的成功經驗，將每月編配龕位的安排應用於全部四個有新龕位供應的靈灰安置所，即屯門曾咀靈灰安置所、粉嶺和合石第六期靈灰安置所、東區哥連臣角新廈靈灰安",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "持續優化公眾骨灰龕位編配安排",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港食環署接納申訴專員建議，將每月編配骨灰龕位擴展至全部四個新龕位安置所。",
+    "analysis": "此政策影響需使用公眾骨灰龕位的市民，簡化編配流程，減少輪候時間。值得關注的是，署方將持續研究其他建議，可能進一步提升服務效率，但需確保資源分配公平。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "愛國教育小組完成航天科技考察",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_164515_107.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "憲法和基本法推廣督導委員會轄下愛國主義教育工作小組星期日至今日舉辦為期三天的海南航天科技考察團，到訪文昌和海口，參觀多個與國家航天發展相關的單位和企業。&nbsp;考察團由工作小組組長陳清霞帶領，成員包括工作小組傳媒宣傳分組委員鄺美雲、李鑾輝、李子樹、政府新聞處處長謝振中、20多名香港新聞界代表和大專新聞系學生，到訪多個航天單位，了解國家蓬勃的航天事業發展，並參觀位於海口的愛國主義教育基地，加深對國家革命歷史的認識。&nbsp;考察團星期日到訪海南長光衞星信息技術有限公司，了解國家衞星產業的發展，加深認識建設現代化產業體系、加快建設航天強國的目標。&nbsp;考察團昨日參觀海南航天神舟科技館，",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "爱国教育小组完成海南航天科技考察",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港爱国教育工作小组组织传媒及学生赴海南考察航天科技，增强国家认同。",
+    "analysis": "该考察面向香港新闻界及大专学生，旨在通过实地体验航天成就和革命历史，强化爱国教育。可能提升青年对国家发展的认知，促进两地交流。值得关注其对香港社会舆论导向及青年国家认同感的长期影响。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "香港秘魯自貿協定下周二生效",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260825/20260825_160650_233.html",
+   "date": "2026-08-25",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "香港與秘魯的自由貿易協定下周二生效。商務及經濟發展局局長丘應樺表示，協定將提供有利平台，協助港商和投資者在秘魯擴展業務，以及通過秘魯在其他拉丁美洲市場開拓機遇。&nbsp;丘應樺說，自貿協定涵蓋貨物貿易、服務貿易、投資、電子商貿和其他相關範疇，整體承諾超越雙方各自在世界貿易組織下所作承諾，有助進一步促進雙邊貿易和投資。&nbsp;根據協定，秘魯承諾對出口秘魯的香港原產貨物撤銷約98.3%關稅稅目的關稅，當中91.3%的關稅稅目在自貿協定生效後即時獲免除關稅，餘下7%關稅稅目的關稅將逐步撤銷。除了關稅優惠，業界也可受惠於便利貿易措施和減少貿易壁壘。&nbsp;服務貿易方面，香港的服務提供者在超過",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "香港秘魯自貿協定下周二生效",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港与秘鲁自贸协定即将生效，涵盖货物、服务、投资等，秘鲁撤销98.3%关税。",
+    "analysis": "该协定将降低港商对秘鲁出口成本，提升竞争力，并借秘鲁开拓拉美市场。服务贸易和投资领域开放，利好金融、物流等专业服务。关注原产地规则及后续关税减让执行。",
+    "category": "经济金融"
    }
   },
   {
@@ -311,6 +661,24 @@
     "summary": "运输署提醒开学日学生预留乘车时间，并呼吁司机避免驶往学校区。",
     "analysis": "针对学生、家长及驾驶人士，影响开学日交通流量与安全。提醒可减少拥堵，但需关注儿童安全设备执行情况。",
     "category": "民生社会"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はウクライナに関する有志連合首脳会合にオンラインで出席しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/24kaigou.html",
+   "date": "2026-08-24",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理在线出席乌克兰相关志同道合国家领导人会议",
+    "org_zh": "日本首相官邸",
+    "category": "外交安全",
+    "explanation": "该页面为日本首相官邸“总理的一日”栏目下的一则活动记录，发布于令和8年（2026年）8月24日。页面显示，日本总理高市早苗当天在首相公邸以在线方式出席了“乌克兰相关志同道合国家领导人会议”。页面配有三张高市总理参会时的照片，并附有外务省发布的关于其参会的“结果概要”链接，但页面正文未提供会议的具体议程、讨论内容或日方表态细节。该会议属于国际社会就乌克兰局势协调立场的高级别磋商机制，日本作为七国集团成员和乌克兰支持国之一，由总理亲自线上参加，表明日本持续关注乌克兰局势并参与多边协调。页面未说明会议的具体成果、联合声明或日本作出的新承诺，也未提及会议时长、参与国家数量或后续安排。该记录属于首相官邸对总理日常公务活动的例行公开，程序上位于“总理的一日”栏目中，与外交相关活动并列，供公众查阅。材料本身未提供数字、期限或法律效果等具体信息，因此无法确认日本在此次会议中是否提出新措施或作出具体承诺。",
+    "impact": "该事件的政策意义在于，日本最高行政首长直接参与乌克兰问题多边协调，延续了日本在俄乌冲突中与西方阵营保持一致的外交路线。直接利益相关方包括日本政府、乌克兰及其支持国联盟，间接相关方包括俄罗斯、国际金融机构及能源市场参与者。由于页面材料未说明会议是否达成新协议或日本是否追加援助，因此不能将此次参会本身视为政策转变或新承诺的生效。可能的影响渠道包括：外务省后续公布的结果概要可能包含日本的具体表态或援助内容，值得跟踪；日本对乌政策可能影响其与七国集团协调立场，以及国内关于财政支出和能源安全的讨论。执行风险在于，若会议成果涉及对乌军事或经济支持，可能引发国内预算审议压力及与俄罗斯关系的进一步紧张。待观察事项包括外务省是否发布详细结果、日本是否在后续预算中列明对乌援助、以及相关国家是否在联合国或其他多边场合提出新倡议。该活动属于外交姿态展示，其实际政策效果需结合后续官方文件和预算案才能评估，当前页面信息不足以判断具体影响规模。",
+    "jp_enrichment_version": "jp-policy-detail-v1"
    }
   },
   {
