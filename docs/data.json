@@ -1,18 +1,16 @@
 {
- "generated_at": "2026-08-25 23:10 UTC",
+ "generated_at": "2026-08-27 00:11 UTC",
  "brief": {
-  "text": "今日要点：美国密集发布多项政策，除延续《与敌国贸易法》紧急状态外，重点推出新版国家太空运输政策，并集中更正多项公务员裁员与上诉规则，显示其行政体系调整与太空科技布局并进。日本则聚焦中东局势与物价上涨，宣布紧急缓和措施及综合对策，并处理熊本地震灾害建议，凸显内外压力下的应急治理。韩国发布AI伦理原则，确立三大价值与七大原则，旨在构建安全可信的AI社会，同时推进侨胞青年定居培训，兼顾科技伦理与社会融合。中国香港方面，爱国教育小组完成海南航天科技考察，强化国家认同；同时启动区议会选区咨询、中医医院住院服务扩展及秘鲁自贸协定生效，民生与经贸并重。值得关注的是，中美在太空政策与科技伦理领域形成竞合态势，而香港依托内地航天资源深化爱国教育，亦体现跨境联动。",
-  "date": "2026-08-25"
+  "text": "今日要点：中国香港方面，特首李家超宣布9月16日公布首个五年规划及施政报告，并强调香港邮政必须改革，同时考察团访海南了解商业航天产业，显示其积极对接国家战略。美国则密集出台政策，包括向芬兰和瑞典分享原子能信息以强化核合作，以及推进铁路货物电子舱单规则，凸显其安全与贸易便利化并重。日本首相高市早苗聚焦灾后重建与绿色转型，主持GX执行会议，并接受熊本地震紧急建议，反映其内政优先。韩国总统李在明力推国土均衡发展，并公布出生人口回升至0.8水平，同时推进大邱-庆北广域铁路及工业用电差异化费率，兼顾区域增长与民生。值得关注的是，香港考察海南商业航天与美日韩的科技、能源政策形成间接竞争，而韩国铁路项目与香港口岸压力测试则共同体现区域基建升级趋势。",
+  "date": "2026-08-27"
  },
- "errors": [
-  "korea: HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /news/policyNewsList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7fc6c87e3b30>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))"
- ],
+ "errors": [],
  "counts": {
-  "cn": 48,
-  "us": 133,
-  "jp": 211,
-  "kr": 105,
-  "hk": 102
+  "cn": 34,
+  "us": 126,
+  "jp": 215,
+  "kr": 115,
+  "hk": 110
  },
  "items": [
   {
@@ -30,6 +28,446 @@
     "summary": "香港爱国主义教育工作小组组织考察团访问海南商业航天发射场，了解国家商业航天发展。",
     "analysis": "该动态针对香港青少年及公众，通过实地考察增强对国家航天科技成就的认知，促进爱国主义教育。同时，可能推动香港与内地商业航天领域的交流合作，值得关注后续对香港航天科技产业及青年就业的潜在影响。",
     "category": "科技产业"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Presidential Determination on Provision of Atomic Information to Finland and Sweden",
+   "url": "https://www.federalregister.gov/documents/2026/08/26/2026-17477/presidential-determination-on-provision-of-atomic-information-to-finland-and-sweden",
+   "date": "2026-08-26",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-17477",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-26/pdf/2026-17477.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "关于向芬兰和瑞典提供原子信息的总统决定",
+    "org_zh": "总统行政办公室",
+    "summary": "美国总统决定向芬兰和瑞典分享原子能信息，以加强核合作。",
+    "analysis": "该决定针对芬兰和瑞典，可能深化美国与两国的核技术合作，影响核不扩散体系。值得关注的是信息共享范围及对地区安全格局的影响。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Automated Commercial Environment (ACE) Electronic Export Manifest for Rail Cargo",
+   "url": "https://www.federalregister.gov/documents/2026/08/26/2026-17390/automated-commercial-environment-ace-electronic-export-manifest-for-rail-cargo",
+   "date": "2026-08-26",
+   "org": "Homeland Security Department, U.S. Customs and Border Protection",
+   "doc_no": "2026-17390",
+   "excerpt": "U.S. Customs and Border Protection (CBP) is revising its regulations pursuant to the Trade Act of 2002 requiring the transmission of export manifest data electronically in the Automated Commercial Environment (ACE) for cargo transported by rail for any train departing the United States. This rule ma",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-26/pdf/2026-17390.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "铁路货物自动化商业环境（ACE）电子出口舱单规则",
+    "org_zh": "美国国土安全部海关与边境保护局",
+    "summary": "美国CBP修订法规，要求铁路出口货物通过ACE系统提交电子舱单。",
+    "analysis": "该规则影响所有经铁路从美国出口的货运商及物流企业，需在ACE系统传输电子出口舱单，可能增加合规成本但提升数据透明度。值得关注的是实施时间表及对跨境铁路贸易（如美墨、美加）的潜在延误风险。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "url": "https://www.federalregister.gov/documents/2026/08/26/2026-17381/rescinding-regulations-for-loans-for-minority-business-enterprises-seeking-doe-contracts-and",
+   "date": "2026-08-26",
+   "org": "Energy Department",
+   "doc_no": "2026-17381",
+   "excerpt": "The U.S. Department of Energy (DOE) is further extending the effective date of the direct final rule \"Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance,\" published on May 16, 2025.",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-08-26/pdf/2026-17381.pdf",
+   "source": "Federal Register·重要规章",
+   "ai": {
+    "title_zh": "撤销少数族裔企业寻求能源部合同与援助贷款法规",
+    "org_zh": "美国能源部",
+    "summary": "能源部再次延长撤销少数族裔企业贷款法规的生效日期。",
+    "analysis": "该政策影响寻求能源部合同与援助的少数族裔企业，延长过渡期可能增加不确定性。值得关注的是最终撤销后，相关企业获得贷款支持的渠道将收窄，需调整融资策略。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は自由民主党・令和８年熊本地震対策本部による緊急提言申入れを受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/26teigen.html",
+   "date": "2026-08-26",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受自由民主党·令和8年熊本地震对策本部紧急建议",
+    "org_zh": "日本首相官邸",
+    "category": "民生社会",
+    "explanation": "该页面记录日本首相高市早苗于令和8年（2026年）8月26日在首相官邸接受自由民主党·令和8年熊本地震对策本部提出的紧急建议。页面标题和正文均明确显示，行动主体为自民党内部针对熊本地震设立的专门对策本部，其向首相递交紧急提言，内容涉及灾后重建与防灾措施。页面配有多张现场照片及视频链接，并注明视频可通过政府广报在线或文件形式播放，属于首相官邸“总理的一日”栏目的日常活动记录。材料未说明建议的具体条款、提交文件名称、后续审议程序或首相的当场回应，也未提及任何预算金额、法律修订或行政命令。该事件发生在熊本地震之后，自民党对策本部作为党内协调机构，向首相集中表达党内的政策主张，属于执政党与行政首脑之间的常规沟通环节。页面未提供建议全文或详细政策清单，因此无法确认其具体措施、时间表或约束力。该记录仅反映当日活动事实，不构成已生效的政策决定，后续是否转化为政府正式方案需另行观察。",
+    "impact": "该事件表明自民党内部对熊本地震灾后重建和防灾对策的高度重视，通过党内对策本部向首相直接施压或提供政策建议，可能影响政府后续的预算分配、重建规划和防灾立法优先级。直接利益相关方包括熊本地震受灾民众、地方政府、自民党相关议员以及负责防灾和重建的内阁府、国土交通省等部门。由于页面未说明建议的具体内容，其政策影响尚不明确，但此类紧急提言通常会在党内形成统一意见，进而推动首相指示相关省厅研究落实。执行风险在于建议可能涉及大规模财政支出或跨部门协调，若缺乏明确法律依据或预算来源，可能面临审议延迟或实施困难。值得跟踪的后续文件包括内阁会议决定、补充预算案、相关省厅的重建计划修订，以及自民党对策本部是否继续发布跟进报告。外部反应方面，在野党和媒体可能关注建议的透明度和实际效果。当前仅能确认首相接受了建议，不能视为已生效政策，需等待官方公布具体措施和落实时间表。",
+    "jp_enrichment_version": "jp-policy-detail-v1"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は第１７回ＧＸ（グリーン・トラスフォーメーション）実行会議を開催しました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/26gx.html",
+   "date": "2026-08-26",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理主持召开第17届GX（绿色转型）执行会议",
+    "org_zh": "总理一日",
+    "summary": "日本召开第17届GX执行会议，推进绿色转型政策。",
+    "analysis": "该会议主要影响日本能源、制造业及高排放行业，推动脱碳投资与技术创新。值得关注的是具体补贴、碳定价等配套措施，可能加速企业绿色转型，并影响国际竞争力。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理はクウェート国のジャッラーハ・ジャービル・アル・サバーハ外務大臣による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/26hyoukei2.html",
+   "date": "2026-08-26",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受科威特国外交大臣贾拉赫·贾比尔·萨巴赫的礼节性拜会",
+    "org_zh": "日本首相官邸",
+    "category": "外交安全",
+    "explanation": "该页面为日本首相官邸“总理的一天”栏目下的活动记录，发布于令和8年（2026年）8月26日。页面显示，日本首相高市早苗在首相官邸接受了科威特国副首相兼外交大臣贾拉赫·贾比尔·萨巴赫的礼节性拜会。活动以“表敬”形式进行，属于外交礼仪性会晤，通常用于新任或来访外宾向对方国家领导人表达敬意并建立初步联系。页面配有三张现场照片及一段视频链接，视频由日本政府广报在线提供，可播放或下载。正文未提及会谈具体议题、联合声明或任何协议内容，也未说明双方是否就双边经济合作、地区安全或能源供应等具体事项进行深入讨论。页面仅确认会晤的时间、地点和参与人物，未提供会谈时长、随行人员名单或后续安排。该记录属于首相日常公开行程的一部分，与首相官邸“新着情报”栏目同步更新，旨在向公众通报首相的外交活动。材料未说明此次拜会是否涉及具体成果或后续跟进事项，因此除会晤事实本身外，其他细节均无法从页面中核实。",
+    "impact": "此次礼节性拜会虽属外交礼仪活动，但反映出日本与科威特之间保持高层接触的外交节奏。科威特是日本重要的能源供应国之一，日本长期依赖中东石油进口，因此此类会晤具有能源安全层面的象征意义。直接利益相关方包括日本外务省、经济产业省以及科威特外交部、石油部门。拜会可能为后续部长级磋商或经济合作铺垫，但页面材料未说明任何具体措施或协议，因此不应视为已产生政策效果。潜在影响渠道包括双边投资、能源贸易稳定性以及日本在中东地区的整体外交布局。执行风险在于，若仅停留在礼节层面而未形成实质性对话机制，则对政策推动有限。值得跟踪的后续事项包括：日本外务省是否发布会谈纪要、双方是否宣布设立工作组或签署备忘录、科威特方面是否回访或邀请高市总理访问，以及日本媒体或能源相关机构是否披露会谈中涉及的具体合作议题。此外，可关注首相官邸“总理的一天”栏目后续是否更新相关活动，以及政府广报在线是否发布视频摘要。总体而言，该事件属于外交接触的起点，其政策影响需待后续具体行动才能评估。",
+    "jp_enrichment_version": "jp-policy-detail-v1"
+   }
+  },
+  {
+   "country": "jp",
+   "title": "高市総理は神奈川県の黒岩祐治（ゆうじ）知事及びミュージカル「アニオー姫」主演者による表敬を受けました",
+   "url": "https://www.kantei.go.jp/jp/105/actions/202608/26hyoukei.html",
+   "date": "2026-08-26",
+   "org": "総理の一日",
+   "doc_no": "",
+   "excerpt": "",
+   "source": "首相官邸·新着情報",
+   "ai": {
+    "title_zh": "高市总理接受神奈川县知事黑岩祐治及音乐剧《阿尼奥公主》主演者的拜会",
+    "org_zh": "总理一日",
+    "summary": "日本首相高市早苗会见神奈川县知事及音乐剧主演，礼节性交流。",
+    "analysis": "此动态属礼节性会见，象征中央与地方互动，可能间接支持地方文化推广。关注点在于高市总理对地方文化活动的重视，或为文化政策铺垫，但无实质政策影响。",
+    "category": "其他"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "이 대통령 \"강력한 균형발전정책 추진…중앙-지방은 운명 공동체\"",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970676",
+   "date": "2026-08-26",
+   "org": "정책브리핑",
+   "org_zh": "韩国政策简报",
+   "doc_no": "",
+   "excerpt": "이재명 대통령은 26일 \"균형 발전은 선택이나 시혜가 아니라 대한민국의 생존, 또 지속 성장을 위한 필수 전략\"이라며 \"강력한 국토균형발전 정책이 추진돼야 한다\"고 말했다. 이 대통령은 이날 청와대에서 민선 9기 지방정부 출범 이후 처음으로 열린 제10회 중앙지방협력회의에서 \"대한민국이 안고 있는 모든 큰 문제들의 출발점은 극심한 국토 불균형\"이라면서 이같이 밝혔다.  이재명 대통령이 26일 청와대에서 열린 제10회 중앙지방협력회의에서 발언하고 있다. 2026.8.26(사진=저작권자(c) 연합뉴스, 무단 전재-재배포 금지) 이날 회",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "李总统称“推进强力均衡发展政策…中央与地方是命运共同体”",
+    "org_zh": "政策简报",
+    "summary": "韩国总统李在明强调推进强力国土均衡发展政策，称其为生存与持续增长的必要战略。",
+    "analysis": "该政策旨在缓解首都圈过度集中，促进地方发展，可能影响区域投资、人口流动及地方财政分配。值得关注的是中央与地方协作机制的具体措施及对地方经济活力的实际提升效果。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "'지방 주도 성장 국토대전환' 본격 시동…권역별 성장엔진 육성",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970677",
+   "date": "2026-08-26",
+   "org": "관계부처합동",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "정부는 26일 이재명 대통령 주재로 열린 제10회 중앙지방협력회의에서 '지방 주도 성장 추진방안'과 '권역별 성장엔진'을 발표하고 지방 주도의 새로운 균형성장 전략을 추진하기로 했다. ◆ 국토대전환 추진전략  먼저, 임기근 국무조정실장은 '지방주도 성장 추진방안'을 발표하고, 지방정부 주도로 지역산업과 각종 제도를 재설계하는 '국토대전환 추진전략'을 제시했다. '국토대전환 추진전략'은 국토공간 재설계, 권역별 전략산업 육성, 지방 활력 기반 조성 등 3대 전략과 이를 뒷받침하기 위한 8대 과제를 주내용으로 한다. 이재명 대통령이 2",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "地方主导增长国土大转型正式启动，培育区域增长引擎",
+    "org_zh": "韩国相关部门联合",
+    "summary": "韩国政府发布地方主导增长方案，推动国土空间重构与区域产业培育。",
+    "analysis": "该政策将影响地方政府、企业及区域居民，通过下放权限和产业扶持促进地方经济活力。值得关注的是其具体配套资金和制度落地，以及能否缩小首都圈与地方差距。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "산업용 전기요금, 11개 지역별 차등 반영…남부 최대 10% 저렴",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970678",
+   "date": "2026-08-26",
+   "org": "기후에너지환경부",
+   "org_zh": "气候能源环境部",
+   "doc_no": "",
+   "excerpt": "기후에너지환경부는 전국을 11개 지역으로 나눠 지역별 조정요금 항목을 신설, 요금 차이를 적용하는 산업용 지역 전기요금제 설계안을 선보였다.  인천 등을 포함한 수도권 북부는 최대 10원, 강원·충청을 포함한 중부권은 최대 15원, 원전·재생에너지 등이 밀집된 남부권은 최대 18원까지 전기료가 내린다. 기후부와 한국전력공사는 26일 한전 남서울본부에서 공청회를 열고, 지역 균형발전과 산업경쟁력을 강화하기 위해 마련한 '산업용 지역 전기요금제 설계안'을 공개했다. '산업용 지역 전기요금제' 설계안 개요(표=기후부 제공) '산업용 지역",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "工业用电费按11个地区差异化反映，南部最高便宜10%",
+    "org_zh": "气候能源环境部",
+    "summary": "韩国推出工业用电地区差别费率，分11区，南部最高降18韩元/千瓦时。",
+    "analysis": "该政策针对工业用户，尤其利好南部核电、可再生能源密集区企业，降低其用电成本，提升竞争力。但可能加剧区域间产业竞争，需关注对北部、中部企业的影响及电网公平性。",
+    "category": "能源环境"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "대구-경북 광역철도 건설사업 예타 통과…통합신공항까지 25분",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970669",
+   "date": "2026-08-26",
+   "org": "국토교통부",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "국토교통부는 26일 대구-경북 광역철도 건설사업이 사업 타당성을 확보해 예비타당성조사를 통과했다고 밝혔다. 대구-경북 광역철도는 대구경북통합신공항의 접근 편의성을 높이고, 대구와 경북을 하나의 생활권으로 연결하기 위해 서대구역에서 중앙선 의성역까지 연결하는 총연장 64.97㎞의 광역철도를 신설하는 사업이다. 사진은 2024년 12월 14일 첫 운행을 시작한 비수도권 첫 광역철도 대경선 열차. (사진=저작권자(c) 연합뉴스, 무단 전재-재배포 금지) 이 사업은 2021년 7월 제4차 국가철도망구축계획에 반영된 이후 2021년 8월 지",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "大邱-庆北广域铁路建设项目通过预可行性调查，至统合新机场仅需25分钟",
+    "org_zh": "韩国国土交通部",
+    "summary": "韩国大邱-庆北广域铁路通过预可行性调查，将新建64.97公里线路连接大邱与庆北。",
+    "analysis": "该铁路将提升大邱庆北统合新机场的可达性，促进区域一体化，利好沿线居民和企业。值得关注的是项目后续融资及建设周期，可能带动地方经济并改善通勤效率。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "행안부 장관, 경찰 지휘부 소집…제주 실종사건 철저 조사 지시",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970672",
+   "date": "2026-08-26",
+   "org": "행정안전부",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "행정안전부 장관이 이례적으로 경찰청 지휘부를 전부 소집해 제주 실종사건 관련 긴급 회의를 개최했다.  윤호중 행안부 장관은 26일 '긴급 경찰 지휘부 회의'를 열어 이번 제주 실종사건에 대한 철저한 진상조사와 함께 경찰의 업무체계 전반에 대한 재검토를 지시했다. 이날 회의는 제주 실종사건에 대한 국민 불안이 커짐에 따라 경찰 신뢰 회복 방안을 논의하기 위해 마련된 것으로, 경찰청에서는 유재성 경찰청장 직무대행 이하 경찰지휘부 전원이 참석했다.  윤호중 장관은 모두발언에서 \"광주 경찰 비리 사건이 발생한 지 얼마 지나지 않아 또다시 ",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "行政安全部长召集警察指挥层，指示彻查济州失踪事件",
+    "org_zh": "行政安全部",
+    "summary": "行政安全部长紧急召集警察指挥层，要求彻查济州失踪案并重审警务体系。",
+    "analysis": "该动态针对韩国警察系统，旨在应对公众对济州失踪案的不安，恢复警察公信力。可能推动警务改革和问责，值得关注后续调查进展及对警察体系的具体调整。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "지난해 출생아 25만 4300명, 6.7% ↑…합계출산율 0.8명대 회복",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970652",
+   "date": "2026-08-26",
+   "org": "국가데이터처",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "지난해 출생아 수가 전년보다 1만 6000명(6.7%) 늘어난 25만 4300명으로 2년 연속 증가했다. 증가 폭은 15년 만에 가장 컸고 합계출산율도 0.80명으로 4년 만에 0.8명대를 회복한 것으로 나타났다. 국가데이터처가 26일 발표한 '2025년 출생통계' 확정치를 보면 지난해 출생아는 25만 4341명으로 전년보다 1만 6024명(6.7%) 증가했다. 가임여성 1명이 평생 낳을 것으로 예상되는 자녀 수인 합계출산율은 0.80명으로 전년보다 0.05명 상승해 2021년(0.81명) 이후 4년 만에 0.8명대를 기록했다. 출",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "去年出生人口25.43万，增6.7%…总和生育率回升至0.8水平",
+    "org_zh": "国家数据处",
+    "summary": "韩国公布2025年出生统计，出生人口连续两年增长，总和生育率回升至0.8。",
+    "analysis": "该数据表明韩国生育率止跌回升，对人口政策制定者、社会保障体系及劳动力市场有积极信号。但0.8仍处于超低水平，需关注回升可持续性及政策支持效果。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "'천리안위성 5호'에 국산 수신기 탑재…2031년 발사 목표",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970670",
+   "date": "2026-08-26",
+   "org": "우주항공청",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "정부가 오는 2031년 발사를 목표로 개발 중인 대한민국 세 번째 기상위성인 '천리안위성 5호'에 국산 부품을 탑재한다. 우주항공청과 기상청은 26일 '천리안위성 5호'에 국내 기술로 개발한 '정지궤도 위성용 위성항법 수신기'를 장착한다고 밝혔다.위성항법 수신기는 우주청의 '스페이스파이오니어사업' 지원을 통해 국내 기업이 산·학·연 협력으로 3년 동안의 연구와 1년 동안의 지상시험을 거쳐 2024년에 개발을 완료해 이를 토대로 천리안위성 5호에 맞게 개량해 개발할 예정이다. 위성항법 수신기 개발로 지구 반대편 위성으로부터 전송된 미",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "‘千里眼卫星5号’搭载国产接收机，目标2031年发射",
+    "org_zh": "宇宙航空厅",
+    "summary": "韩国开发中的第三颗气象卫星千里眼5号将搭载国产卫星导航接收机。",
+    "analysis": "该政策利好韩国航天零部件企业，提升卫星自主可控能力，减少对进口依赖。值得关注国产接收机在轨验证效果及后续商业应用潜力。",
+    "category": "科技产业"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "'모두의카드' 부정수급 차단…3회 적발 땐 자격 박탈",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970651",
+   "date": "2026-08-26",
+   "org": "국토교통부",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "국토교통부 대도시권광역교통위원회는 '모두의카드' 부정수급을 예방하고 재정지원의 공정성을 높이기 위해 서비스 이용약관을 개정한다고 26일 밝혔다. 개정 내용은 오는 27일부터 앱(APP)·누리집 등에서 한 달 동안 고지한 뒤 9월 28일부터 시행한다. 서울 시내 버스 이용하는 사람들. 2026.6.24. (ⓒ뉴스1, 무단 전재-재배포 금지) 개정 약관은 먼저, 부정수급 유형과 제재 기준을 명확히 규정했다. 타인 명의 도용, 카드·계정 양도 및 대여, 수급 자격 정보 허위 등록, 해킹과 같은 부정한 전산적 방법의 이용 등을 부정수급으로",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "“所有人的卡”阻断不当领取：三次违规将取消资格",
+    "org_zh": "韩国国土交通部",
+    "summary": "韩国修订“所有人的卡”服务条款，明确不当领取类型并加强制裁，三次违规取消资格。",
+    "analysis": "该政策主要影响首尔公交乘客及“所有人的卡”用户，通过明确违规情形和累犯处罚，提高财政补贴使用公平性。值得关注的是，条款对账户共享、代刷等行为严格限制，可能给家庭共用卡带来不便，需注意合规使用。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "소상공인 경영난·채무 고민 한자리서 상담…전국 14개 지역 개최",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970654",
+   "date": "2026-08-26",
+   "org": "중소벤처기업부",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "경영난을 겪는 소상공인을 위해 전국 14개 지역에서 자금·채무·폐업·재기 상담을 무료로 진행한다. 중소벤처기업부는 이달 28일 대전·세종을 시작으로 10월 말까지 전국에서 '소상공인 경영위기 극복 종합상담회'를 순차적으로 개최한다고 26일 밝혔다. 분야별 전문가가 지역을 직접 찾아가 정책자금과 채무조정, 사업정리, 취업·재창업 지원 등을 한자리에서 상담한다. 중기부가 지난 6월 30일 발표한 '폐업 소상공인 정량·정성 통계'에 따르면 지난해 폐업한 사업자는 97만 6000개로 전년보다 3만 2000개 감소했다. 하지만 소상공인이 주",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "小工商业者经营困难与债务咨询一站式服务：全国14个地区举办",
+    "org_zh": "中小风险企业部",
+    "summary": "韩国中小风险企业部在全国14地举办综合咨询会，提供资金、债务、停业及再创业免费咨询。",
+    "analysis": "该政策针对面临经营危机的小工商业者，通过现场专家咨询降低其信息获取成本，有助于缓解债务压力并促进合规停业或再创业。值得关注的是咨询会覆盖范围广且持续至10月底，或能有效减少小工商业者因经营困难导致的倒闭潮，稳定民生经济。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "kr",
+   "title": "멈춘 부동산PF 사업장,  매입임대로 전환…청년·신혼부부에 공급",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148970645",
+   "date": "2026-08-26",
+   "org": "관계부처합동",
+   "org_zh": "",
+   "doc_no": "",
+   "excerpt": "정부가 지난 13일 발표한 주택 신속 공급 방안과 관련해 자금과 사업성 부족 등으로 멈추거나 더디게 진행 중인 부동산 프로젝트파이낸싱(PF) 사업장을 LH 매입임대주택으로 전환하는 사업을 본격 추진하기로 했다. 이 사업은 좋은 입지의 주택을 빠르게 공급하는 동시에 사업자의 미분양 부담을 덜어 멈춰 선 사업을 다시 돌린다는 점에서 주택공급과 PF 정상화를 동시에 푸는 해법이 될 것으로 보인다. 국토교통부와 금융위원회, 한국토지주택공사(LH), 금융감독원은 오는 27일 관계기관회의를 열어 PF 사업장의 LH 매입임대 전환의 추진현황을 ",
+   "source": "韩国政策简报·政策新闻",
+   "ai": {
+    "title_zh": "停滞的房地产PF项目转为购买租赁住房，向青年和新婚夫妇供应",
+    "org_zh": "相关部门联合",
+    "summary": "韩国政府将停滞的房地产PF项目转为LH购买租赁住房，以加速住房供应并缓解未售出压力。",
+    "analysis": "该政策针对停滞的PF项目开发商和青年、新婚夫妇等住房需求者。通过LH购买租赁，可盘活烂尾项目，增加租赁供给，缓解开发商资金链压力，但需关注LH资金负担和项目选址质量。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "五年規劃和施政報告9月16日公布",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_163631_258.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "行政長官李家超今日表示，將於下月16日公布香港特別行政區經濟和社會發展第一個五年規劃，並隨之發表2026年施政報告。&nbsp;李家超會見傳媒時表示，公布香港第一個五年規劃後，隨之發表施政報告，是讓市民更容易了解兩者一脈相承的關係。&nbsp;他指出，香港第一個五年規劃定下香港未來五年的經濟和社會發展藍圖，是前瞻性、策略性和方向性的指導文件，而施政報告是行政長官落實香港第一個五年規劃的年度報告，以及因應實際情況的年度施政重點，兩者息息相關。&nbsp;他續指，市民同時參閱香港第一個五年規劃和施政報告，更容易知道政府如何在今年按前者的方向和策略推出政策措施，向前邁進。他說，他會在施政報告定下多項",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "五年規劃和施政報告9月16日公布",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港特首宣布9月16日公布首个五年规划及2026年施政报告。",
+    "analysis": "该政策面向香港市民及社会各界，五年规划提供长远发展蓝图，施政报告则细化年度措施，两者结合有助于增强政策连贯性和透明度。值得关注的是规划中经济、民生等具体方向及执行力度。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "特首訪深水埗聽取施政報告意見",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_164548_976.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "行政長官李家超今日前往深水埗，到訪區內公共屋邨和耆樂中心，了解市民對2026年施政報告的意見，並考察位於該區的1823聯絡中心。&nbsp;李家超到元州邨探訪一名長者，了解她使用日間醫療中心服務的情況。李家超表示，政府積極推廣日間醫療服務，讓合適的病人同日接受檢查、治療和跨專業團隊支援，無須留院過夜。&nbsp;他指，日間醫療服務有助減少非必要住院，為病人提供更便捷的治療和更方便的服務，同時提升公營醫療系統服務容量和效率，讓更多市民及早獲得適切服務。&nbsp;日前，李家超到訪廣華醫院，了解骨科日間醫療中心運作，以及醫院應用創新科技的情況。他表示，政府致力深化醫療改革，提升公營醫療服務的質素和",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "特首訪深水埗聽取施政報告意見",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "特首李家超访深水埗，听取市民对施政报告意见，考察日间医疗及1823联络中心。",
+    "analysis": "针对香港市民，尤其长者及公营医疗使用者，日间医疗服务可减少住院压力，提升效率。关注点在于医疗改革深化，可能改善服务可及性，但需观察资源分配及实施细节。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "李家超：香港郵政必須改革",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_164103_735.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "行政長官李家超表示，香港郵政目前的運作模式存在問題，必須改革，當局將盡快研究改革方案。&nbsp;他說，香港郵政面對的問題獨特，以商業模式運作、自負盈虧，惟現時郵政的生態有很大轉變，受電子化影響，大環境也與過往不同，認為香港郵政目前的運作模式的確有很多問題。香港郵政在2024至25年度虧損達八億元，政府最近已向立法會申請40多億元撥款作香港郵政三年營運資金。&nbsp;李家超指出，香港郵政必須改革，商務及經濟發展局將盡快研究改革方案，並提交立法會討論。&nbsp;他又指，提出改革方案需時，過渡期有特別安排在所難免。香港郵政和公務員事務局會保持與員工溝通，盡量提供協助。",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "李家超：香港郵政必須改革",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港特首李家超宣布香港邮政必须改革，将研究方案并提交立法会。",
+    "analysis": "针对香港邮政及其员工，改革旨在应对电子化冲击和巨额亏损，可能涉及业务调整或裁员，需关注过渡期员工安置及服务可持续性。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "皇崗口岸周六舉行二萬人壓力測試",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_164026_556.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "行政長官李家超表示，政府本周六將在皇崗口岸進行測試，二萬名公務員參與，以測試口岸於頂峰時間的運作和承受能力，以確保運作安全有序，旅客體驗良好。&nbsp;他表示，一萬名公務員參與上周六的演練，測試人流、車流、指示牌位置等，認為演練非常有效。當局過去三星期已進行逾80次不同形式的測試和演練，每次也總結經驗，有助改善整體運作和配置。&nbsp;李家超說，香港和深圳互相配合支持，並舉行聯合演練；當條件充分，口岸整體運作暢順、安全、有序，便會盡快開通口岸，讓公眾使用。",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "皇崗口岸周六舉行二萬人壓力測試",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港政府周六在皇崗口岸进行两万人压力测试，确保口岸开通后运作顺畅。",
+    "analysis": "针对跨境旅客及口岸运营方，测试将验证高峰期承载能力，影响通关效率与体验。值得关注的是测试结果及深港协作进展，决定口岸正式开通时间，对两地民生和经济交流有直接促进作用。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "李家超：檢討管控危險狗隻法例",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_164135_713.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "行政長官李家超表示，近期發生狗咬狗和狗咬人事件，社會非常關注。事件反映狗主的責任非常重要，他們在公眾地方必須穩妥管控狗隻，而政府會檢視相關法例。&nbsp;李家超今日會見傳媒時說，狗主必須在公眾地方穩妥管控狗隻，避免牠們傷害和滋擾他人。現時法例規定20公斤或以上的大型狗隻在公眾地方必須用狗帶牽引，若有人不負責任，違反法例，當局必依法處理。&nbsp;他指出，環境及生態局和漁農自然護理署會檢討格鬥狗隻的定義，以及對於處理管控危險狗隻的法例是否足夠。他說，政府會加強巡邏，也希望社會共同努力，加強公眾教育。",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "李家超：檢討管控危險狗隻法例",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港特首宣布将检讨危险狗只管控法例，加强执法与公众教育。",
+    "analysis": "针对狗主及公众，可能收紧大型犬只管控标准，增加违规处罚。值得关注格斗狗只定义调整及执法力度变化，对宠物行业和养狗人士影响较大。",
+    "category": "法律监管"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "愛國主義教育工作小組舉行會議",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_201524_260.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "憲法和基本法推廣督導委員會轄下的愛國主義教育工作小組今日舉行第四次會議，討論愛國主義教育工作的成果和進展。委員會主席、政務司司長陳國基表示，特區政府將把握下半年多個特殊節慶紀念日子，以及明年香港回歸祖國30周年紀念等，推出一系列愛國主義教育活動。&nbsp;陳國基說，當局去年善用特殊節慶紀念日子為切入點，例如中國人民抗日戰爭暨世界反法西斯戰爭勝利80周年紀念、東江水供港60周年、中國共產黨成立105周年等，舉辦不同紀念和慶祝活動，社會各界反應十分積極和熱烈。&nbsp;另一方面，特區政府也在學校教育、社區、歷史、政經、文化、傳媒宣傳等不同範疇推動多項中、長期措施，全方位開展愛國主義教育工作。&",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "愛國主義教育工作小組舉行會議",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港特区政府召开爱国主义教育工作小组会议，部署下半年及回归30周年庆祝活动。",
+    "analysis": "该政策主要影响香港社会各界，尤其是学校、社区及媒体。通过节庆纪念活动强化国家认同，可能提升市民爱国意识，但需关注活动形式与内容对年轻一代的吸引力及社会接受度。",
+    "category": "民生社会"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "林定國哈薩克斯坦推廣香港優勢",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_192235_900.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "律政司司長林定國今日繼續率領跨專業代表團訪問哈薩克斯坦阿拉木圖，推廣香港普通法制度的獨特優勢。&nbsp;他出席由律政司和香港貿易發展局合辦的協作共贏研討會，該研討會吸引超過160名當地法律、商界等代表出席。&nbsp;林定國於開幕致辭時表示，香港作為主要普通法司法管轄區，提供可靠且優質的國際法律服務，同時一直致力善用其普通法優勢，維持並提升香港作為國際金融中心的地位。香港作為具備普通法優勢的國際金融樞紐，其獨特地位可成為哈薩克斯坦重要、甚至不可或缺的夥伴。&nbsp;代表團同日下午轉往烏茲別克斯坦繼續訪問行程。&nbsp;林定國昨日抵達阿拉木圖，先與當地一間內地律師事務所代表會面，了解當地法",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "林定國哈薩克斯坦推廣香港優勢",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "律政司司长率团访问哈萨克斯坦，推广香港普通法优势。",
+    "analysis": "此动态针对香港法律及商界专业人士，旨在加强与中亚国家的法律合作，吸引外资利用香港法律服务平台。可能促进香港与哈萨克斯坦的经贸往来，提升香港国际法律中心地位。值得关注后续与乌兹别克斯坦的交流成果。",
+    "category": "外交安全"
+   }
+  },
+  {
+   "country": "hk",
+   "title": "本地醫療衞生總開支帳目發表",
+   "url": "https://www.news.gov.hk/chi/2026/08/20260826/20260826_112137_398.html",
+   "date": "2026-08-26",
+   "org": "香港特别行政区政府新闻处",
+   "doc_no": "",
+   "excerpt": "醫務衞生局表示，2024至25年度香港醫療衞生經常性開支為2,625.13億元，較上年度增加5%。開支佔本地生產總值的百分比為8.2%，人均醫療衞生經常性開支為34,890元。&nbsp;醫衞局今日發表2024至25年度本地醫療衞生總開支帳目。在經常性開支中，公共支出佔51.6%，相對本地生產總值的百分比為4.2%。就相對本地生產總值的百分比而言，香港醫療衞生經常性開支和其中的公共支出在過去十年大致呈上升趨勢。&nbsp;私人醫療衞生支出方面，該年度的支出佔香港醫療衞生經常性開支48.4%，相對本地生產總值的百分比為3.9%。&nbsp;醫衞局指出，該年度基層醫療開支佔整體醫療衞生經常性開支的",
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "本地醫療衞生總開支帳目發表",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港公布2024/25年度醫療衞生總開支，經常性開支達2625億港元，佔GDP8.2%。",
+    "analysis": "影響公共財政與市民醫療負擔，公共支出佔比逾半，顯示政府主導醫療融資。基層醫療開支比例待公佈，或影響未來資源分配及私營醫療市場。值得關注長期上升趨勢對財政可持續性及醫療改革的啟示。",
+    "category": "民生社会"
    }
   },
   {
@@ -10087,400 +10525,6 @@
     "summary": "美国总统发布2026财年难民接纳的紧急行政决定。",
     "analysis": "该决定主要影响难民申请人及移民政策执行机构。可能调整难民配额或审批流程，值得关注其对国际人道主义承诺及国内安全政策的平衡。",
     "category": "外交安全"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Department of Labor Federal Civil Penalties Inflation Adjustment Act Annual Adjustments for 2026",
-   "url": "https://www.federalregister.gov/documents/2026/05/27/2026-10456/department-of-labor-federal-civil-penalties-inflation-adjustment-act-annual-adjustments-for-2026",
-   "date": "2026-05-27",
-   "org": "Labor Department, Employment and Training Administration, Workers' Compensation Programs Office, Wage and Hour Division, Occupational Safety and Health Administration, Mine Safety and Health Administration",
-   "doc_no": "2026-10456",
-   "excerpt": "As required by statute, the Department of Labor annually publishes a final rule updating the civil monetary penalties it assesses. The Bureau of Labor Statistics (BLS) did not publish its October 2025 Consumer Price Index for All Urban Consumers (CPI-U) data due to a lapse in funding. Because the re",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10456.pdf",
-   "source": "Federal Register·重要规章",
-   "ai": {
-    "title_zh": "劳工部2026年联邦民事罚款通胀调整年度更新",
-    "summary": "劳工部因CPI-U数据缺失，无法按法定要求发布2026年民事罚款通胀调整。",
-    "analysis": "该政策直接影响受劳工部监管的企业和机构，因CPI-U数据缺失导致罚款调整延迟，可能使雇主面临罚款标准不明确的风险。值得关注的是，数据缺失背后的政府资金问题可能影响其他监管执行。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Continuation of the National Emergency With Respect to Belarus",
-   "url": "https://www.federalregister.gov/documents/2026/05/26/2026-10481/continuation-of-the-national-emergency-with-respect-to-belarus",
-   "date": "2026-05-26",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-10481",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10481.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "关于白俄罗斯国家紧急状态的延续",
-    "summary": "美国总统宣布延长针对白俄罗斯的国家紧急状态。",
-    "analysis": "该政策主要针对白俄罗斯政府及其相关实体，延续制裁和限制措施。可能影响美国与白俄罗斯的外交关系及在美白俄罗斯资产。值得关注的是此举是否与白俄罗斯国内政治局势或俄乌冲突关联。",
-    "category": "外交安全"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Promulgated Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020",
-   "url": "https://www.federalregister.gov/documents/2026/05/26/2026-10387/phasedown-of-hydrofluorocarbons-reconsideration-of-certain-regulatory-requirements-promulgated-under",
-   "date": "2026-05-26",
-   "org": "Environmental Protection Agency",
-   "doc_no": "2026-10387",
-   "excerpt": "The U.S. Environmental Protection Agency (EPA) is finalizing changes to regulations promulgated under the Technology Transitions provision of the American Innovation and Manufacturing Act of 2020 (AIM Act), which authorizes the Administrator to restrict fully, partially, or on a graduated schedule, ",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf",
-   "source": "Federal Register·重要规章",
-   "ai": {
-    "title_zh": "氢氟碳化物逐步削减：对《2020年美国创新与制造法案》技术转型条款下某些监管要求的重新审议",
-    "summary": "EPA最终确定对氢氟碳化物技术转型监管规则的修改。",
-    "analysis": "该政策主要影响制冷、空调和泡沫行业，要求企业逐步淘汰高全球变暖潜值的氢氟碳化物。此举将推动替代技术和设备的研发投资，可能增加短期合规成本，但长期有助于美国履行国际气候承诺并促进绿色技术出口。值得关注的是规则调整是否涉及豁免或时间表变化。",
-    "category": "能源环境"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Restoring Integrity to America's Financial System",
-   "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10400/restoring-integrity-to-americas-financial-system",
-   "date": "2026-05-22",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-10400",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10400.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "恢复美国金融体系的诚信",
-    "summary": "白宫发布行政令，旨在加强金融监管与反腐败措施。",
-    "analysis": "该政策主要针对金融机构及高管，可能加强合规要求与处罚力度。值得关注的是对跨境资本流动及加密货币监管的潜在收紧，或影响全球金融市场。",
-    "category": "经济金融"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Integrating Financial Technology Innovation Into Regulatory Frameworks",
-   "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10399/integrating-financial-technology-innovation-into-regulatory-frameworks",
-   "date": "2026-05-22",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-10399",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10399.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "将金融科技创新融入监管框架",
-    "summary": "白宫发布行政指令，要求将金融科技纳入现有监管体系。",
-    "analysis": "该政策主要影响金融科技企业及传统金融机构，可能加速监管合规成本上升，同时为创新业务提供更清晰的规则。值得关注的是其对加密货币、数字支付等新兴领域的监管态度变化。",
-    "category": "经济金融"
-   }
-  },
-  {
-   "country": "us",
-   "title": "To Implement Certain Provisions in the Consolidated Appropriations Act, 2026, and for Other Purposes",
-   "url": "https://www.federalregister.gov/documents/2026/05/22/2026-10398/to-implement-certain-provisions-in-the-consolidated-appropriations-act-2026-and-for-other-purposes",
-   "date": "2026-05-22",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-10398",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-22/pdf/2026-10398.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "为执行《2026年综合拨款法案》中的某些条款及其他目的",
-    "summary": "美国总统行政令，旨在落实2026财年综合拨款法案中的特定条款。",
-    "analysis": "该行政令主要影响联邦机构及受拨款法案约束的部门，可能加速特定预算项目的执行或调整资金分配。值得关注的是其是否涉及对华限制条款或国内优先事项的重新排序。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国务院关于推行常住地提供基本公共服务的实施意见",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069961.htm",
-   "date": "2026-05-22",
-   "org": "国务院",
-   "doc_no": "国发〔2026〕11号",
-   "excerpt": "逐步消除基本公共服务与户籍挂钩因素。",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "国务院关于推行常住地提供基本公共服务的实施意见",
-    "summary": "逐步消除基本公共服务与户籍挂钩因素，推动常住地提供服务。",
-    "analysis": "该政策主要针对流动人口和地方政府，将逐步削弱户籍对教育、医疗等公共服务的限制，促进人口流动与城镇化。值得关注的是实施进度与地方财政压力，以及如何平衡不同城市资源承载能力。",
-    "category": "民生社会"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国家发展改革委 财政部关于印发《推进生态综合补偿实施方案》的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069946.htm",
-   "date": "2026-05-22",
-   "org": "国家发展改革委 财政部",
-   "doc_no": "发改振兴〔2026〕697号",
-   "excerpt": "国家发展改革委 财政部关于印发《推进生态综合补偿实施方案》的通知 发改振兴〔2026〕697号 各省、自治区、直辖市人民政府，新疆生产建设兵团，国务院有关部门： 经国务院同意，现将《推进生态综合补偿实...",
-   "source": "中国政府网·部门文件",
-   "ai": {
-    "title_zh": "国家发展改革委 财政部关于印发《推进生态综合补偿实施方案》的通知",
-    "summary": "两部门联合发布生态综合补偿实施方案，推动生态保护与区域协调发展。",
-    "analysis": "该政策主要针对地方政府、生态保护区和相关企业，通过综合补偿机制激励生态保护行为，可能促进欠发达地区绿色转型和财政转移支付优化。值得关注的是补偿标准与资金来源的具体安排。",
-    "category": "能源环境"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Practices Before the Department of the Interior",
-   "url": "https://www.federalregister.gov/documents/2026/05/21/2026-10160/practices-before-the-department-of-the-interior",
-   "date": "2026-05-21",
-   "org": "Interior Department",
-   "doc_no": "2026-10160",
-   "excerpt": "The Office of Hearings and Appeals (OHA) is issuing this final rule to adopt the interim final rule (IFR) published on January 10, 2025, with a few changes made to respond to public comments, to clarify procedures, and to correct typographical errors. The IFR was originally set to go into effect Feb",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-21/pdf/2026-10160.pdf",
-   "source": "Federal Register·重要规章",
-   "ai": {
-    "title_zh": "内政部听证与上诉办公室最终规则",
-    "summary": "内政部通过最终规则，采纳2025年临时最终规则并做少量修改。",
-    "analysis": "该规则主要影响涉及内政部听证与上诉程序的当事人及法律从业者。修改内容回应了公众意见并澄清程序，有助于提高行政裁决的透明度和效率。值得关注的是规则生效时间及对未决案件的影响。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program",
-   "url": "https://www.federalregister.gov/documents/2026/05/20/2026-10050/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and",
-   "date": "2026-05-20",
-   "org": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
-   "doc_no": "2026-10050",
-   "excerpt": "This final rule contains provisions to improve implementation of the Patient Protection and Affordable Care Act, including payment parameters and provisions related to the HHS-operated risk adjustment and risk adjustment data validation (HHS-RADV) programs, as well as 2027 user fee rates for issuers",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-20/pdf/2026-10050.pdf",
-   "source": "Federal Register·重要规章",
-   "ai": {
-    "title_zh": "《患者保护与平价医疗法案》：2027年HHS福利与支付参数通知及基本健康计划",
-    "summary": "美国发布2027年医保支付参数及风险调整数据验证最终规则。",
-    "analysis": "该规则主要影响医保发行机构，通过设定2027年用户费率及风险调整程序，可能影响保费定价与市场竞争。值得关注的是HHS-RADV数据验证的强化，或增加合规成本。",
-    "category": "民生社会"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "中华人民共和国矿产资源法实施条例",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069680.htm",
-   "date": "2026-05-20",
-   "org": "国务院",
-   "doc_no": "国令第839号",
-   "excerpt": "中华人民共和国国务院令 第839号 《中华人民共和国矿产资源法实施条例》已经2026年5月9日国务院第85次常务会议通过，现予公布，自2026年6月15日起施行。 总理　　李强　　　　　　　  202...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "中华人民共和国矿产资源法实施条例",
-    "summary": "国务院发布矿产资源法实施条例，自2026年6月15日起施行。",
-    "analysis": "该条例主要针对矿业企业及地方政府，将细化矿产资源勘查、开采和监管规则，可能提高行业准入门槛和合规成本。值得关注的是其对资源安全保障和绿色开采的强化要求。",
-    "category": "能源环境"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国家发展改革委 国家能源局关于有序推动多用户绿电直连发展有关事项的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069765.htm",
-   "date": "2026-05-20",
-   "org": "国家发展改革委 国家能源局",
-   "doc_no": "发改能源〔2026〕688号",
-   "excerpt": "国家发展改革委 国家能源局关于有序推动多用户绿电直连发展有关事项的通知 发改能源〔2026〕688号 各省、自治区、直辖市、新疆生产建设兵团发展改革委、能源局，北京市城市管理委员会、天津市工业和信息化...",
-   "source": "中国政府网·部门文件",
-   "ai": {
-    "title_zh": "国家发展改革委 国家能源局关于有序推动多用户绿电直连发展有关事项的通知",
-    "summary": "推动多用户直接连接绿色电力，促进绿电消费和能源转型。",
-    "analysis": "该政策主要针对用电企业、绿电生产商及电网企业，将降低企业绿电交易门槛，促进可再生能源消纳。值得关注的是多用户直连模式可能打破传统电网垄断，推动电力市场化改革。",
-    "category": "能源环境"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "行政法规制定程序条例",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069474.htm",
-   "date": "2026-05-19",
-   "org": "国务院",
-   "doc_no": "国令第838号",
-   "excerpt": "中华人民共和国国务院令 第838号 《行政法规制定程序条例》已经2026年4月24日国务院第84次常务会议修订通过，现予公布，自2026年7月1日起施行。 总理　　李强　　　　　　　  2026年5月...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "行政法规制定程序条例",
-    "summary": "国务院修订并公布《行政法规制定程序条例》，自2026年7月1日起施行。",
-    "analysis": "该条例主要影响立法机关和行政机关，规范行政法规的制定程序，提升立法质量和透明度。值得关注的是修订内容是否强化了公众参与和合法性审查，可能对政府依法行政产生深远影响。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国家发展改革委关于印发“法治护航民营经济”行动方案的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069512.htm",
-   "date": "2026-05-19",
-   "org": "国家发展改革委",
-   "doc_no": "发改民营〔2026〕637号",
-   "excerpt": "国家发展改革委关于印发“法治护航民营经济”行动方案的通知 发改民营〔2026〕637号 各省、自治区、直辖市及计划单列市、新疆生产建设兵团发展改革委： 为持续推动《中华人民共和国民营经济促进法》实施见...",
-   "source": "中国政府网·部门文件",
-   "ai": {
-    "title_zh": "国家发展改革委关于印发“法治护航民营经济”行动方案的通知",
-    "summary": "发改委发布行动方案，推动民营经济促进法实施，护航民营经济发展。",
-    "analysis": "该政策主要针对民营企业和地方政府，通过法治手段保障民营经济合法权益，降低经营风险。值得关注的是，方案可能细化法律执行细则，提升民营企业信心，促进民间投资。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "关于进一步发挥村（居）民委员会公共卫生委员会作用的指导意见",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069413.htm",
-   "date": "2026-05-19",
-   "org": "国家卫生健康委 中央社会工作部 全国爱卫办 国家中医药局 国家疾控局 中国红十字会总会",
-   "doc_no": "国卫基层发〔2026〕14号",
-   "excerpt": "关于进一步发挥村（居）民委员会公共卫生委员会作用的指导意见 国卫基层发〔2026〕14号 各省、自治区、直辖市及新疆生产建设兵团卫生健康委、党委社会工作部、爱卫办、中医药局、疾控局、红十字会： 村（居...",
-   "source": "中国政府网·部门文件",
-   "ai": {
-    "title_zh": "关于进一步发挥村（居）民委员会公共卫生委员会作用的指导意见",
-    "summary": "多部门联合发文，要求加强基层公共卫生委员会建设与作用发挥。",
-    "analysis": "该政策主要针对村（居）民委员会及基层卫生机构，旨在强化基层公共卫生治理能力。影响包括提升社区疫情防控、健康管理及应急响应水平，值得关注的是多部门协同推进机制及中医药、红十字会等资源的整合。",
-    "category": "民生社会"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国务院就业促进和劳动保护工作领导小组关于印发《稳岗扩容提质行动方案》的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069390.htm",
-   "date": "2026-05-19",
-   "org": "国务院就业促进和劳动保护工作领导小组",
-   "doc_no": "",
-   "excerpt": "国务院就业促进和劳动保护工作领导小组关于印发《稳岗扩容提质行动方案》的通知 国务院就业促进和劳动保护工作领导小组各成员单位，自然资源部、生态环境部、体育总局、国家能源局： 《稳岗扩容提质行动方案》已经...",
-   "source": "中国政府网·部门文件",
-   "ai": {
-    "title_zh": "国务院就业促进和劳动保护工作领导小组关于印发《稳岗扩容提质行动方案》的通知",
-    "summary": "国务院发布稳岗扩容提质行动方案，旨在稳定就业岗位、扩大就业容量并提升就业质量。",
-    "analysis": "该政策主要针对企业和劳动者，通过稳岗扩容提质措施，可能促进就业市场稳定和劳动力结构优化。值得关注的是方案中可能包含的具体补贴、培训及产业引导措施，对就业压力较大的行业和地区影响显著。",
-    "category": "民生社会"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "商务部等6部门关于加力优化离境退税措施扩大入境消费的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7069242.htm",
-   "date": "2026-05-18",
-   "org": "商务部 财政部 文化和旅游部 海关总署 税务总局 国家移民局",
-   "doc_no": "商消费发2026年第74号",
-   "excerpt": "商务部等6部门关于加力优化离境退税措施扩大入境消费的通知 商消费发2026年第74号 各省、自治区、直辖市及计划单列市人民政府，国务院有关部门： 为加力优化离境退税措施，进一步便利和扩大入境消费，经国...",
-   "source": "中国政府网·部门文件",
-   "ai": {
-    "title_zh": "商务部等6部门关于加力优化离境退税措施扩大入境消费的通知",
-    "summary": "多部门联合发文优化离境退税政策，以扩大入境消费。",
-    "analysis": "该政策主要针对境外游客和零售、旅游行业，通过简化退税流程、提高退税便利度，有望刺激入境消费增长。值得关注的是，此举将助力提振国内消费市场，并促进国际旅游服务贸易平衡。",
-    "category": "经济金融"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Peace Officers Memorial Day and Police Week, 2026",
-   "url": "https://www.federalregister.gov/documents/2026/05/14/2026-09779/peace-officers-memorial-day-and-police-week-2026",
-   "date": "2026-05-14",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-09779",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-14/pdf/2026-09779.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "和平警官纪念日与警察周，2026",
-    "summary": "美国总统宣布设立2026年和平警官纪念日及警察周，以纪念殉职执法人员。",
-    "analysis": "该公告主要影响美国执法机构及殉职警察家属，可能提升公众对执法安全的关注，并推动相关纪念活动。值得关注的是其背后对执法队伍士气的支持及政策象征意义。",
-    "category": "民生社会"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Continuation of the National Emergency With Respect to Securing the Information and Communications Technology and Services Supply Chain",
-   "url": "https://www.federalregister.gov/documents/2026/05/13/2026-09671/continuation-of-the-national-emergency-with-respect-to-securing-the-information-and-communications",
-   "date": "2026-05-13",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-09671",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-05-13/pdf/2026-09671.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "关于确保信息通信技术与服务供应链安全的国家紧急状态的延续",
-    "summary": "美国延长针对信息通信技术供应链的国家紧急状态。",
-    "analysis": "该政策延续对ICT供应链的审查与限制，主要针对中国等外国供应商，可能进一步加剧中美科技脱钩，值得关注其对全球半导体、5G等产业链的长期影响。",
-    "category": "科技产业"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国务院办公厅关于印发《国务院2026年度立法工作计划》的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7068346.htm",
-   "date": "2026-05-11",
-   "org": "国务院办公厅",
-   "doc_no": "国办发〔2026〕14号",
-   "excerpt": "国务院办公厅关于印发 《国务院2026年度立法工作计划》的通知 国办发〔2026〕14号 各省、自治区、直辖市人民政府，国务院各部委、各直属机构： 《国务院2026年度立法工作计划》已经党中央、国务院...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "国务院办公厅关于印发《国务院2026年度立法工作计划》的通知",
-    "summary": "国务院发布2026年度立法工作计划，明确全年立法重点任务。",
-    "analysis": "该计划主要影响各级政府部门及立法相关机构，将指导未来一年行政法规的制定与修订。值得关注的是，计划中可能涉及经济、民生等重点领域的立法动向，对市场预期和监管环境产生深远影响。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "中华人民共和国行政复议法实施条例",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7068116.htm",
-   "date": "2026-05-08",
-   "org": "国务院",
-   "doc_no": "国令第836号",
-   "excerpt": "中华人民共和国国务院令 第836号 《中华人民共和国行政复议法实施条例》已经2026年4月17日国务院第83次常务会议修订通过，现予公布，自2026年7月1日起施行。 总理　　李强　　　　　　　  2...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "中华人民共和国行政复议法实施条例",
-    "summary": "国务院修订通过行政复议法实施条例，将于2026年7月1日起施行。",
-    "analysis": "该条例主要影响行政机关和行政相对人，通过完善行政复议程序，强化对行政行为的监督与救济。值得关注的是，修订后可能扩大复议范围、优化审理机制，进一步提升法治政府建设水平。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国务院关于同意在上海市暂时调整实施有关行政法规规定的批复",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7068118.htm",
-   "date": "2026-05-08",
-   "org": "国务院",
-   "doc_no": "国函〔2026〕38号",
-   "excerpt": "国务院关于同意在上海市暂时调整实施 有关行政法规规定的批复 国函〔2026〕38号 上海市人民政府、司法部： 你们关于在上海市暂时调整实施有关行政法规规定的请示收悉。现批复如下： 一、同意自即日起在上...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "国务院关于同意在上海市暂时调整实施有关行政法规规定的批复",
-    "summary": "国务院同意在上海市暂时调整实施部分行政法规规定。",
-    "analysis": "该政策主要针对上海市及相关部门，通过暂时调整行政法规，为上海在特定领域（如开放创新、营商环境等）提供更大改革空间。值得关注的是，此举可能加速上海在制度型开放方面的先行先试，对全国其他地区具有示范效应。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国务院关于推进服务业扩能提质的意见",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066484.htm",
-   "date": "2026-04-21",
-   "org": "国务院",
-   "doc_no": "国发〔2026〕7号",
-   "excerpt": "国务院关于推进服务业扩能提质的意见 国发〔2026〕7号 各省、自治区、直辖市人民政府，国务院各部委、各直属机构： 为推进服务业扩能提质，促进服务业优质高效发展，更好发挥服务业支撑产业升级、满足民生需...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "国务院关于推进服务业扩能提质的意见",
-    "summary": "国务院发布意见，推动服务业扩大能力与提升质量。",
-    "analysis": "该政策主要影响服务业企业及从业人员，可能通过放宽准入、优化监管等方式促进产业升级和民生改善。值得关注的是其对就业和消费的拉动作用，以及具体配套措施的落地情况。",
-    "category": "经济金融"
-   }
-  },
-  {
-   "country": "cn",
-   "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
-   "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066114.htm",
-   "date": "2026-04-17",
-   "org": "国务院办公厅",
-   "doc_no": "国办函〔2026〕40号",
-   "excerpt": "国务院办公厅转发海关总署《关于促进 综合保税区扩能提质的若干措施》的通知 国办函〔2026〕40号 各省、自治区、直辖市人民政府，国务院各部委、各直属机构： 海关总署《关于促进综合保税区扩能提质的若干...",
-   "source": "中国政府网·国务院文件",
-   "ai": {
-    "title_zh": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
-    "summary": "国务院转发海关总署措施，推动综合保税区扩能提质。",
-    "analysis": "该政策主要影响综合保税区内的外贸企业及地方政府，通过优化监管、提升效能，有望降低企业运营成本、促进贸易便利化。值得关注的是具体措施如何落地及对区域经济开放的带动作用。",
-    "category": "经济金融"
    }
   }
  ]
