@@ -1,20 +1,110 @@
 {
- "generated_at": "2026-09-11 23:14 UTC",
+ "generated_at": "2026-09-12 23:13 UTC",
  "brief": {
-  "text": "今日政策要点呈现内政与对外合作并行态势。美国延续反恐国家紧急状态，调整《国防生产法》授权并推出支持牧场主、促进肉类市场竞争措施，凸显供应链安全与产业保护取向。日本内阁会议照常运转，首相出席消防殉职者追悼仪式，内政基调平稳。韩国总统李在明访法，韩法升级战略伙伴关系，目标2030年贸易额达200亿美元，防务、科技合作实质推进，同时启动“千万气候市民项目”，拓展绿色外交。中国香港多线并进：支联会案判刑彰显国安执法刚性，特首强调法律不容假借民主危害国家；同时公布银色债券配发、控烟附例刊宪、选委会选举指引，并借“一带一路”论坛首设出海专章、与深圳签署金融创科合作备忘录，推动北部都会区十年供应15万公营房屋。跨境看点在于韩法科技防务合作升温与香港助力内地企业出海，反映区域经济与技术竞争格局持续演化。",
-  "date": "2026-09-11"
+  "text": "美国密集调整对加拿大机动车、酒精饮料、乳制品等产品的关税与进口限制，以反制加方“歧视性贸易措施”，北美贸易摩擦显著升温。日本内阁会议照常通报，高市首相出席消防殉职者追悼仪式，内政基调平稳。韩国总统李在明访法，着力强化韩法议会与经贸合作，拓展外交空间。中国香港方面，支联会煽动颠覆案判刑，特首强调法律不容假借民主危害国家；同时公布银色债券配发、控烟附例刊宪及选委会选举指引，并借“一带一路”论坛首设出海专章、与深圳签署金融创科合作备忘录，凸显香港在维护国安与融入国家发展间的双轨并进。整体看，美加贸易对抗与香港跨境合作构成今日最突出的跨境政策线索。",
+  "date": "2026-09-12"
  },
  "errors": [
-  "korea: HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /news/policyNewsList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7f3e605c1b20>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))"
+  "korea: HTTPSConnectionPool(host='www.korea.kr', port=443): Max retries exceeded with url: /news/policyNewsList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.korea.kr', port=443) at 0x7fb18a0772f0>, 'Connection to www.korea.kr timed out. (connect timeout=30)'))"
  ],
  "counts": {
   "cn": 0,
-  "us": 88,
-  "jp": 127,
+  "us": 90,
+  "jp": 125,
   "kr": 195,
   "hk": 190
  },
  "items": [
+  {
+   "country": "us",
+   "title": "Modifying the Scope of Products of Canada Subject to the Additional Duties Imposed To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Motor Vehicles",
+   "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18839/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset",
+   "date": "2026-09-14",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-18839",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-09-14/pdf/2026-18839.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "调整受额外关税约束的加拿大产品范围，以抵消加拿大在机动车领域对美国商业的歧视",
+    "org_zh": "总统行政办公室",
+    "summary": "美国调整对加拿大机动车相关产品的额外关税范围，反制其对美歧视性政策。",
+    "analysis": "针对加拿大机动车领域对美贸易歧视，美方扩大或调整加征关税产品清单。此举将冲击两国汽车供应链与相关出口企业，加剧北美贸易摩擦。值得关注关税具体覆盖范围及加方反制措施。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Modifying the Scope of Products of Canada Subject to the Additional Duties Imposed To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Alcoholic Beverages",
+   "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18838/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset",
+   "date": "2026-09-14",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-18838",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-09-14/pdf/2026-18838.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "调整受附加关税约束的加拿大产品范围，以抵消加拿大在酒精饮料方面对美国商业的歧视",
+    "org_zh": "总统行政办公室",
+    "summary": "美国调整对加拿大酒精饮料相关产品的附加关税范围，反制加方歧视性贸易措施。",
+    "analysis": "针对加拿大酒精饮料领域的对美歧视性政策，美方通过扩大或调整附加关税产品清单施压。此举将影响两国酒类贸易及相关产业链，可能引发加方反制，加剧双边贸易摩擦。值得关注的是关税范围的具体调整及后续谈判走向。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Excluding Certain Canadian Products From Importation Into the United States in Response to Continued Discrimination Against the Commerce of the United States With Respect to Motor Vehicles",
+   "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18837/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued",
+   "date": "2026-09-14",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-18837",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-09-14/pdf/2026-18837.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "针对加拿大持续歧视美国汽车贸易，将部分加拿大产品排除在美国进口之外",
+    "org_zh": "总统行政办公室",
+    "summary": "美国以加拿大歧视其汽车贸易为由，限制部分加拿大产品进口。",
+    "analysis": "此举针对加拿大汽车及相关产业，可能加剧美加贸易摩擦并推高相关商品成本。值得关注的是其法律依据、豁免范围及加方反制措施，或波及北美供应链稳定。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Excluding Certain Canadian Products From Importation Into the United States in Response to Continued Discrimination Against the Commerce of the United States With Respect to Dairy",
+   "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18836/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued",
+   "date": "2026-09-14",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-18836",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-09-14/pdf/2026-18836.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "针对加拿大持续歧视美国乳制品贸易，将部分加拿大产品排除出美国进口范围",
+    "org_zh": "总统行政办公室",
+    "summary": "美国以加拿大歧视其乳制品贸易为由，限制部分加拿大产品进口。",
+    "analysis": "针对加拿大乳制品贸易壁垒，美方以进口限制施压，或加剧美加贸易摩擦并波及相关产业链。值得关注的是措施范围、加方反制及是否引发更广泛贸易争端。",
+    "category": "经济金融"
+   }
+  },
+  {
+   "country": "us",
+   "title": "Excluding Certain Canadian Products From Importation Into the United States in Response to Continued Discrimination Against the Commerce of the United States With Respect to Alcoholic Beverages",
+   "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18835/excluding-certain-canadian-products-from-importation-into-the-united-states-in-response-to-continued",
+   "date": "2026-09-14",
+   "org": "Executive Office of the President",
+   "doc_no": "2026-18835",
+   "excerpt": "",
+   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-09-14/pdf/2026-18835.pdf",
+   "source": "Federal Register·总统文件",
+   "ai": {
+    "title_zh": "针对加拿大持续歧视美国酒类贸易，将部分加拿大产品排除在美国进口之外",
+    "org_zh": "总统行政办公室",
+    "summary": "美国以加拿大歧视其酒类贸易为由，限制部分加拿大产品进口。",
+    "analysis": "针对加拿大酒类贸易壁垒，美方采取进口限制反制，或加剧双边贸易摩擦并波及相关产业链。值得关注的是措施范围、加方回应及是否升级为更广泛关税冲突。",
+    "category": "经济金融"
+   }
+  },
   {
    "country": "us",
    "title": "Adjusting Certain Delegations Under the Defense Production Act",
@@ -305,11 +395,12 @@
    "excerpt": "",
    "source": "首相官邸·新着情報",
    "ai": {
-    "title_zh": "高市总理出席了第45届全国消防殉职者追悼仪式",
-    "org_zh": "总理的一天",
-    "summary": "日本首相高市出席全国消防殉职者追悼仪式，悼念因公殉职的消防人员。",
-    "analysis": "该活动面向消防殉职者家属及消防系统，属例行公祭，政治象征意义大于政策实质。值得关注的是高市借此展现对公共安全与一线人员的重视姿态，或为其内政形象加分。",
-    "category": "民生社会"
+    "title_zh": "高市总理出席第45届全国消防殉职者追悼仪式",
+    "org_zh": "日本首相官邸",
+    "category": "民生社会",
+    "explanation": "该材料为日本首相官邸“总理的一天”栏目发布的官方活动记录，标题为高市总理出席第45届全国消防殉职者追悼仪式，日期为令和8年9月10日。正文显示，仪式在东京都内举行，高市早苗首相出席，面对新祀的4名消防业务从事者及累计5799柱御灵，默哀、致追悼辞并献花。追悼辞中，首相称殉职者在灭火活动和训练中秉持“守护当地居民生命”的崇高决心，尽责并牺牲，表达敬意、感谢与哀悼，并向遗属致哀。首相还指出，近年大规模林野火灾和密集市区火灾频发，要求广域化、专业化消防力量，消防活动难度增加；同时大雨、台风灾害接连发生，首都直下地震和南海海槽地震等大规模地震也令人担忧。在此背景下，消防职员和消防团员不顾自身危险率先赶赴灾害现场，国民寄予厚望。首相表示将铭记5799柱御灵的尊贵牺牲，回应其遗志，致力于建设抗灾、安全安心的国家。页面材料未说明该活动附带具体预算、法律措施或期限。",
+    "impact": "该活动本身是年度慰灵与表彰性仪式，不直接产生新的法律义务或预算决定，但首相亲自出席并致悼辞，具有确认消防殉职者公共价值、强化国家与地方消防体制正当性的政策信号意义。直接利益相关方包括殉职者遗属、消防职员、消防团员及其组织，间接涉及地方政府、消防厅、总务省以及接受广域支援的受灾地区居民。首相在悼辞中提及林野火灾、密集市区火灾、大雨台风及首都直下地震、南海海槽地震，显示政府可能继续把广域化、专业化消防力量建设和抗灾国土韧性作为政策重点。可核实的后续包括：消防厅及相关预算是否增加广域消防装备、专业训练和消防团支援；内阁是否就首都直下地震、南海海槽地震对策推出新文件；遗属支援措施是否调整。执行风险在于，仪式表态若未转化为人员、装备和财政投入，可能被解读为象征性政治；同时，消防团人员不足和高龄化问题仍需具体指标验证。页面材料未说明具体时间表、负责机构和外部反应，需跟踪首相官邸、消防厅及总务省后续发布。",
+    "jp_enrichment_version": "jp-policy-detail-v1"
    }
   },
   {
@@ -405,7 +496,14 @@
    "org": "香港特别行政区政府新闻处",
    "doc_no": "",
    "excerpt": "政府今日公布成立香港知識產權學院先導計劃督導委員會，並委任其主席、副主席和成員，任期兩年，下月1日起生效。&nbsp;2026至27年度財政預算案公布，知識產權署將與職業訓練局合作成立香港知識產權學院，目標於今年第四季正式啟動。學院將為各行各業的從業員提供更有系統和認受性的知識產權在職培訓課程，以擴大香港的知識產權人才庫，並支持香港發展成為區域知識產權貿易中心。&nbsp;商務及經濟發展局表示，人才對香港知識產權生態系統的持續發展至為重要，督導委員會匯聚政府代表、業界持份者和不同專業領域人士的專業知識和經驗，將就學院先導計劃的發展和運作提供意見，並協助確保培訓切合業界需要。",
-   "source": "香港政府新闻网·重要新闻"
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "香港知識產權學院督導委員會成立",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港政府成立知识产权学院先导计划督导委员会，推动知识产权人才培训。",
+    "analysis": "该举措面向各行业从业员及知识产权专业人才，通过职业训练局合作提供系统化在职培训，有助于扩大香港知识产权人才库，支撑区域知识产权贸易中心建设。值得关注的是培训能否切合业界实际需求及学院正式启动后的认受性。",
+    "category": "法律监管"
+   }
   },
   {
    "country": "kr",
@@ -577,7 +675,14 @@
    "org": "香港特别行政区政府新闻处",
    "doc_no": "",
    "excerpt": "「天宮課堂・港澳專場」今日順利舉辦，在國家天宮空間站執行載人航天任務的神舟23號乘組航天員，包括香港首位獲選參與國家載人飛行任務的載荷專家黎家盈，與港澳學生展開「天地對話」。&nbsp;「這就是我們今早焗製的太空小蛋糕，金黃色的外表，加上香噴噴的味道，令我想起我最喜歡吃的雞蛋仔。」&nbsp;香港特區政府、澳門特區政府和中國載人航天工程辦公室舉辦的「天宮課堂．港澳專場」在黎家盈的母校荃灣公立何傳耀紀念中學舉行。對於能參與太空授課活動，見到一眾學生，黎家盈表示欣喜，她又向學生介紹空間站太空廚房和航天食品。&nbsp;她也引領同學參觀睡眠區，可見其睡袋旁貼有子女繪畫的圖畫和家人的照片。從太空艙的小",
-   "source": "香港政府新闻网·重要新闻"
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "航天員與港澳學生天地對話",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "神舟23号乘组航天员与港澳学生开展天宫课堂天地对话活动。",
+    "analysis": "面向港澳学生群体，通过香港首位载荷专家黎家盈参与授课，增强青少年对国家航天成就的认同感与科技兴趣。值得关注的是港澳融入国家航天事业的示范效应及国民教育功能。",
+    "category": "科技产业"
+   }
   },
   {
    "country": "hk",
@@ -587,7 +692,14 @@
    "org": "香港特别行政区政府新闻处",
    "doc_no": "",
    "excerpt": "第11屆一帶一路高峰論壇一連兩日在會議展覽中心舉行，70多個國家和地區逾6,000名政商領袖出席。行政長官李家超致開幕辭時說，世界經歷前所未有的變局和地緣政治碎片化，「一帶一路」倡議提供的互聯互通、合作與共識至關重要。&nbsp;李家超說，香港去年與「一帶一路」國家的商品貿易額增長近17%，達約3,230億美元，近1,500間來自「一帶一路」國家的企業在港設立辦事處，較2022年增加約17%。&nbsp;商務部副部長鄢東表示，今年是國家十五五規劃開局之年，將繼續支持香港深度參與高質量共建「一帶一路」，包括發揮創新科技優勢。&nbsp;鄢東說，將支持香港立足國際創新科技中心建設，從多元化融資支持",
-   "source": "香港政府新闻网·重要新闻"
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "逾六千政商领袖出席一带一路论坛",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "第十一届一带一路高峰论坛在港举行，逾6000名政商领袖出席，探讨深化合作。",
+    "analysis": "论坛凸显香港作为一带一路超级联系人的角色，利好贸易、投资及创科企业。商务部支持香港深度参与高质量共建，关注香港与一带一路国家贸易增长及企业落户趋势。",
+    "category": "经济金融"
+   }
   },
   {
    "country": "hk",
@@ -597,7 +709,14 @@
    "org": "香港特别行政区政府新闻处",
    "doc_no": "",
    "excerpt": "行政長官李家超今日就全國政協原副主席、香港特別行政區首任行政長官董建華逝世表示沉痛哀悼，並代表香港特區向董建華的家人致以深切慰問。&nbsp;董建華於1997年擔任香港特區首任行政長官，出任該職位至2005年3月。他於2005年至2023年擔任第10屆至13屆全國政協副主席，2006年獲頒大紫荊勳章。&nbsp;李家超表示，董建華是香港特區首任行政長官，在他的卓越領導下，為香港順利回歸祖國，貫徹落實「一國兩制」方針和《基本法》作出卓越貢獻。董建華在任七年多期間，帶領香港成功抵禦亞洲金融風暴的衝擊，並帶領港人一同努力面對各方面的挑戰，讓香港經濟強勁復蘇，社會保持繁榮穩定。&nbsp;李家超說，董",
-   "source": "香港政府新闻网·重要新闻"
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "董建華逝世 李家超沉痛哀悼",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "香港特区政府新闻处发布首任行政长官董建华逝世消息，行政长官李家超表示沉痛哀悼。",
+    "analysis": "该消息面向香港社会及中央层面，属官方讣告与悼念表态。董建华为首任特首及前全国政协副主席，其逝世象征一个政治时代落幕，可能引发对“一国两制”初期实践的回顾与评价。值得关注后续官方悼念规格及对香港政治传承的象征意义。",
+    "category": "其他"
+   }
   },
   {
    "country": "hk",
@@ -607,7 +726,14 @@
    "org": "香港特别行政区政府新闻处",
    "doc_no": "",
    "excerpt": "第11屆一帶一路高峰論壇今日開幕，匯聚來自「一帶一路」沿線及相關國家和地區的主要官員探討不同領域的合作機遇。東南亞國家聯盟秘書長高金洪形容香港是重要夥伴，會積極探討更多合作可能，重申東盟支持香港加入《區域全面經濟伙伴關係協定》。&nbsp;高金洪表示，東盟視香港為進入中國市場投資的中心地點，彼此在旅遊、貿易、投資等多個領域均有合作，東盟與香港的貿易額也按年上升。&nbsp;他相信將香港納入《區域全面經濟伙伴關係協定》這個更廣泛的區域經濟框架，對東盟所有成員都至關重要。&nbsp;同樣出席論壇的哈薩克斯坦人工智慧與數位發展部副部長Bakhtiyar Mukhametkaliyev則認為，與香港合",
-   "source": "香港政府新闻网·重要新闻"
+   "source": "香港政府新闻网·重要新闻",
+   "ai": {
+    "title_zh": "匯聚高峰論壇 共商合作機遇",
+    "org_zh": "香港特别行政区政府新闻处",
+    "summary": "第11屆一帶一路高峰論壇開幕，東盟重申支持香港加入RCEP。",
+    "analysis": "面向東盟及一帶一路沿線國家與香港工商界。香港可藉論壇強化進入中國市場的門戶角色，推動加入RCEP，帶動貿易投資增長。值得關注東盟支持能否轉化為實質成員資格進展。",
+    "category": "经济金融"
+   }
   },
   {
    "country": "hk",
@@ -10362,93 +10488,6 @@
     "summary": "CFTC修订未清算掉期保证金规则，重新定义“保证金关联方”。",
     "analysis": "该修订主要影响不受审慎监管机构约束的掉期交易商和主要掉期参与者，可能降低其合规成本或扩大关联方范围。值得关注的是，新定义可能影响跨境交易和集团内部风险敞口管理。",
     "category": "经济金融"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of Foreign Information Media",
-   "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant",
-   "date": "2026-07-17",
-   "org": "Homeland Security Department",
-   "doc_no": "2026-14439",
-   "excerpt": "The Department of Homeland Security (DHS) is amending its regulations to change the admission period in the F, J, and I classifications from duration of status to an admission for a fixed time period, and additional changes to admission and extension requirements. This final rule will provide additi",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14439.pdf",
-   "source": "Federal Register·重要规章",
-   "ai": {
-    "title_zh": "为非移民学术学生、交流访问者及外国信息媒体代表设定固定入境期限及延期程序",
-    "summary": "DHS将F、J、I类签证的入境期限从身份有效期改为固定期限，并调整延期要求。",
-    "analysis": "该政策主要影响持F、J、I签证的非移民学生、交流访问者及外国媒体代表。固定期限将增加签证到期后需申请延期的行政负担，可能导致部分人员因程序复杂而面临身份中断风险。值得关注的是，此举可能收紧对国际人才流动的管控，影响学术交流与媒体工作。",
-    "category": "法律监管"
-   }
-  },
-  {
-   "country": "jp",
-   "title": "高市総理は総理大臣官邸で皇室典範改正の法案成立等についての会見を行いました",
-   "url": "https://www.kantei.go.jp/jp/105/statement/2026/0717kaiken.html",
-   "date": "2026-07-17",
-   "org": "総理会見",
-   "doc_no": "",
-   "excerpt": "",
-   "source": "首相官邸·新着情報",
-   "ai": {
-    "title_zh": "高市总理就皇室典范修正法案成立等接受采访",
-    "category": "法律监管",
-    "org_zh": "日本首相官邸",
-    "explanation": "2026年7月17日《皇室典范等部分修改法》成立后，高市总理说明，修法回应2017年退位特例法附带决议所列课题。政府专家会议2021年形成报告并提交国会，之后在众参两院正副议长主持下，各党派经10次全体会议形成汇总；政府于6月10日收到汇总后依其内容起草法案，经国会审议通过。首相把皇族人数减少视为紧迫问题，并表示法律将在公布三个月后施行，政府将准备执行。记者提到修法明确被收养者所生男子的皇位继承资格并有在野党反对，但首相没有在回答中展开条文，只强调广泛多数赞成。对于女性、女系天皇及稳定继承的进一步讨论，她表示政府将尊重立法机关意志。具体权利义务仍须查法律正文。这也有助于区分已经决定、正在研究和仅作说明的内容。资料性质上，这属于政府公开记录，必须结合原始附件和明确时间点理解。页面未写明的金额、权限、对象或结果，不应由标题和邻近新闻补足。",
-    "impact": "修法将影响皇族身份、家庭安排和未来皇位继承制度，也会引发社会对传统、性别平等、宪法象征天皇制和程序正当性的持续讨论。公布三个月后施行意味着宫内厅和相关机构需制定具体手续、身份与生活支持安排。多数通过可提供制度稳定性，但部分条款不在此前政治共识内的批评说明合法性争论未结束；首相把女性和女系天皇议题留给国会，也意味着核心继承问题并未由此次修法完全解决。风险包括条文解释争议、当事人隐私与自主、政治讨论对皇族个人造成压力，以及把“皇族数确保”与“稳定继承”混为一谈。后续应核对正式法文、施行日期和政令、宫内厅实施、国会后续讨论、司法与宪法学意见及公众认知，不能根据记者问题自行补写法律效果。相关风险也应由主管机关持续披露并接受独立监督。评估实际效果时，应比较正式制度、预算执行、覆盖对象和结果指标。还要记录措施未实施、延期、缩减或被后续决定修订的可能。",
-    "jp_enrichment_version": "jp-policy-detail-v1"
-   }
-  },
-  {
-   "country": "jp",
-   "title": "閣議の概要について",
-   "url": "https://www.kantei.go.jp/jp/tyoukanpress/202607/17_a.html",
-   "date": "2026-07-17",
-   "org": "長官会見",
-   "doc_no": "",
-   "excerpt": "",
-   "source": "首相官邸·新着情報",
-   "ai": {
-    "title_zh": "内阁会议概要",
-    "category": "其他",
-    "org_zh": "日本内阁官房",
-    "explanation": "2026年7月17日上午，内阁官房副长官尾崎正直通报例行内阁会议决定4项提交国会案件、法律公布、政令和人事，国土交通大臣就《令和8年版国土交通白皮书》发言。官邸页面提供当日内阁案件和国土交通省白皮书链接，但没有列出4项国会案件名称、法律政令条文或白皮书的统计、主题和政策建议。因此本条只能确认这些事项完成内阁程序，并且年度国土交通白皮书正式进入政府公开流程；不能从“白皮书公布”直接推断基础设施、住房、交通、观光、物流或国土政策发生新变化。白皮书通常汇总现状、问题和既有措施，其法律效果与预算效果要由后续法案、政令、项目和国会决定产生。涉及皇室典范修法的当天采访也应作为独立条目处理。资料性质上，这属于政府公开记录，必须结合原始附件和明确时间点理解。页面未写明的金额、权限、对象或结果，不应由标题和邻近新闻补足。如后续文件修订数字或安排，应以较新的主管部门资料为准。",
-    "impact": "国土交通白皮书为国会、地方政府、交通与建设企业、研究者和居民提供全国基础设施、移动、住房和土地政策的年度证据，可影响下一轮预算和监管议程。内阁决定提交国会案件则是立法流程节点，但在未读案件清单前无法确认具体行业和权利变化。风险是媒体或自动摘要把程序通报写成政策已经实施，或只引用白皮书结论而忽略数据口径、地区差异和执行缺口。后续应阅读当日内阁案件列表、各项法律政令及施行日，并从白皮书提取可验证指标，与预算、维修积压、交通空白、住房负担、灾害韧性和物流人力数据对照。还应检查白皮书提出的问题是否有责任部门、时限和资金。该概要的实际价值在于透明记录政府程序和链接原始文件，而不是提供充分的政策分析。评估实际效果时，应比较正式制度、预算执行、覆盖对象和结果指标。还要记录措施未实施、延期、缩减或被后续决定修订的可能。公开投入数量不能替代对到达率、使用率和受益差异的核查。",
-    "jp_enrichment_version": "jp-policy-detail-v1"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Continuation of the National Emergency With Respect to Significant Transnational Criminal Organizations",
-   "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14454/continuation-of-the-national-emergency-with-respect-to-significant-transnational-criminal",
-   "date": "2026-07-16",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-14454",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/pdf/2026-14454.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "关于重大跨国犯罪组织国家紧急状态的延续",
-    "summary": "美国总统宣布继续维持针对重大跨国犯罪组织的国家紧急状态。",
-    "analysis": "该政策延续了对跨国犯罪组织的制裁和执法力度，主要影响涉及非法贩运、洗钱等活动的组织及相关企业。值得关注的是，此举可能加强国际执法合作，并对在美运营的外国企业合规提出更高要求。",
-    "category": "外交安全"
-   }
-  },
-  {
-   "country": "us",
-   "title": "Continuation of the National Emergency With Respect to Hostage-Taking and the Wrongful Detention of United States Nationals Abroad",
-   "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14453/continuation-of-the-national-emergency-with-respect-to-hostage-taking-and-the-wrongful-detention-of",
-   "date": "2026-07-16",
-   "org": "Executive Office of the President",
-   "doc_no": "2026-14453",
-   "excerpt": "",
-   "pdf": "https://www.govinfo.gov/content/pkg/FR-2026-07-16/pdf/2026-14453.pdf",
-   "source": "Federal Register·总统文件",
-   "ai": {
-    "title_zh": "关于继续实施针对劫持人质及非法拘留海外美国公民的国家紧急状态",
-    "summary": "美国延长针对海外公民被劫持或非法拘留的国家紧急状态。",
-    "analysis": "该政策持续影响被拘押美国公民及其家属，并强化美国政府对相关国家的外交施压与制裁手段。值得关注的是，此举可能加剧美国与某些国家的紧张关系，并影响跨国企业与人员的安全风险评估。",
-    "category": "外交安全"
    }
   }
  ]
